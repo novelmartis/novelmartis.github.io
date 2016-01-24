@@ -1,0 +1,78 @@
+body
+{
+    background: #EEEEEE url('') fixed repeat;
+    font:14px/21px "Arial", "Helvetica", sans-serif;
+    text-align: center;
+}
+
+@font-face
+{
+font-family: diamond;
+src: url('diamond_.ttf');
+}
+
+@font-face
+{
+font-family: couture;
+src: url('COUTURE-Bold.ttf');
+}
+
+@font-face
+{
+font-family: copperplata;
+src: url('Copperplate.ttf');
+}
+
+@font-face
+{
+font-family: copperplatab;
+src: url('Copperplate Bold.ttf');
+}
+
+.title
+{
+    position: absolute;
+    background: #EEEEEE url('') fixed repeat;
+    width: 80%;
+    top:0px;
+    left:10%;
+    right:10%;
+    font-family: diamond;
+    font-size: 3em;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    z-index: 1;
+}
+
+.linka
+{
+    position:relative;
+    top:8em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-left: 4em;
+    padding-right: 2em;
+    text-align:left;
+}
+  
+p1
+{
+    font-size: 1.3em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 300;
+    height:270px;
+}
+
+titlas
+{
+    font-size: 1.15em;
+    font-family: copperplata, Times;
+    font-weight: 300;
+}
+
+a:link {color:#4433ff; text-decoration:none;}    /* unvisited link */
+a:visited {color:#6053ff; text-decoration:none;} /* visited link */
+a:hover {color:#000000; text-decoration:underline;}   /* mouse over link */
+a:active {color:#4433ff; text-decoration:none;} 
