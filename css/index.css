@@ -8,25 +8,25 @@ body
 @font-face
 {
 font-family: diamond;
-src: url('diamond_.ttf');
+src: url('../fonts/diamond_.ttf');
 }
 
 @font-face
 {
 font-family: couture;
-src: url('COUTURE-Bold.ttf');
+src: url('../fonts/COUTURE-Bold.ttf');
 }
 
 @font-face
 {
 font-family: copperplata;
-src: url('Copperplate.ttf');
+src: url('../fonts/Copperplate.ttf');
 }
 
 @font-face
 {
 font-family: copperplatab;
-src: url('Copperplate Bold.ttf');
+src: url('../fonts/Copperplate Bold.ttf');
 }
 
 .title
