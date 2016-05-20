@@ -40,7 +40,7 @@ src: url('../fonts/Copperplate Bold.ttf');
     <!-- font-family: 'Roboto', sans-serif; -->
     font-family: Product Sans;
     font-size: 4.2em;
-    border-bottom-width: 3px;
+    border-bottom-width: 4px;
     border-bottom-style: solid;
     z-index: 1;
 }
