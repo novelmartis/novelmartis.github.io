@@ -18,7 +18,7 @@ Let's start with the academic introduction:
   + Biological Neural Nets equivalent to Artificial Neural Nets
   + Unsupervised Learning in Artificial Neural Nets
   
-Further academically-relevant information can be found in my [CV]({{site.url}}/_assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains short summaries of my past and current projects.
+Further academically-relevant information can be found in my [CV]({{site.baseurl}}/_assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains short summaries of my past and current projects.
 
 <p class="message">
   Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
