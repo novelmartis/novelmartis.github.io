@@ -1,0 +1,72 @@
+---
+layout: page
+title: Projects
+---
+
+<p class="message">
+  Find information about my current and past projects below.<br>
+  All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.
+</p>
+
+<h3>
+<div class="p_year">
+  Ongoing
+</div>
+</h3>
+
+[//]: # (Project with Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Fine-scale information representations in the Human Visual System and Convolutional Neural Networks: A comparison</h3>
+  <b>With:</b> Daria Proklova, <a href="http://www.danielkaiser.net">Daniel Kaiser</a>, <a href="https://sites.google.com/site/peelenlab/">Marius Peelen</a><br>
+  - A <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.
+</div>
+
+{% comment %}
+<div class="p_post">
+  <h3 class="p_post_h">Short Project Title</h3>
+  <b>With:</b> Contributors<br>
+  Comments / Further links
+</div>
+{% endcomment %}
+
+<h3>
+<div class="p_year">
+  2016
+</div>
+</h3>
+
+<div class="p_post">
+  <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
+  <img class="p_post_i" src="{{site.url}}/assets/revmap.png">
+  <b>With:</b> Varad Choudhari <br>
+  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-level reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k. Sets a new baseline.<br><br>
+  <a href="http://arxiv.org/abs/1606.00025">Preprint</a>, <a href="https://github.com/novelmartis/RD16demo">Code and Data</a><br>
+</div>
+
+<h3>
+<div class="p_year">
+  2015
+</div>
+</h3>
+
+<div class="p_post">
+  <h3 class="p_post_h">A Spiking Neural Network as a Quadcopter Flight Controller</h3>
+  <img class="p_post_i" src="{{site.url}}/assets/btp.png">
+  <b>With:</b> Sukanya Patil, <a href="https://sites.google.com/site/rajendranbipin/">Bipin Rajendran</a> <br>
+  <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses.<br> <i>c</i>. Translating the control system to SNNs (incomplete);<br>SNNs are hard to tame!<br>
+  <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">Thesis</a>, <a href="http://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a> (based on part <i>b</i>) <br>
+  <b>Comments:</b> 
+</div>
+
+{% comment %}
+<div class="p_post">
+  <h3 class="p_post_h">Project Title</h3>
+  <img class="p_post_i" src="http://placehold.it/200x200">
+  <b>With:</b> Contributors <br>
+  <b>Summary:</b><br><br><br><br><br><br>
+  Publication (if any) <br>
+  Comments / Further links
+</div>
+{% endcomment %}
+
