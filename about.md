@@ -14,15 +14,15 @@ Let's start with the academic introduction:
   + Onwards to the second year
   + Currently working with the [Peelen lab](https://sites.google.com/site/peelenlab/).
 * Research interests:
-  + The properties of information representation in the brain
+  + The principles of information representation in the brain
   + The nature of personal identity and subjective experience
-  + Biological Neural Nets equivalent to Artificial Neural Nets
+  + Building Artificial Neural Nets equivalent to Biological Neural Nets 
   + Unsupervised Learning in Artificial Neural Nets
   
-Further academically-relevant information can be found in my [CV]({{site.url}}/assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains short summaries of my past and current projects. My publications and preprints can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
+Further academically-relevant information can be found in my [CV]({{site.url}}/assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my past and current projects. My publications and preprints can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
 
 <p class="message">
-  In case you were wondering, martis - i am srt (that's my full name).
+  In case you were wondering, martis \( \leftarrow \) i am srt (that's my full name).
 </p>
 
 Now, about the blog. I'll blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy. To keep things organised, I'll tag the posts. 
