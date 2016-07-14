@@ -5,7 +5,7 @@ title: About
 
 <br>
 
-Ciao! This is the personal webpage of **Sushrut Thorat**.<br> Now that you are here, I assume you want to know about me.
+Ciao! This is **Sushrut Thorat**'s personal webpage.<br> Now that you are here, I assume you want to know about me.
 
 Let's start with the academic introduction:
 
