@@ -17,9 +17,10 @@ title: Projects
 [//]: # (Project with Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Fine-scale information representations in the Human Visual System and Convolutional Neural Networks: A comparison</h3>
+  <h3 class="p_post_h">Principles of information representation in the Human Visual System and Convolutional Neural Networks</h3>
   <b>With:</b> Daria Proklova, <a href="http://www.danielkaiser.net">Daniel Kaiser</a>, <a href="https://sites.google.com/site/peelenlab/">Marius Peelen</a><br>
-  - A <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.
+  - A <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.<br>
+  - How <i>feedforward</i> is the human visual system?
 </div>
 
 {% comment %}
@@ -36,6 +37,8 @@ title: Projects
 </div>
 </h3>
 
+[//]: # (Project with Varad, RD)
+
 <div class="p_post">
   <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
   <img class="p_post_i" src="{{site.url}}/assets/revmap.png">
@@ -49,6 +52,8 @@ title: Projects
   2015
 </div>
 </h3>
+
+[//]: # (Project with Bipin, IJCNN)
 
 <div class="p_post">
   <h3 class="p_post_h">A Spiking Neural Network as a Quadcopter Flight Controller</h3>
