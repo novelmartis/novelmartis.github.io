@@ -2,7 +2,7 @@
 layout: post
 title: Quadcopter control using Spiking Neural Networks
 tags: [thesis, 2015, snn, quadcopter, show-all]
-description: Rumination over my past project, which was left incomplete partly by a roadblock.
+description: Rumination over my Bachelor's thesis project, which was left incomplete partly by a roadblock.
 comments: true
 ---
 
