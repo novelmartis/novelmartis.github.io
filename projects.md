@@ -5,7 +5,8 @@ title: Projects
 
 <p class="message">
   Find information about my current and past projects below.<br>
-  All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.
+  All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.<br>
+  My publications and preprints can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.
 </p>
 
 <h3>
