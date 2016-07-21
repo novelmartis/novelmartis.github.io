@@ -19,6 +19,9 @@ Let's start with the academic introduction:
   + Building Artificial Neural Nets equivalent to Biological Neural Nets 
   + Unsupervised Learning in Artificial Neural Nets
   
+I also have a Bachelor's degree in Physics from [IIT Bombay](http://iitb.ac.in). <br>
+(Well, [QIC](https://en.wikipedia.org/wiki/Quantum_information) and [GR](https://en.wikipedia.org/wiki/General_relativity) are awesome, but so is the brain which understands them!)
+
 Further academically-relevant information can be found in my [CV]({{site.url}}/assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my past and current projects. My publications and preprints can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
 
 <p class="message">
