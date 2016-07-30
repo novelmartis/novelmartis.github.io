@@ -6,6 +6,8 @@ description: Part 1 - Introduction to the series.
 comments: true
 ---
 
+## Introduction
+
 Vision for us is so natural, rapid and effortless. But how do we recognise a cat as a cat? We might be identifying multiple features such as its ears, its nose, its shape and size. We might have a template for a cat in our brains, with which we match the input image. Template matching sounds promising but is a procedure that is ridiculously complex. For example, what would the template of a cat contain, and how would the images in the figure below be comparable to that template? 
 
 <center>![Template of a cat?]({{site:url}}/assets/cats_all.png 'Template of a cat?')</center>
