@@ -30,15 +30,12 @@ The series (4 sections, will update as I proceed):
 Visual infomation processing with biologically-realistic NNs
 ├── P1: Introduction
 ├── P2: Previous Work
-│   ├── Outline
 │   ├── Computer Vision
 │   ├── Biological Modelling
 │   ├── SNNs
 │   ├── Ruminations
-│   └── Additions to the problem
-│       └── Unsupervised learning
+│   └── Unsupervised Learning
 ├── P3: Working with SNNs
-│   ├── Outline
 │   ├── Architectural constraints
 │   │   ├── Operational principles
 │   │   └── Neural models
