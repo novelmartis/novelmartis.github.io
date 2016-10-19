@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Visual infomation processing with biologically-realistic neural networks - 1
-tags: [vision, snn, series]
-description: Part 1 - Introduction to the series. Update: (Discontinued).
+tags: [vision, snn]
+description: Part 1 - Introduction to the series. _Discontinued_
 comments: true
 ---
 
