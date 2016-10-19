@@ -6,7 +6,7 @@ description: Part 1 - Introduction to the series.
 comments: true
 ---
 
-(_Part of a series_)
+(_Update: I, unfortunately, won't be continuing this series_)
 
 ## Introduction
 
