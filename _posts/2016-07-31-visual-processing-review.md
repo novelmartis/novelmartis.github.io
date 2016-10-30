@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Visual infomation processing with biologically-realistic neural networks - 1
+title: Visual infomation processing with biologically-realistic neural networks
 tags: [vision, snn]
-description: Part 1 - Introduction to the series. _Discontinued_
+description: Introduction to the series. _Discontinued_
 comments: true
 ---
 
-(_Update: I, unfortunately, won't be continuing this series_)
+(_Update_: I, unfortunately, won't be continuing this series. It would be interesting to read a similar review though, fusing the fields of SNNs and DNNs.)
 
 ## Introduction
 
@@ -24,25 +24,35 @@ The first route can encompass the second, as individual feature recognisers coul
 
 We might be employing a complex template matching approach, but stating that isn't enough. How do we implement these non-linear transformations? How does a network of neurons implement object recognition? In this series of posts, I will peek at the attempts to solve this problem, from the mathematical, algorithmic and neuroscience perspectives. The objective is to understand how a biologically-realistic neural network could implement visual information processing.
 
-The series (4 sections, will update as I proceed):
+The series (4 sections, will update as I proceed) <br>
+[_Updated to a more detailed version_]:
 
 ```
-Visual infomation processing with biologically-realistic NNs
-├── P1: Introduction
-├── P2: Previous Work
+Visual infomation processing with biologically-realistic SNNs
+├── Introduction to the problem
+├── Previous Work
+│   ├── Outline
 │   ├── Computer Vision
+│   │   └── CNNs, RNNs, etc
 │   ├── Biological Modelling
+│   │   └── HMAX, etc
 │   ├── SNNs
 │   ├── Ruminations
-│   └── Unsupervised Learning
-├── P3: Working with SNNs
+│   └── Additions to the problem
+│       └── Unsupervised learning
+├── Working with SNNs
+│   ├── Outline
 │   ├── Architectural constraints
-│   │   ├── Operational principles
-│   │   └── Neural models
+│   │   ├── Operational principles: tight E-I balance, etc.
+│   │   └── Neural models - Simplicity vs Accuracy
 │   └── Learning Rules
 │       ├── ReSuMe, etc
-│       └── Backpropagation modified?
-└── P4: Concluding Remarks
+│       ├── Backpropagation modified?
+│       └── Other rules? - Explore
+└── Concluding Remarks
+    ├── Deciding the learning rules
+    ├── Generalising to videos, attention, etc
+    └── Other comments
 ```
 
 Visual information processing also includes attentional mechanisms, motion processing and top-down priming. I will focus most on static images and object recognition here, as a start. I will discuss the other aspects in the final section.
