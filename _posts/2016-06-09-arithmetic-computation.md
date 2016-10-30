@@ -12,7 +12,7 @@ comments: true
 
 So, the problem was this - how can SNNs implement arithmetic operations such as Addition, Subtraction, Multiplication and Division? This turns out to be a non-trivial question. Spiking neurons have non-linear I-O relationships (logarithmic [transfer function][transfer]), as shown in the following figure. 
 
-![f-I plot for AEIF neuron]({{site:url}}/assets/fI_AEIF.png)
+<center>![f-I plot for AEIF neuron]({{site:url}}/assets/fI_AEIF.png)</center>
 
 To implement linear operations such as addition or subtraction, we need to linearise the the transfer function. Now, we focussed on the network influences, rather than trying to [manipulate internal dynamics of neurons][intrinsic]. To that end, we introduced a self-inhibitory loop that pushed the neuron into the higher current domain in the above figure, which is pretty linear. With a linear transfer function at our disposal, we can do addition and subtraction. 
 
@@ -22,7 +22,7 @@ Now, $$\text{A}\times\text{B}=e^{\text{log(A)} + \text{log(B)}}$$
 
 So, if we could construct networks with overall exponential and logarithmic transfer functions, we are done! We not only solve multiplication and division, but we can also create any sort of polynomial transfer function by composing appropriate LOG and EXP blocks!
 
-To implement these LOG and EXP blocks, we turned to adaptive synapses. We designed learning rules that allowed use to generate LOG and EXP responses. Simply put, to generate LOG, the synaptic weight has to decrease with increased pre-synaptic firing rate, and to generate EXP, it has increase with increasing pre-synaptic firing rate. We then translated these firing rate based rules into spike-time based rules for performing real-time computations. So, we had EXP and LOG networks we which composed to implement multiplication and division.
+To implement these LOG and EXP blocks, we turned to adaptive synapses. We designed learning rules that allowed us to generate LOG and EXP responses. Simply put, to generate LOG, the synaptic weight has to decrease with increased pre-synaptic firing rate, and to generate EXP, it has to increase with increasing pre-synaptic firing rate. We then translated these rate based rules into spike-time based rules for performing real-time computations. So, we had EXP and LOG networks, which we composed to implement multiplication and division.
 
 Yes, we know how to use SNNs to implement addition, subtraction, multiplication, and division now. But there were multiple problems with the approach:
 
