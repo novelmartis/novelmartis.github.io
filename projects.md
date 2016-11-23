@@ -44,8 +44,9 @@ title: Projects
   <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
   <img class="p_post_i" src="{{site.url}}/assets/revmap.png">
   <b>With:</b> Varad Choudhari <br>
-  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k. Sets a new baseline.<br><br>
+  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k. Sets a new baseline.<br><br><br>
   <a href="http://arxiv.org/abs/1606.00025">Preprint</a>, <a href="https://github.com/novelmartis/RD16demo">Code and Data</a><br>
+  <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">Paper Summary</a>
 </div>
 
 <h3>
