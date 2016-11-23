@@ -10,6 +10,9 @@
 - slug: 2015
   name: 2015
   
+- slug: 2016
+  name: 2016
+  
 - slug: snn
   name: snn
 
@@ -30,3 +33,6 @@
   
 - slug: series
   name: series
+  
+- slug: semantics
+  name: semantics
