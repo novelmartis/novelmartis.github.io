@@ -6,7 +6,7 @@ description: Summary of my COLING 2016 paper, and further comments.
 comments: true
 ---
 
-*The paper can be accessed on [arXiv][coling]. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on [Github][gitc].*
+*The associated COLING'16 paper can be accessed on [arXiv][coling]. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on [Github][gitc].*
 
 #### Motivation & Idea:
 
