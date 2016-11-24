@@ -56,7 +56,7 @@ The "we" here - [Varad Choudhari][vardos] and me. He took care of all the comput
 I would like to thank [Ionut-Teodor Sorodoc][ionut], [Arpan Saha][arpan], [Julie Lee][julie], and [Prof. Roberto Zamparelli][zampa] for making useful comments about the project, and the 25 participants who generated the phrases.
 
 
-[coling]: http://dx.doi.org/10.1109/IJCNN.2015.7280822
+[coling]: https://arxiv.org/abs/1606.00025
 [erk12]: http://onlinelibrary.wiley.com/doi/10.1002/lnco.362/abstract
 [w2v]: http://papers.nips.cc/paper/5021-distributed-representations
 [baroni12]: http://www.aclweb.org/anthology/D/D10/D10-1115.pdf
