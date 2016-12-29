@@ -2,7 +2,7 @@
 layout: post
 title: Visual infomation processing with biologically-realistic neural networks - Musings
 tags: [2016, vision, snn]
-description: Introduction to the line-of-attack
+description: Introduction to a line-of-attack
 comments: true
 ---
 
