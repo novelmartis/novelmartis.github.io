@@ -23,7 +23,6 @@ The first route can encompass the second, as individual feature recognisers coul
 We might be employing a complex template matching approach, but stating that isn't enough. How do we implement these non-linear transformations? How does a network of neurons implement object recognition? This problem is being solved using the mathematical, algorithmic and neuroscience perspectives. The objective is to understand how a biologically-realistic neural network could implement visual information processing.
 
 This could be a line-of-attack: <br>
-[_Updated to a more detailed version_]:
 
 ```
 Visual information processing with biologically-realistic SNNs
