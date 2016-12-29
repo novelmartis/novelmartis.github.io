@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual infomation processing with biologically-realistic neural networks
+title: Visual infomation processing with biologically-realistic neural networks - Musings
 tags: [2016, vision, snn]
 description: Introduction to the line-of-attack
 comments: true
@@ -48,5 +48,3 @@ Visual information processing with biologically-realistic SNNs
     ├── Deciding the learning rules
     └── Generalising to videos, attention, etc
 ```
-
-Visual information processing also includes attentional mechanisms, motion processing and top-down priming. We are focussing most on static images and object recognition here, as a start.
