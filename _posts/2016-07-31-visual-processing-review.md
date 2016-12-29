@@ -18,16 +18,16 @@ There are two routes to go from these images to the template:
     - Distorting the image and changing the color profile to fit the template.
 2. Recognise individual features (ears, eyes, etc.) in those images and build the template using them.
 
-The first route can encompass the second, as individual feature recognisers could be treated as non-linear transformations on the pixel map. We will see in the next section that handpicked features do not provide optimal performance, making the first route the choice for exploring visual information processing. 
+The first route can encompass the second, as individual feature recognisers could be treated as non-linear transformations on the pixel map. Handpicked features do not provide optimal performance, making the first route the choice for exploring visual information processing. 
 
-We might be employing a complex template matching approach, but stating that isn't enough. How do we implement these non-linear transformations? How does a network of neurons implement object recognition? This problem is being solved using various mathematical, algorithmic and neuroscience perspectives. The objective is to understand how a biologically-realistic neural network could implement visual information processing.
+We might be employing a complex template matching approach, but stating that isn't enough. How do we implement these non-linear transformations? How does a network of neurons implement object recognition? This problem is being solved using the mathematical, algorithmic and neuroscience perspectives. The objective is to understand how a biologically-realistic neural network could implement visual information processing.
 
-This could be a line of attack: <br>
+This could be a line-of-attack: <br>
 [_Updated to a more detailed version_]:
 
 ```
-Visual infomation processing with biologically-realistic SNNs
-├── Introduction to the problem
+Visual information processing with biologically-realistic SNNs
+├── The problem
 ├── Previous Work
 │   ├── Outline
 │   ├── Computer Vision
@@ -35,11 +35,9 @@ Visual infomation processing with biologically-realistic SNNs
 │   ├── Biological Modelling
 │   │   └── HMAX, etc
 │   ├── SNNs
-│   ├── Ruminations
 │   └── Additions to the problem
 │       └── Unsupervised learning
 ├── Working with SNNs
-│   ├── Outline
 │   ├── Architectural constraints
 │   │   ├── Operational principles: tight E-I balance, etc.
 │   │   └── Neural models - Simplicity vs Accuracy
@@ -47,10 +45,9 @@ Visual infomation processing with biologically-realistic SNNs
 │       ├── ReSuMe, etc
 │       ├── Backpropagation modified?
 │       └── Other rules? - Explore
-└── Conclusions
+└── Further work
     ├── Deciding the learning rules
-    ├── Generalising to videos, attention, etc
-    └── Other comments
+    └── Generalising to videos, attention, etc
 ```
 
 Visual information processing also includes attentional mechanisms, motion processing and top-down priming. We are focussing most on static images and object recognition here, as a start.
