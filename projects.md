@@ -20,7 +20,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Principles of information representation in the Human Visual System and Convolutional Neural Networks</h3>
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="http://www.danielkaiser.net">Daniel Kaiser</a>, <a href="https://sites.google.com/site/peelenlab/">Marius Peelen</a><br>
-  - A <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.<br>
+  - A general <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.<br>
   - How <i>feedforward</i> is the human visual system?
 </div>
 
