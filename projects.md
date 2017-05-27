@@ -18,10 +18,12 @@ title: Projects
 [//]: # (Project with Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Principles of information representation in the Human Visual System and Convolutional Neural Networks</h3>
+  <h3 class="p_post_h">Understanding the animacy organisation in the human visual ventral stream using Convolutional Neural Networks</h3>
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="http://www.danielkaiser.net">Daniel Kaiser</a>, <a href="https://sites.google.com/site/peelenlab/">Marius Peelen</a><br>
-  - A general <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">pointer</a> towards what's brewing.<br>
-  - How <i>feedforward</i> is the human visual system?
+  - <a href="https://dx.doi.org/10.6084/m9.figshare.3385462.v1">Motivation</a><br>
+  - Phase 1:
+    Brain Twitter Conference <a href="https://twitter.com/abc_aalto/status/855043613453058048">twalk</a>, and
+    Rovereto Worshop on Concepts, Actions and Objects (CAOs 2017) <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">talk</a><br>
 </div>
 
 {% comment %}
