@@ -10,13 +10,13 @@ Ciao! This is **Sushrut Thorat**'s personal webpage.<br> Now that you are here, 
 Let's start with the academic introduction:
 
 * Doctoral candidate in Cognitive Neuroscience
-  + At the [Donders Centre for Cognition](http://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University, The Netherlands
-  + Working at the [Peelen Lab](https://sites.google.com/site/peelenlab/)
+    + At the [Donders Centre for Cognition](http://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University, The Netherlands
+    + Working at the [Peelen Lab](https://sites.google.com/site/peelenlab/)
 * Research interests:
-  + The neural mechanisms behind the deployment and control of visual attention 
-  + The principles of information representation in the brain
-  + The nature of personal identity and subjective experience
-  + Unsupervised Learning in Artificial Neural Nets
+    + The neural mechanisms behind the deployment and control of visual attention 
+    + The principles of information representation in the brain
+    + The nature of personal identity and subjective experience
+    + Unsupervised Learning in Artificial Neural Nets
 
 I have a Masters degree in Cognitive Neuroscience from [CIMeC](http://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento. I also have a Bachelor's degree in Physics from [IIT Bombay](http://iitb.ac.in). <br>
 ([QIC](https://en.wikipedia.org/wiki/Quantum_information) and [GR](https://en.wikipedia.org/wiki/General_relativity) are awesome, but so is the brain which understands them!)
