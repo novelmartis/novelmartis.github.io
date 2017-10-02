@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta name="keywords" content="Sushrut Thorat, Webpage">
+  <meta name="description" content="Personal Website of Sushrut Thorat">
+  <meta name="author" content="Sushrut Thorat">
+  <meta name="google-site-verification" content="9xeeU5dx7sRdplcWMm3lTRm66gF4kDnbgJY77rkUOkE" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta property="og:image" content="http://novelmartis.github.io/assets/goku_peace.png" />
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>
+    
+      Building a simple Reverse Dictionary
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
+                                 <link rel="shortcut icon" href="/public/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+      
+</head>
+
+
+  <body class="layout-reverse">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<style>
+    
+.social p {
+    float:right;
+    margin-top: 5px;
+}
+
+.social{
+    float:center;
+    width: 180px;
+    padding-bottom: 2em;
+}
+    
+.social ul {
+    overflow: auto;
+    float: left;
+    margin-left: -27px;
+}
+ 
+.social ul li {
+    list-style-type: none;
+    float: left;
+}
+ 
+.social ul li a i {
+    background: #333;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 22.5px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 15%;
+    transition: all 0.2s ease-in-out;
+}
+
+.social ul li a i:hover {
+    opacity: .7;
+}
+</style>
+
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    
+    <center>
+    <img src="http://novelmartis.github.io/assets/goku_peace_m.png" alt="" height="150px">
+    </center>
+    
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          martis.
+        </a>
+      </h1>
+      <p class="lead"><a href="http://ellafrancessanders.com/untranslatable-words-from-other-cultures/" target="_blank">Pochemuchka</a>.</p>
+      </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="/">Blog</a>
+
+      
+
+      
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/about/">About</a>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+            <a class="sidebar-nav-item" href="/projects/">Projects</a>
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+
+      
+    </nav>
+      
+      <center>
+      <div class="social">  
+    <ul>
+    <li><a href="http://twitter.com/sushrut_thorat" target="_blank"><i class="fa fa-twitter"></i></a></li>
+    <li><a href="https://github.com/novelmartis" target="_blank"><i class="fa fa-github"></i> </a></li>
+    </ul>
+    <p>&copy; 2017</p>
+    </div>
+    </center>
+      
+    
+  </div>
+</div>
+
+
+    <div class="content container">
+      <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+
+
+     &nbsp;
+    
+
+
+<div class="post">
+  <h1 class="post-title">Building a simple Reverse Dictionary</h1>
+  <span class="post-date">06 Nov 2016</span>
+  
+    <span class="post-tags"><i class="fa fa-tags"></i> <a href="/blog/tags/2016/">2016</a>, <a href="/blog/tags/semantics/">semantics</a>, <a href="/blog/tags/publication/">publication</a></span>
+  
+  <p><em>The paper can be accessed on <a href="https://arxiv.org/abs/1606.00025">arXiv</a>. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on <a href="https://github.com/novelmartis/RD16demo">Github</a>.</em></p>
+
+<h4>Motivation &amp; Idea:</h4>
+
+<p>We often can&#39;t find single words to describe our thoughts, but we can describe the concepts in phrases. A Reverse Dictionary (RD) is a solution to this problem. A normal word dictionary maps words to their definitions, but a reverse dictionary maps phrases to semantically-similar words.</p>
+
+<p>This calls for the ability to parse phrases semantically. Now, similarities between words have been studied <a href="http://onlinelibrary.wiley.com/doi/10.1002/lnco.362/abstract">extensively</a>. These similarities usually rely on a representational space of words, such as <a href="http://papers.nips.cc/paper/5021-distributed-representations">word2vec</a> (constructed by crawling a huge corpus and extracting the contextual similarities between words, which also reflects the semantics). There isn&#39;t such a representational formalism, which encodes phrasal semantics,  available for phrases. Maybe vectors aren&#39;t suitable for phrasal representations anyway, and we should look towards <a href="http://www.aclweb.org/anthology/D/D10/D10-1115.pdf">other mathematical structures</a>, or we should just use sequential parsing while encoding relationships between constituents - as in a <a href="http://www.aclweb.org/anthology/Q16-1002">RNN</a>.</p>
+
+<p>The methods just mentioned are the logical steps forward. Once we understand how to represent phrasal semantics, linking it to lexical semantics won&#39;t be hard, thus solving the reverse dictionary problem, hopefully. But there are other <a href="http://www.oxfordlearnersdictionaries.com/definition/english/jugaad_1?q=jugaad">jugaad</a> that could have simple implementations and could already provide excellent performance for a reverse dictionary. The naivest method is to count to number of words in the input phrase which appear in each word&#39;s definition, and use that as a similarity score from the phrase to every word in the lexicon. As you can tell, this method won&#39;t perform very well. </p>
+
+<p>This approach can be modified to search for lexical relatives of the words in the input phrase and match them with the definitions of the words in the lexicon towards defining a similarity measure. Factors such as frequencies of words (which might distort the similarity measure) appearing in definitions can be taken care of. The word order in the phrase can be factored in by assessing the words&#39; positions in the constitutent tree of the phrase. Negation words, such as <em>not</em>, can be used as indications to change the constituents following the negation words to their antonyms. All these additions were made by <a href="http://ieeexplore.ieee.org/document/6060823/">Shaw, R., et.al.</a> in their 2013 model, which performed better than the well-known proprietary software, the <a href="http://www.onelook.com/reverse-dictionary.shtml">Onelook Reverse Dictionary</a>.</p>
+
+<p>Now, I am crazy about neural networks. So, this is what I thought - going from the words in the input phrase to the words in whose definitions they were contained, why should one not carry on from those words to the words in whose definitions they lie in, and so on, building a graph out of the entire lexicon? This <em>Reverse Mapping</em> is the central idea of our approach. It has the intuitive appeal of word meanings converging/composing in a meaningful way onto other words. Of course, for one sensible convergence, there maybe tens of nonsensical covergences. This indeed is a naive approach and we wanted to see how well it could perform (The rationale was - the RD could output tens of words, and all that matters is that the target word be present in there. We could later think of some learning protocol which could selectively enhance connections, something we didn&#39;t get down to).</p>
+
+<h4>The Approach:</h4>
+
+<p>As shown in the figure below,</p>
+
+<ol>
+<li><a href="http://www.psych.nyu.edu/pylkkanen/Neural_Bases/13_Function_Words.pdf">Functional/stop words</a> are removed from the input phrase. </li>
+<li>The remaining <em>content words</em> are converted to their base forms using a lemmatiser.</li>
+<li>These <em>input words</em> are activated on the reverse map constructed using one/many dictionaries.</li>
+<li>The graph is evolved until all words are reached by the signals from each input word
+
+<ul>
+<li>To ensure that all words are connected to every other word, we incorporate forward links (word to words contained in its definition) from the words who do not possess sufficient connectivity. This <em>modified</em> graph&#39;s connectivity is given by the mixed-backlinked-matrix (mBLM), in the paper.</li>
+</ul></li>
+<li>We thus have a measure of <em>distances</em> between the input words and words in the lexicon. We then deploy the similarity measure to get the similarity between the input phrase and the words in the lexicon. </li>
+<li>The similarity measure <em>E(W,P)</em> of a word <em>W</em> to the input phrase <em>P</em> is given by, $$\text{E}_{W,P} =\frac{\sum_i \left ( \nu_{P_i}\times d_{W,P_i} \right )^{-1}}{\sum_i \nu_{P_i}^{-1}}$$ where <em>ν</em> denotes the frequency of appearance in word definitions, and <em>d</em> the distance on the graph.</li>
+<li>All the words in the lexicon are ranked according to their similarity measures, and outputted.</li>
+</ol>
+
+<p><center><img src="http://novelmartis.github.io/assets/RD_sum.png" alt="Summary of the Approach"></center></p>
+
+<p>As seen in the figure, the input phrase &#39;Son of my parents&#39; does lead to the word &#39;brother&#39; (the target) as a high-ranked candidate output. As can be seen, the approach is pretty naive, and performs a shallow extraction of useful semantics. Let&#39;s see anyway how it compares to the state-of-the-art approaches.</p>
+
+<h4>Testing procedure:</h4>
+
+<p>On the lines of <a href="http://www.aclweb.org/anthology/Q16-1002">Hill, F., et.al.</a>, we decided to create a dataset of user-generated phrases given target words. We had to create a new database as we were using a smaller lexicon (3k words) for the first phase of our project. 25 users generated 179 phrases for us. The performance of a reverse dictionary is given by the rank of the target word in its outputs, given an input phrase. We also extracted definitions for those 179 target words from the Macmillian word dictionary - which we did not use in building out graph.</p>
+
+<h4>Results and Conclusions:</h4>
+
+<p>For the user-generated phrases, our best model could find the target word in 10% (top-10 outputs), and 53% (top-100 outputs) of the cases, as opposed to 7% (top-10 outputs), and 52% (top-100 outputs) for Onelook. For the Macmillian word definitions, our best model could find the target word in 25% (top-10 outputs), and 84% (top-100 outputs) of the cases, as opposed to 20% (top-10 outputs), and 68% (top-100 outputs) for Onelook. If we were to generate a random selection of words, we could find the target word in 0.01% (top-10 outputs), and 3% (top-100 outputs) of the cases. So, our approach is actually performing well (sanity-check).</p>
+
+<p>So, our approach performed atleast as well as the <a href="http://www.onelook.com/reverse-dictionary.shtml">Onelook Reverse Dictionary</a> on the 179 user-generated phrases and Macmillian word definitions. We also compared our approach with Onelook on the 200 phrases provided by <a href="http://www.aclweb.org/anthology/Q16-1002">Hill, F., et.al.</a>, and our approach performed atleast as well. Now, the RNN-based approach used by <a href="http://www.aclweb.org/anthology/Q16-1002">Hill, F., et.al.</a> performed only slightly better than Onelook. This implies that the semantics being processed by the RNNs are pretty shallow (as the performance is comparable to our naive approach). </p>
+
+<p>Our approach doesn&#39;t scale well to a bigger lexicon, as seen in the paper. It nevertheless is a cheap way of converting any dictionary into a reverse dictionary. Our method, and that of <a href="http://ieeexplore.ieee.org/document/6060823/">Shaw, R., et.al</a>, could be treated as baselines in the sense that we know how shallow the semantic processing is. The way forward, of course, are RNNs and other semi/un-supervised architectures, which could extract their own features, and which could settle on novel mathematical structures. The performance baselines provided in our paper could be used as a sanity-check for deep semantic processing in the newer architectures.</p>
+
+<h4>Acknowledgement:</h4>
+
+<p>The &quot;we&quot; here - <a href="https://twitter.com/askvarad">Varad Choudhari</a> and me. He took care of all the computational heavylifting. Kudos to him!</p>
+
+<p>I would like to thank <a href="https://twitter.com/IonutSorodoc">Ionut-Teodor Sorodoc</a>, <a href="https://www.quora.com/profile/Arpan-Saha">Arpan Saha</a>, <a href="http://www.synapticlee.co.uk/about/">Julie Lee</a>, and <a href="https://www5.unitn.it/People/en/Web/Persona/PER0001015#INFO">Prof. Roberto Zamparelli</a> for making useful comments about the project, and the 25 participants who generated the phrases.</p>
+
+</div>
+
+<div class="related">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+<style>
+
+    .share h4{
+        float: left;
+        margin-top: 5px;
+    }
+    
+    
+</style>
+
+<div class="share">
+<h4>Share this: &nbsp; &nbsp;</h4>
+<div id="share-box"> 
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://novelmartis.github.io/2016/11/06/reverse-dictionary/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-facebook-official fa share-button"></i></a>
+       
+        <a href="https://twitter.com/intent/tweet?text=Building a simple Reverse Dictionary&via=sushrut_thorat&url=http://novelmartis.github.io/2016/11/06/reverse-dictionary/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fa fa-twitter fa share-button"></i></a>
+       
+        <a href="https://plus.google.com/share?url=http://novelmartis.github.io/2016/11/06/reverse-dictionary/" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><i class="fa fa-google-plus fa share-button"></i></a>
+       
+                        
+        <a href="mailto:?subject=Building a simple Reverse Dictionary&amp;body=Check out this post! http://novelmartis.github.io/2016/11/06/reverse-dictionary/"><i class="fa fa-envelope fa share-button"></i></a>                                  
+</div>
+</div>
+  <h3>Related Posts</h3>
+  <ul class="related-posts">
+    
+      <li>
+        <h4>
+          <a href="/2017/05/27/twitter-conference/">
+            Thoughts about the 1st Brain Twitter Conference
+            <small>27 May 2017</small>
+          </a>
+        </h4>
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/2016/07/31/visual-processing-review/">
+            Visual infomation processing with biologically-realistic neural networks - Musings
+            <small>31 Jul 2016</small>
+          </a>
+        </h4>
+      </li>
+    
+      <li>
+        <h4>
+          <a href="/2016/07/19/curr-deb-essay-plan/">
+            Current Debates Essay plan
+            <small>19 Jul 2016</small>
+          </a>
+        </h4>
+      </li>
+    
+  </ul>
+</div>
+
+
+  <div id="disqus_thread"></div>
+<script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+     */
+    /*
+    var disqus_config = function () {
+        this.page.url = http://novelmartis.github.io/2016/11/06/reverse-dictionary/;  // Replace PAGE_URL with your page's canonical URL variable
+    
+        this.page.identifier = /2016/11/06/reverse-dictionary; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    
+    };
+    */
+    
+    (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        
+        s.src = '//martis.disqus.com/embed.js';
+        
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+    </div>
+  
+  </body>
+</html>
