@@ -6,7 +6,7 @@ description: Summary of my COLING 2016 paper, and further comments.
 comments: true
 ---
 
-*The associated COLING'16 paper can be accessed on [arXiv][coling]. Setting a new baseline for phrasal semantics processing. The test dataset and sample code can be found on [Github][gitc].*
+*The paper can be accessed on [arXiv][coling]. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on [Github][gitc].*
 
 #### Motivation & Idea:
 
@@ -30,10 +30,10 @@ As shown in the figure below,
 4. The graph is evolved until all words are reached by the signals from each input word
    - To ensure that all words are connected to every other word, we incorporate forward links (word to words contained in its definition) from the words who do not possess sufficient connectivity. This *modified* graph's connectivity is given by the mixed-backlinked-matrix (mBLM), in the paper.
 5. We thus have a measure of *distances* between the input words and words in the lexicon. We then deploy the similarity measure to get the similarity between the input phrase and the words in the lexicon. 
-6. The similarity measure *E(W,P)* of a word *W* to the input phrase *P* is given by, $$\text{E}_{W,P} =\frac{\sum_i \left ( \nu_{P_i}\times d_{W,P_i} \right )^{-1}}{\sum_i \nu_{P_i}^{-1}}$$, where *ν* denotes the frequency of appearance in word definitions, and *d* the distance on the graph.
+6. The similarity measure *E(W,P)* of a word *W* to the input phrase *P* is given by, $$\text{E}_{W,P} =\frac{\sum\_i \left ( \nu\_{P\_i}\times d\_{W,P\_i} \right )^{-1}}{\sum\_i \nu\_{P\_i}^{-1}}$$ where *ν* denotes the frequency of appearance in word definitions, and *d* the distance on the graph.
 7. All the words in the lexicon are ranked according to their similarity measures, and outputted.
 
-![Summary of the Approach]({{site:url}}/assets/RD_sum.png)
+<center>![Summary of the Approach]({{site:url}}/assets/RD_sum.png)</center>
 
 As seen in the figure, the input phrase 'Son of my parents' does lead to the word 'brother' (the target) as a high-ranked candidate output. As can be seen, the approach is pretty naive, and performs a shallow extraction of useful semantics. Let's see anyway how it compares to the state-of-the-art approaches.
 
