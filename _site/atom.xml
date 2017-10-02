@@ -4,7 +4,7 @@
  <title>martis.</title>
  <link href="http://novelmartis.github.io/atom.xml" rel="self"/>
  <link href="http://novelmartis.github.io/"/>
- <updated>2017-10-02T16:41:04+02:00</updated>
+ <updated>2017-10-02T16:47:23+02:00</updated>
  <id>http://novelmartis.github.io</id>
  <author>
    <name>‘Sushrut Thorat’</name>
@@ -49,7 +49,7 @@
    <link href="http://novelmartis.github.io/2016/11/06/reverse-dictionary/"/>
    <updated>2016-11-06T00:00:00+01:00</updated>
    <id>http://novelmartis.github.io/2016/11/06/reverse-dictionary</id>
-   <content type="html">&lt;p&gt;&lt;em&gt;The paper can be accessed on &lt;a href=&quot;https://arxiv.org/abs/1606.00025&quot;&gt;arXiv&lt;/a&gt;. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on &lt;a href=&quot;https://github.com/novelmartis/RD16demo&quot;&gt;Github&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+   <content type="html">&lt;p&gt;&lt;em&gt;The associated COLING&amp;#39;16 paper can be accessed on &lt;a href=&quot;https://arxiv.org/abs/1606.00025&quot;&gt;arXiv&lt;/a&gt;. Setting a new baseline for phrasal semantics processing. The test dataset and sample code can be found on &lt;a href=&quot;https://github.com/novelmartis/RD16demo&quot;&gt;Github&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 
 &lt;h4&gt;Motivation &amp;amp; Idea:&lt;/h4&gt;
 
@@ -77,11 +77,11 @@
 &lt;li&gt;To ensure that all words are connected to every other word, we incorporate forward links (word to words contained in its definition) from the words who do not possess sufficient connectivity. This &lt;em&gt;modified&lt;/em&gt; graph&amp;#39;s connectivity is given by the mixed-backlinked-matrix (mBLM), in the paper.&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;We thus have a measure of &lt;em&gt;distances&lt;/em&gt; between the input words and words in the lexicon. We then deploy the similarity measure to get the similarity between the input phrase and the words in the lexicon. &lt;/li&gt;
-&lt;li&gt;The similarity measure &lt;em&gt;E(W,P)&lt;/em&gt; of a word &lt;em&gt;W&lt;/em&gt; to the input phrase &lt;em&gt;P&lt;/em&gt; is given by, $$\text{E}_{W,P} =\frac{\sum_i \left ( \nu_{P_i}\times d_{W,P_i} \right )^{-1}}{\sum_i \nu_{P_i}^{-1}}$$ where &lt;em&gt;ν&lt;/em&gt; denotes the frequency of appearance in word definitions, and &lt;em&gt;d&lt;/em&gt; the distance on the graph.&lt;/li&gt;
+&lt;li&gt;The similarity measure &lt;em&gt;E(W,P)&lt;/em&gt; of a word &lt;em&gt;W&lt;/em&gt; to the input phrase &lt;em&gt;P&lt;/em&gt; is given by, $$\text{E}&lt;em&gt;{W,P} =\frac{\sum&lt;/em&gt;i \left ( \nu&lt;em&gt;{P&lt;/em&gt;i}\times d&lt;em&gt;{W,P&lt;/em&gt;i} \right )^{-1}}{\sum&lt;em&gt;i \nu&lt;/em&gt;{P_i}^{-1}}$$, where &lt;em&gt;ν&lt;/em&gt; denotes the frequency of appearance in word definitions, and &lt;em&gt;d&lt;/em&gt; the distance on the graph.&lt;/li&gt;
 &lt;li&gt;All the words in the lexicon are ranked according to their similarity measures, and outputted.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;http://novelmartis.github.io/assets/RD_sum.png&quot; alt=&quot;Summary of the Approach&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://novelmartis.github.io/assets/RD_sum.png&quot; alt=&quot;Summary of the Approach&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;As seen in the figure, the input phrase &amp;#39;Son of my parents&amp;#39; does lead to the word &amp;#39;brother&amp;#39; (the target) as a high-ranked candidate output. As can be seen, the approach is pretty naive, and performs a shallow extraction of useful semantics. Let&amp;#39;s see anyway how it compares to the state-of-the-art approaches.&lt;/p&gt;
 
@@ -158,174 +158,6 @@
  </entry>
  
  <entry>
-   <title>Current Debates Essay plan</title>
-   <link href="http://novelmartis.github.io/2016/07/19/curr-deb-essay-plan/"/>
-   <updated>2016-07-19T00:00:00+02:00</updated>
-   <id>http://novelmartis.github.io/2016/07/19/curr-deb-essay-plan</id>
-   <content type="html">&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-&quot; data-lang=&quot;&quot;&gt;Visual infomation processing with biologically-realistic SNNs
-├── Introduction to the problem
-├── Previous Work
-│   ├── Outline
-│   ├── Computer Vision
-│   │   └── CNNs, RNNs, etc
-│   ├── Biological Modelling
-│   │   └── HMAX, etc
-│   ├── SNNs
-│   ├── Ruminations
-│   └── Additions to the problem
-│       └── Unsupervised learning
-├── Working with SNNs
-│   ├── Outline
-│   ├── Architectural constraints
-│   │   ├── Operational principles: tight E-I balance, etc.
-│   │   └── Neural models - Simplicity vs Accuracy
-│   └── Learning Rules
-│       ├── ReSuMe, etc
-│       ├── Backpropagation modified?
-│       └── Other rules? - Explore
-└── Concluding Remarks
-    ├── Deciding the learning rules
-    ├── Generalising to videos, attention, etc
-    └── Other comments
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h2&gt;Details:&lt;/h2&gt;
-
-&lt;h3&gt;Introduction&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Going from pixels to features, simplest version (full version has motion, overt attention, top-down biases, etc.)&lt;/li&gt;
-&lt;li&gt;Turns out to be a hard problem&lt;/li&gt;
-&lt;li&gt;Humans do it effortlessly and rapidly
-
-&lt;ul&gt;
-&lt;li&gt;We would like to to understand how, so SNN models required&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Previous Work&lt;/h3&gt;
-
-&lt;h4&gt;Outline&lt;/h4&gt;
-
-&lt;h4&gt;Computer Vision&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Early attempts (Clustering, k-means, SVMs)
-
-&lt;ul&gt;
-&lt;li&gt;Category grouping requires lots of non-linear transformations&lt;/li&gt;
-&lt;li&gt;Locally-correlated information, towards the idea of receptive fields&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Convolutional Neural Networks
-
-&lt;ul&gt;
-&lt;li&gt;Incorporating the idea of receptive fields and hierarchical feature-extraction
-
-&lt;ul&gt;
-&lt;li&gt;Learnt through backprop&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Exhibit striking results with good features (and &amp;#39;hidden&amp;#39; features)&lt;/li&gt;
-&lt;li&gt;Exhibit high correlation of information representation with hVS fMRI data&lt;/li&gt;
-&lt;li&gt;Further work (with RNNs to do attention task and multi-object processing - bounding boxes)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Biological Modelling&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Idea of receptive fields in V1, gabor identification, color and shape specificity, face and body areas.&lt;/li&gt;
-&lt;li&gt;Putting it all together - HMAX (simple and complex cells with receptive fields)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Spiking Neural Networks&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Biological neuron models
-
-&lt;ul&gt;
-&lt;li&gt;HH, then simplifications: Izhi, AEIF, etc.&lt;/li&gt;
-&lt;li&gt;Simplifications capture spike times, and adaptation, but not the AP profile, which is a good starting point&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Visual processing with SNNs
-
-&lt;ul&gt;
-&lt;li&gt;No idea: EXPLORE, FIND OUT&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Rumination&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Sigmoid neurons and spiking neurons are fundamentally different, but atleast we have guidelines.&lt;/li&gt;
-&lt;li&gt;Receptive fields and hierarchies in CNNs are partially motivated by the human visual system, but are they a fundamental computational principle, as suggested by local correlations?&lt;/li&gt;
-&lt;li&gt;We need to understand SNNs better to translate CNN-like structure to them.&lt;/li&gt;
-&lt;li&gt;Feedback management, operational conditions, learning rules.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Additions to the problem&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Unsupervised feature learning is key - children, during development, do not have access to semantic information. How do they still cluster similar objects together (or do they, without being told so?)
-
-&lt;ul&gt;
-&lt;li&gt;Can we train an unsupervised ANN to do object recognition, and then one-shot label learning?&lt;/li&gt;
-&lt;li&gt;Can evolutionary algorithms like NEAT work out here - if you initialise a fully connected network, would it acquire the structure of CNNs?&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Working with SNNs&lt;/h3&gt;
-
-&lt;h4&gt;Outline&lt;/h4&gt;
-
-&lt;h4&gt;Identifying Architectural Constraints&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Operational Principles
-
-&lt;ul&gt;
-&lt;li&gt;tight E-I balance, FIND MORE&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Information Coding principles
-
-&lt;ul&gt;
-&lt;li&gt;Rate Code&lt;/li&gt;
-&lt;li&gt;Rank Order Code&lt;/li&gt;
-&lt;li&gt;Spike-time codes, other codes, FIND OUT&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4&gt;Learning Rules&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Previous Neural Learning models
-
-&lt;ul&gt;
-&lt;li&gt;ReSuMe&lt;/li&gt;
-&lt;li&gt;FIND OUT MORE&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Modifying backprop?
-
-&lt;ul&gt;
-&lt;li&gt;SpikeProp&lt;/li&gt;
-&lt;li&gt;Bengio&amp;#39;s bio-backprop (TO READ), FIND MORE&lt;/li&gt;
-&lt;li&gt;The paper where they made the SNN activation function continous for backprop.&lt;/li&gt;
-&lt;li&gt;My suggestions&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Other rules? FIND OUT&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3&gt;Concluding Remarks&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Deciding the learning rules&lt;/li&gt;
-&lt;li&gt;Building the SNN&lt;/li&gt;
-&lt;li&gt;Onwards to unsupervised learning - why is unsupervised learning harder, or is it?&lt;/li&gt;
-&lt;li&gt;Generalising to videos, attention, etc (with RNNs, or SNNs)&lt;/li&gt;
-&lt;li&gt;Other comments&lt;/li&gt;
-&lt;/ul&gt;
-</content>
- </entry>
- 
- <entry>
    <title>Let's get it started!</title>
    <link href="http://novelmartis.github.io/2016/07/12/getting-started/"/>
    <updated>2016-07-12T00:00:00+02:00</updated>
@@ -351,7 +183,7 @@
 
 &lt;p&gt;So, the problem was this - how can SNNs implement arithmetic operations such as Addition, Subtraction, Multiplication and Division? This turns out to be a non-trivial question. Spiking neurons have non-linear I-O relationships (logarithmic &lt;a href=&quot;ftp://ftp.icsi.berkeley.edu/pub/ai/jagota/vol2_6.pdf&quot;&gt;transfer function&lt;/a&gt;), as shown in the following figure. &lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;http://novelmartis.github.io/assets/fI_AEIF.png&quot; alt=&quot;f-I plot for AEIF neuron&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://novelmartis.github.io/assets/fI_AEIF.png&quot; alt=&quot;f-I plot for AEIF neuron&quot;&gt;&lt;/p&gt;
 
 &lt;p&gt;To implement linear operations such as addition or subtraction, we need to linearise the the transfer function. Now, we focussed on the network influences, rather than trying to &lt;a href=&quot;http://arxiv.org/pdf/1410.7881.pdf&quot;&gt;manipulate internal dynamics of neurons&lt;/a&gt;. To that end, we introduced a self-inhibitory loop that pushed the neuron into the higher current domain in the above figure, which is pretty linear. With a linear transfer function at our disposal, we can do addition and subtraction. &lt;/p&gt;
 

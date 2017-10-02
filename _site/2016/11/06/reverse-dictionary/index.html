@@ -190,7 +190,7 @@
   
     <span class="post-tags"><i class="fa fa-tags"></i> <a href="/blog/tags/2016/">2016</a>, <a href="/blog/tags/semantics/">semantics</a>, <a href="/blog/tags/publication/">publication</a></span>
   
-  <p><em>The paper can be accessed on <a href="https://arxiv.org/abs/1606.00025">arXiv</a>. Setting a new baseline for deep phrasal semantic processing. The test dataset and sample code can be found on <a href="https://github.com/novelmartis/RD16demo">Github</a>.</em></p>
+  <p><em>The associated COLING&#39;16 paper can be accessed on <a href="https://arxiv.org/abs/1606.00025">arXiv</a>. Setting a new baseline for phrasal semantics processing. The test dataset and sample code can be found on <a href="https://github.com/novelmartis/RD16demo">Github</a>.</em></p>
 
 <h4>Motivation &amp; Idea:</h4>
 
@@ -218,11 +218,11 @@
 <li>To ensure that all words are connected to every other word, we incorporate forward links (word to words contained in its definition) from the words who do not possess sufficient connectivity. This <em>modified</em> graph&#39;s connectivity is given by the mixed-backlinked-matrix (mBLM), in the paper.</li>
 </ul></li>
 <li>We thus have a measure of <em>distances</em> between the input words and words in the lexicon. We then deploy the similarity measure to get the similarity between the input phrase and the words in the lexicon. </li>
-<li>The similarity measure <em>E(W,P)</em> of a word <em>W</em> to the input phrase <em>P</em> is given by, $$\text{E}_{W,P} =\frac{\sum_i \left ( \nu_{P_i}\times d_{W,P_i} \right )^{-1}}{\sum_i \nu_{P_i}^{-1}}$$ where <em>ν</em> denotes the frequency of appearance in word definitions, and <em>d</em> the distance on the graph.</li>
+<li>The similarity measure <em>E(W,P)</em> of a word <em>W</em> to the input phrase <em>P</em> is given by, $$\text{E}<em>{W,P} =\frac{\sum</em>i \left ( \nu<em>{P</em>i}\times d<em>{W,P</em>i} \right )^{-1}}{\sum<em>i \nu</em>{P_i}^{-1}}$$, where <em>ν</em> denotes the frequency of appearance in word definitions, and <em>d</em> the distance on the graph.</li>
 <li>All the words in the lexicon are ranked according to their similarity measures, and outputted.</li>
 </ol>
 
-<p><center><img src="http://novelmartis.github.io/assets/RD_sum.png" alt="Summary of the Approach"></center></p>
+<p><img src="http://novelmartis.github.io/assets/RD_sum.png" alt="Summary of the Approach"></p>
 
 <p>As seen in the figure, the input phrase &#39;Son of my parents&#39; does lead to the word &#39;brother&#39; (the target) as a high-ranked candidate output. As can be seen, the approach is pretty naive, and performs a shallow extraction of useful semantics. Let&#39;s see anyway how it compares to the state-of-the-art approaches.</p>
 
@@ -300,9 +300,9 @@
     
       <li>
         <h4>
-          <a href="/2016/07/19/curr-deb-essay-plan/">
-            Current Debates Essay plan
-            <small>19 Jul 2016</small>
+          <a href="/2016/07/12/getting-started/">
+            Let's get it started!
+            <small>12 Jul 2016</small>
           </a>
         </h4>
       </li>

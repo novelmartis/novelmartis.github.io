@@ -1,5 +1,5 @@
 # Dependencies
-markdown:         redcarpet
+
 highlighter:      rouge
 
 # Permalinks
@@ -17,7 +17,7 @@ author:
   url:            http://novelmartis.github.io
 
 gems: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
-paginate:         10
+paginate:         5
 paginate_path: "page:num"
 
 # Custom vars

@@ -196,7 +196,7 @@
 
 <p>So, the problem was this - how can SNNs implement arithmetic operations such as Addition, Subtraction, Multiplication and Division? This turns out to be a non-trivial question. Spiking neurons have non-linear I-O relationships (logarithmic <a href="ftp://ftp.icsi.berkeley.edu/pub/ai/jagota/vol2_6.pdf">transfer function</a>), as shown in the following figure. </p>
 
-<p><center><img src="http://novelmartis.github.io/assets/fI_AEIF.png" alt="f-I plot for AEIF neuron"></center></p>
+<p><img src="http://novelmartis.github.io/assets/fI_AEIF.png" alt="f-I plot for AEIF neuron"></p>
 
 <p>To implement linear operations such as addition or subtraction, we need to linearise the the transfer function. Now, we focussed on the network influences, rather than trying to <a href="http://arxiv.org/pdf/1410.7881.pdf">manipulate internal dynamics of neurons</a>. To that end, we introduced a self-inhibitory loop that pushed the neuron into the higher current domain in the above figure, which is pretty linear. With a linear transfer function at our disposal, we can do addition and subtraction. </p>
 
