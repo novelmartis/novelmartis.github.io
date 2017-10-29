@@ -16,7 +16,7 @@ There were 16 sessions (4 sessions running parallely in a group, 4 groups), 4 ke
 
 He talked about developing therapy for brain disorders. I am sure this a big sub-field of neuroscience. The best part was about developing neural cultures with particular gene knockouts mirroring the knockouts in particular disorders. The synchronisation of the resulting spiking activity was analysed and they could find distinct activity clusters for the different disorders, as seen in his slide below.
 
-<center>![Clustering of different genetic disorders]({{site:url}}/assets/dd_nnk.JPG)</center>
+![Clustering of different genetic disorders]({{site:url}}/assets/dd_nnk.JPG)
 
 He suggested that by generating targeted therapies for normalising the activity patterns in these cultures, we could develop therapies that could transfer better to humans than from research on mice bred with similar knockouts. 
 
@@ -36,7 +36,7 @@ There were 4 sessions running parallely. I could attend one for each of the 4 gr
 
 This is a counter-intuitive [finding][ehinger-17]. Subjects were presented with the stimuli shown in the figure below (from his paper), and subjects had to make a forced-choice about which of the two stimuli were more consistent in their orientations.
 
-<center>![Stimuli in the experiment]({{site:url}}/assets/DD_ehinger.png)</center>
+![Stimuli in the experiment]({{site:url}}/assets/DD_ehinger.png)
 
 Why do we trust the information in the blind spot more in this case? His prominent explanation relies on predictive coding. The blind spot is filled in with information consistent with its surroundings. Now even if the surrounding input becomes noisy, the top-down filling won't be as noisy, so the information received from the blind spot will always match the prediction, thus assigning more weight towards making a decision. This is also supported by their observation that subjects were faster in selecting the blind spot stimuli as opposed to the case where both stimuli were presented outside the blind spot. 
 
@@ -46,7 +46,7 @@ Why do we trust the information in the blind spot more in this case? His promine
 
 Using Dynamic casual modelling (DCM), she analysed functional connectivity profiles of four regions of the brain during perception and imagery, showing that both bottom-up and top-down information is involved in perception, and more top-down during imagery, as seen in the figure below (taken from her [paper][nadine-17]).
 
-<center>![DCM results]({{site:url}}/assets/dd_nadine.png)</center>
+![DCM results]({{site:url}}/assets/dd_nadine.png)
 
 These results were expected given previous studies. I think it would be cool to model the same using known anatomical connectivity profiles between these regions. I find it very weird that the inferior frontal gyrus would be connected to the early visual cortex via a direct connection, and even if it is aren't there other pathways which might be carrying the information reflected in the shown DCM analysis?
 
@@ -66,10 +66,9 @@ Now, I know very little about grid and place cells, so this description might be
 
 There was a weird, yet intuitive, aspect of human behaviour which was presented as a part of his work. Chih-Chung's study builds upon the paradigm of [Palminteri et al., Nature 2015][cct-17-1] (introduces the factor of anxiety), and the relevant results are also seen in that paper. They presented 8 objects to the subjects with different levels of probabilistic punishment or gain, as seen in the figure below (from the paper). Now when two of these stimuli are shown, the subjects had to select one to maximise reward. The partial and complete cases refer to if the subjects were given feedback just about their choice or also about the alternate choice. Depending on these conditions, the subjects show a different response profile after training, as seen in the figure below.
 
-<center>![Palminteri et al., 2015 results]({{site:url}}/assets/dd_cct.png)</center>
+![Palminteri et al., 2015 results]({{site:url}}/assets/dd_cct.png)
 
 The response during the 'complete' condition is weird - the subjects prefer low punishment over low reward! This observation is replicated in Chih-Chung's findings. They suggest that we are reinforced to choose the low punishment more than we are reinforced to choose low reward. If one thinks about it, if given sufficient time, a rational agent would choose the low reward anytime. These findings reflect an automatic response it seems. This doesn't seem to happen in the 'partial' condition though. (Have to read the paper carefully - maybe they have an explanation).
-
 
 
 [nnk]: https://scholar.google.nl/citations?user=Z3UgRXsAAAAJ&hl=en&oi=sra
