@@ -3,7 +3,8 @@ layout: page
 title: About
 ---
 
-<br>
+
+![Me!]({{site:url}}/assets/portrait1.jpeg)
 
 Ciao! This is **Sushrut Thorat**'s personal webpage.<br> Now that you are here, I assume you want to know about me.
 
