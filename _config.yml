@@ -17,7 +17,7 @@ author:
   url:            http://novelmartis.github.io
 
 gems: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
-paginate:         5
+paginate:         10
 paginate_path: "page:num"
 
 # Custom vars
