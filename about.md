@@ -19,7 +19,7 @@ Let's start with the academic introduction:
     + The nature of personal identity and subjective experience
     + Unsupervised Learning in Artificial Neural Nets
 
-I have a Masters degree in Cognitive Neuroscience from [CIMeC](http://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento. I also have a Bachelor's degree in Physics from [IIT Bombay](http://iitb.ac.in). <br>
+I have a Master's degree in Cognitive Neuroscience from [CIMeC](http://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento, and a Bachelor's degree in Physics from [IIT Bombay](http://iitb.ac.in). <br>
 ([QIC](https://en.wikipedia.org/wiki/Quantum_information) and [GR](https://en.wikipedia.org/wiki/General_relativity) are awesome, but so is the brain which understands them!)
 
 Further academically-relevant information can be found in my [curriculum vitae (CV)]({{site.url}}/assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my past and current projects. My publications and preprints can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
