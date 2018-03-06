@@ -16,3 +16,4 @@ title: Misc.
   - The first solution works wonderfully (14/12/17)
   - The [Tensorboard tutorial](https://www.tensorflow.org/get_started/summaries_and_tensorboard) is pretty understandable. Basically, create summaries, initialise FileWriters with directories, and write the summaries during training.
   - If you get the error "locale.Error: unsupported locale setting", while attempting to run Tensorboard, the first solution mentioned [here](https://stackoverflow.com/questions/14547631/python-locale-error-unsupported-locale-setting) would help.
+  - If you get the error "Tried to connect to port 6006, but address is in use", you can either try to [kill](https://www.digitalocean.com/community/tutorials/how-to-use-ps-kill-and-nice-to-manage-processes-in-linux) Tensorboard or you can switch to another port (say 8008), by doing something like "ssh -L 16006:127.0.0.1:8008 xx@xxxx" and access tensorboard on your local machine at "127.0.0.1:16006/" 
