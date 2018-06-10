@@ -36,7 +36,7 @@ I occasionally write short stories and poems. They can be found at [Meadows](htt
   "Float like a butterfly, sting like a bee; rumble, young man. Rumble." ~ <a href="http://www.biography.com/people/muhammad-ali-9181165">M. Ali</a>
 </p>
 
-I am active on [Twitter](https://twitter.com/sushrut_thorat) and [Quora](https://www.quora.com/profile/Sushrut-Thorat). Feel free to connect there, or drop a [mail](mailto:sushrut.thorat94@gmail.com).
+I am active on [Twitter](https://twitter.com/martisamuser) and [Quora](https://www.quora.com/profile/Sushrut-Thorat). Feel free to connect there, or drop a [mail](mailto:sushrut.thorat94@gmail.com).
 
 ### Acknowledgements
 
