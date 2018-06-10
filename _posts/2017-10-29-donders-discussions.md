@@ -2,11 +2,11 @@
 layout: post
 title: Notes about the Donders Discussions 2017
 tags: [2017, conference]
-description: This is the first neuroscience conference I attended. Here are my notes about the interesting developments I observed.
+description: This is the first neuroscience conference I attended as a PhD candidate. Here are my notes about the interesting developments I observed.
 comments: true
 ---
 
-Donders Discussions is a neuroscience conference organised by doctoral researchers from the Donders Institute. This is the first neuroscience conference I attended. The venue - De Hamel, Nijmegen - is a perfect location for such conferences given it's carefree atmosphere and proximity to a beautiful landscape. It was enriching to sit through sessions about the problems in neuroscience which I do not deal with on a regular basis. I guess it will take time for that information to register in a useful context.
+Donders Discussions is a neuroscience conference organised by doctoral researchers from the Donders Institute. This is the first neuroscience conference I attended as a PhD candidate. The venue - De Hamel, Nijmegen - is a perfect location for such conferences given it's carefree atmosphere and proximity to a beautiful landscape. It was enriching to sit through sessions about the problems in neuroscience which I do not deal with on a regular basis. I guess it will take time for that information to register in a useful context.
 
 There were 16 sessions (4 sessions running parallely in a group, 4 groups), 4 keynote speeches, and 2 poster sessions over the two days of the conference. I attended some of them and am writing about the interesting bits here.
 

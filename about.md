@@ -4,7 +4,7 @@ title: About
 ---
 
 
-![Me!]({{site:url}}/assets/portrait1.jpeg)
+![Me!]({{site:url}}/assets/convo_img.jpg)
 
 Ciao! This is **Sushrut Thorat**'s personal webpage.<br> Now that you are here, I assume you want to know about me.
 
