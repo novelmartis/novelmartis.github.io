@@ -14,7 +14,7 @@ baseurl:          /
 
 author:
   name:           ‘Sushrut Thorat’
-  url:            http://novelmartis.github.io
+  url:            http://sushrutthorat.com
 
 gems: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
 paginate:         10
