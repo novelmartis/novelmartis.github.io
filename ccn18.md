@@ -5,16 +5,18 @@ title: The function of cue-driven feature-based feedback in object recognition
 (Project page made for CCN-2018)
 
 Authors: Sushrut Thorat, Marcel van Gerven, Marius Peelen
+
+<b>Resources:</b> [Paper][ccn18], Poster, Code
 <hr>
 
 <b>Abstract:</b> 
 
 Visual object recognition is not a trivial task, especially when the objects are degraded or surrounded by clutter or presented briefly. External cues (such as verbal cues or visual context) can boost recognition performance in such conditions. In this work, we build an artificial neural network to model the interaction between the object processing stream (OPS) and the cue. We study the effects of varying neural and representational capacities of the OPS on the performance boost provided by cue-driven feature- based feedback in the OPS. We observe that the feedback provides performance boosts only if the category-specific features about the objects cannot be fully represented in the OPS. This representational limit is more dependent on task demands than neural capacity. We also observe that the feedback scheme trained to maximise recognition performance boost is not the same as tuning-based feedback, and actually performs better than tuning-based feedback.
 
-<b>Resources:</b>
+<b>Comments:</b>
 
-[Link to Paper][ccn18] <br>
-Link to Poster <br>
-Link to Code <br>
+<hr>
 
 [ccn18]: https://ccneuro.org/2018/proceedings/1044.pdf
+
+{% include  disqus.html %}
