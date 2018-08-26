@@ -19,9 +19,9 @@ title: Projects
 [//]: # (Project with Peelen in the PhD)
 
 <div class="p_post">
-  <h3 class="p_post_h">The nature and function of object-scene interactions in the visual cortex</h3>
+  <h3 class="p_post_h">The functions and neural underpinnings of object and scene processing, and their interactions</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Neural underpinnings of object and scene processing (<a href="http://www.jneurosci.org/content/37/32/7700?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1">1</a>, <a href="https://doi.org/10.1016/j.neuroimage.2017.12.065">2</a>)
+  <b>Motivation:</b> Object-scene interactions and object grouping (<a href="http://www.jneurosci.org/content/37/32/7700?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1">1</a>, <a href="https://doi.org/10.1016/j.neuroimage.2017.12.065">2</a>)
 </div>
 
 [//]: # (Project with Peelen and Marcel)
