@@ -29,7 +29,8 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The nature and function of cue-driven feedback in object recognition</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.1101/233338">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)
+  <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.1101/233338">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)<br>
+    <b>Comments:</b> <a href="http://sushrutthorat.com/ccn18/">Paper accepted at CCN'18</a> <br>
 </div>
 
 
