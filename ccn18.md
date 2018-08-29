@@ -2,11 +2,11 @@
 layout: float_page
 title: The function of cue-driven feature-based feedback in object recognition
 ---
-(Project page made for CCN-2018)
+(Paper accepted at [CCN-2018][ccn])
 
 Authors: Sushrut Thorat, Marcel van Gerven, Marius Peelen
 
-<b>Resources:</b> [Paper][ccn18], [Poster][poster], [Code][git_c]
+<b>Resources:</b> [Paper][ccn18] ([Reviews & Replies][ccn18-rev]), [Poster][poster], [Code][git_c]
 <hr>
 
 <b>Abstract:</b> 
@@ -15,7 +15,9 @@ Visual object recognition is not a trivial task, especially when the objects are
 
 <hr>
 
+[ccn]: https://ccneuro.org
 [ccn18]: https://ccneuro.org/2018/proceedings/1044.pdf
+[ccn18-rev]: http://sushrutthorat.com/assets/ccn18-reviews-response.pdf
 [git_c]: https://github.com/novelmartis/cue-feedback-ccn18
 [poster]: https://doi.org/10.6084/m9.figshare.7012316.v1
 
