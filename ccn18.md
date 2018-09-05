@@ -19,6 +19,6 @@ Visual object recognition is not a trivial task, especially when the objects are
 [ccn18]: https://ccneuro.org/2018/proceedings/1044.pdf
 [ccn18-rev]: http://sushrutthorat.com/assets/ccn18-reviews-response.pdf
 [git_c]: https://github.com/novelmartis/cue-feedback-ccn18
-[poster]: https://doi.org/10.6084/m9.figshare.7012316.v1
+[poster]: https://doi.org/10.6084/m9.figshare.7012316.v5
 
 {% include  disqus.html %}
