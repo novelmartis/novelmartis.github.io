@@ -11,7 +11,7 @@ title: About
     + At the [Donders Centre for Cognition](http://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University, The Netherlands
     + Working at [Marius Peelen's Lab](https://sites.google.com/site/peelenlab/)
 * Research interests:
-    + The neural mechanisms behind the implementation, deployment, and control of visual attention 
+    + The neural mechanisms behind the deployment, and control of visual attention 
     + Why do mechanisms such as recurrence and reconstruction emerge in the visual system, and how would they help in machine learning?
     + The nature of personal identity and subjective experience
 
