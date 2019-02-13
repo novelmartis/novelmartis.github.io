@@ -29,10 +29,10 @@ It would be interesting to get around the time lag problem, but I’d put my bet
 
 [thesis]: https://dx.doi.org/10.6084/m9.figshare.1582657.v1
 [snn]: https://en.wikipedia.org/wiki/Spiking_neural_network
-[rnn]: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
-[cnn]: http://arxiv.org/abs/1605.07678
+[rnn]: https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+[cnn]: https://arxiv.org/abs/1605.07678
 [pid]: https://en.wikipedia.org/wiki/PID_controller
-[resume]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.6325&rep=rep1&type=pdf
-[neat]: http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.5457&rep=rep1&type=pdf
-[neat-quad]: http://classes.engr.oregonstate.edu/mime/fall2010/me537/Papers/NN_EA_application_shepherd.pdf
-[ijcnn]: http://dx.doi.org/10.1109/IJCNN.2015.7280822
+[resume]: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.6325&rep=rep1&type=pdf
+[neat]: https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.5457&rep=rep1&type=pdf
+[neat-quad]: https://classes.engr.oregonstate.edu/mime/fall2010/me537/Papers/NN_EA_application_shepherd.pdf
+[ijcnn]: https://dx.doi.org/10.1109/IJCNN.2015.7280822
