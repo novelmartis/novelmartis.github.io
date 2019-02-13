@@ -57,17 +57,17 @@ I would like to thank [Ionut-Teodor Sorodoc][ionut], [Arpan Saha][arpan], [Julie
 
 
 [coling]: https://arxiv.org/abs/1606.00025
-[erk12]: http://onlinelibrary.wiley.com/doi/10.1002/lnco.362/abstract
-[w2v]: http://papers.nips.cc/paper/5021-distributed-representations
-[baroni12]: http://www.aclweb.org/anthology/D/D10/D10-1115.pdf
-[hill15]: http://www.aclweb.org/anthology/Q16-1002
-[newword]: http://www.oxfordlearnersdictionaries.com/definition/english/jugaad_1?q=jugaad
-[shaw13]: http://ieeexplore.ieee.org/document/6060823/
-[onelook]: http://www.onelook.com/reverse-dictionary.shtml
-[func_word]: http://www.psych.nyu.edu/pylkkanen/Neural_Bases/13_Function_Words.pdf
+[erk12]: https://onlinelibrary.wiley.com/doi/10.1002/lnco.362/abstract
+[w2v]: https://papers.nips.cc/paper/5021-distributed-representations
+[baroni12]: https://www.aclweb.org/anthology/D/D10/D10-1115.pdf
+[hill15]: https://www.aclweb.org/anthology/Q16-1002
+[newword]: https://www.oxfordlearnersdictionaries.com/definition/english/jugaad_1?q=jugaad
+[shaw13]: https://ieeexplore.ieee.org/document/6060823/
+[onelook]: https://www.onelook.com/reverse-dictionary.shtml
+[func_word]: https://www.psych.nyu.edu/pylkkanen/Neural_Bases/13_Function_Words.pdf
 [vardos]: https://twitter.com/askvarad
 [arpan]: https://www.quora.com/profile/Arpan-Saha
-[julie]: http://www.synapticlee.co.uk/about/
+[julie]: https://www.synapticlee.co.uk/about/
 [zampa]: https://www5.unitn.it/People/en/Web/Persona/PER0001015#INFO
 [ionut]: https://twitter.com/IonutSorodoc
 [gitc]: https://github.com/novelmartis/RD16demo
