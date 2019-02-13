@@ -9,12 +9,12 @@ permalink:        pretty
 title:            martis.
 tagline:          ’Tis Sushrut Thorat
 description:      '<a href="http://ellafrancessanders.com/untranslatable-words-from-other-cultures/" target="_blank">Pochemuchka</a>.'
-url:              http://novelmartis.github.io
+url:              https://novelmartis.github.io
 baseurl:          /
 
 author:
   name:           ‘Sushrut Thorat’
-  url:            http://sushrutthorat.com
+  url:            https://sushrutthorat.com
 
 gems: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
 paginate:         10
