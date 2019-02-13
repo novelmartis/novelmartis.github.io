@@ -34,15 +34,15 @@ So, this is not a biologically realistic model of arithmetic computations, and s
 
 A more realistic method of implementing arithmetic operations needs to take into account the actual operational principles of biological neural networks such as [tight E-I balance][tight]. There are some [efforts][nips-tEI] in this direction. Hopefully, we’ll get to a point where we would be able to converse fluently in neural codes.
 
-[ijcnn]: http://dx.doi.org/10.1109/IJCNN.2015.7280822
+[ijcnn]: https://dx.doi.org/10.1109/IJCNN.2015.7280822
 [ijcnn-free]: https://www.academia.edu/20315873/Arithmetic_Computing_via_Rate_Coding_in_Neural_Circuits_with_Spike-triggered_Adaptive_Synapses
 [snn]: https://en.wikipedia.org/wiki/Spiking_neural_network
 [bnn]: https://en.wikipedia.org/wiki/Biological_neural_network
-[izhi]: http://eaton.math.rpi.edu/CSUMS/Papers/Neuro/Izhikevich04.pdf
+[izhi]: https://eaton.math.rpi.edu/CSUMS/Papers/Neuro/Izhikevich04.pdf
 [hh]: https://en.wikipedia.org/wiki/Hodgkin–Huxley_model
-[di]: http://research.mssm.edu/cnic/pdfs/nn0604-567.pdf
-[sfa]: http://www.bio.lmu.de/~benda/publications/adaptation03/adaptationh.html
+[di]: https://research.mssm.edu/cnic/pdfs/nn0604-567.pdf
+[sfa]: https://www.bio.lmu.de/~benda/publications/adaptation03/adaptationh.html
 [transfer]: ftp://ftp.icsi.berkeley.edu/pub/ai/jagota/vol2_6.pdf
-[intrinsic]: http://arxiv.org/pdf/1410.7881.pdf
-[tight]: http://www.nature.com/neuro/journal/v19/n3/full/nn.4243.html
+[intrinsic]: https://arxiv.org/pdf/1410.7881.pdf
+[tight]: https://www.nature.com/neuro/journal/v19/n3/full/nn.4243.html
 [nips-tEI]: https://papers.nips.cc/paper/5948-enforcing-balance-allows-local-supervised-learning-in-spiking-recurrent-networks.pdf
