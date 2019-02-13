@@ -74,7 +74,7 @@ The response during the 'complete' condition is weird - the subjects prefer low 
 [nnk]: https://scholar.google.nl/citations?user=Z3UgRXsAAAAJ&hl=en&oi=sra
 [be]: https://scholar.google.nl/citations?user=VKDX28YAAAAJ&hl=en&oi=ao
 [nd]: https://scholar.google.nl/citations?user=jSooh8YAAAAJ&hl=en&oi=ao
-[ms]: http://www.ru.nl/english/people/slors-m/
+[ms]: https://www.ru.nl/english/people/slors-m/
 [ac]: https://www.semanticscholar.org/author/Alexandra-O-Constantinescu/5382823
 [cct]: https://www.researchgate.net/profile/Chih_Chung_Ting
 [ehinger-17]: https://doi.org/10.7554/eLife.21761.001
