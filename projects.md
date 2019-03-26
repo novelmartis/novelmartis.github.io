@@ -29,7 +29,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The nature and function of cue-driven feedback in object recognition</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.1101/233338">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)<br>
+  <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.7554/eLife.38105">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)<br>
     <b>Comments:</b> <a href="https://sushrutthorat.com/ccn18/">Paper accepted at CCN'18</a> <br>
 </div>
 
@@ -65,7 +65,7 @@ title: Projects
   <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
   <img class="p_post" src="{{site.url}}/assets/revmap.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/vardos/">Varad Choudhari</a> <br>
-  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k. Sets a new baseline.<br>
+  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k.<br>
   <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a>, <a href="{{site.url}}/assets/coling2016_poster.pdf">COLING'16 Poster</a>, <a href="https://github.com/novelmartis/RD16demo">Code and Data</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">COLING paper in brief</a><br>
 </div>
