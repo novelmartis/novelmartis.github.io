@@ -2,10 +2,16 @@
 layout: page
 title: Misc.
 ---
+<p class="message">
+  Some of my Twitter threads.
+</p>
 
+- [Perception Day 2018 summary](https://twitter.com/martisamuser/status/1071357743318077441?s=20)
+- [Conference on Cognitive Computational Neuroscience 2018 summary](https://twitter.com/martisamuser/status/1037930887592206336?s=20)
+- [Brain Twitter Conference 2017 tweets](https://twitter.com/abc_aalto/status/855043613453058048?s=20)
 
 <p class="message">
-  Some useful resources on the internet...
+  Some useful resources on the internet.
 </p>
 
 - [Installing LaTeX and TexMaker on a Mac](https://thetechsolo.wordpress.com/2016/01/28/latex-on-mac-the-easy-way/)
