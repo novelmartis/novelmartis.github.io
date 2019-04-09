@@ -6,6 +6,8 @@ title: Misc.
   Some of my informative Twitter threads.
 </p>
 
+- [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
+
 - [Perception Day 2018 summary](https://twitter.com/martisamuser/status/1071357743318077441?s=20)
 
 - [Conference on Cognitive Computational Neuroscience 2018 summary](https://twitter.com/martisamuser/status/1037930887592206336?s=20)
