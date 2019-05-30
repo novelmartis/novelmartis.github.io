@@ -16,6 +16,7 @@ title: Projects
 </div>
 </h3>
 
+<!--
 [//]: # (Project with Peelen in the PhD)
 
 <div class="p_post">
@@ -23,14 +24,15 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> Object-scene interactions and object grouping (<a href="https://www.jneurosci.org/content/37/32/7700?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1">1</a>, <a href="https://doi.org/10.1016/j.neuroimage.2017.12.065">2</a>)
 </div>
+-->
 
 [//]: # (Project with Peelen and Marcel)
 
 <div class="p_post">
-  <h3 class="p_post_h">The nature and function of cue-driven feedback in object recognition</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <h3 class="p_post_h">The nature and function of task-based modulations in object recognition</h3>
+  <b>With:</b> <a href="https://www.ru.nl/personen/aldegheri-g/">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.7554/eLife.38105">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)<br>
-    <b>Comments:</b> <a href="https://sushrutthorat.com/ccn18/">Paper accepted at CCN'18</a> <br>
+    <b>Comments:</b> <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a> <br>
 </div>
 
 
@@ -42,7 +44,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="https://scholar.google.nl/citations?user=v4CvWHgAAAAJ&hl=en">Daniel Kaiser</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (derived through a behavioural task).<br>
   <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">CAOs'17 Talk</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Thesis</a><br>
-  <b>Comments:</b> Paper in prep <br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/1904.02866">Pre-print</a> <br>
 </div>
 
 {% comment %}
