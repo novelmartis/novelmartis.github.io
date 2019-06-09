@@ -18,7 +18,7 @@ title: About
 #### Previous education/experience:
 
 * MSc in Cognitive Neuroscience from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
-* BTech in Engineering Physics from [IIT Bombay](https://iitb.ac.in). <br>
+* BTech in Engineering Physics from [IIT Bombay](http://iitb.ac.in). <br>
 
 Further academically-relevant information can be found in my [curriculum vitae (CV)]({{site.url}}/assets/cv-full.pdf). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my past and current projects. My publications and preprints can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
 
