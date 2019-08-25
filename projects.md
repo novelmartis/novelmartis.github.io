@@ -6,8 +6,8 @@ title: Projects
 
 <p class="message">
   Find information about my current and past projects below.<br>
-  All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.<br>
-  My publications and preprints can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.
+  My peer-reviewed and preprint publications can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.<br>
+  All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.
 </p>
 
 <h3>
@@ -15,6 +15,15 @@ title: Projects
   Ongoing
 </div>
 </h3>
+
+[//]: # (Project with Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
+  <b>Comments:</b> fMRI experiment and data analysis ongoing.
+</div>
 
 <!--
 [//]: # (Project with Peelen in the PhD)
@@ -26,13 +35,20 @@ title: Projects
 </div>
 -->
 
-[//]: # (Project with Peelen and Marcel)
+<h3>
+<div class="p_year">
+  2019
+</div>
+</h3>
+
+[//]: # (Project with Giacomo, Peelen and Marcel)
 
 <div class="p_post">
-  <h3 class="p_post_h">The nature and function of task-based modulations in object recognition</h3>
+  <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
+  <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
   <b>With:</b> <a href="https://www.ru.nl/personen/aldegheri-g/">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Feature-based attention in CNNs (<a href="https://doi.org/10.7554/eLife.38105">1</a>, <a href="https://doi.org/10.6084/m9.figshare.5462164.v1">2</a>)<br>
-    <b>Comments:</b> <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a> <br>
+  <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations <i>are not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
+  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
 </div>
 
 
@@ -43,8 +59,8 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/anim_proj.png" height="200">
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="https://scholar.google.nl/citations?user=v4CvWHgAAAAJ&hl=en">Daniel Kaiser</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (derived through a behavioural task).<br>
-  <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">CAOs'17 Talk</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Thesis</a><br>
-  <b>Comments:</b> <a href="https://arxiv.org/abs/1904.02866">Pre-print</a> <br>
+  <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">CAOs'17 Talk</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Masters Thesis</a><br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/1904.02866">Pre-print (in press at eLife)</a> <br>
 </div>
 
 {% comment %}
@@ -83,9 +99,9 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">A Spiking Neural Network as a Quadcopter Flight Controller</h3>
   <img class="p_post" src="{{site.url}}/assets/btp.png" height="200">
-  <b>With:</b> Sukanya Patil, <a href="https://sites.google.com/site/rajendranbipin/">Bipin Rajendran</a> <br>
+  <b>With:</b> <a href="https://in.linkedin.com/in/sukanya-patil-b45009107">Sukanya Patil</a>, <a href="https://sites.google.com/site/rajendranbipin/">Bipin Rajendran</a> <br>
   <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses. SNNs are hard to tame!<br>
-  <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">Thesis</a>, <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a> (based on part <i>b</i>, <a href="{{site.url}}/assets/ijcnn2015_poster.pdf">IJCNN'15 Poster</a>) <br>
+  <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a>, <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a> (based on part <i>b</i>, <a href="{{site.url}}/assets/ijcnn2015_poster.pdf">IJCNN'15 Poster</a>) <br>
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
 </div>
 

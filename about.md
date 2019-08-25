@@ -24,7 +24,7 @@ Further academically-relevant information can be found in my [curriculum vitae (
 
 I'll blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy.
 
-I occasionally write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com).
+I occasionally (mostly used to) write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com).
 
 I am active on [Twitter](https://twitter.com/martisamuser). Feel free to connect there, or [drop an email](mailto:sushrut.thorat94@gmail.com).
 
