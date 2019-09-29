@@ -5,13 +5,14 @@ title: About
 
 <br>
 ![Me!]({{site:url}}/assets/convo_img.jpg)<br>
+Ciao! I am <b>Sushrut R. Thorat</b>.
 #### Current position:
 
 * Doctoral candidate in Cognitive Neuroscience
     + At the [Donders Centre for Cognition](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University, The Netherlands
     + Working at [Marius Peelen's Lab](https://sites.google.com/site/peelenlab/)
 * Research interests:
-    + The neural mechanisms behind the deployment, and control of visual attention 
+    + Modulation of visual processing via attention - its nature and function
     + Why do mechanisms such as recurrence and reconstruction emerge in the visual system, and how would they help in machine learning?
     + The nature of personal identity and subjective experience
 
@@ -24,9 +25,9 @@ Further academically-relevant information can be found in my [curriculum vitae (
 
 I'll blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy.
 
-I occasionally (mostly used to) write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com).
+<!-- I occasionally (mostly used to) write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com). -->
 
-I am active on [Twitter](https://twitter.com/martisamuser). Feel free to connect there, or [drop an email](mailto:sushrut.thorat94@gmail.com).
+I am active on [Twitter](https://twitter.com/martisamuser). Feel free to connect there, or [shoot an email](mailto:sushrut.thorat94@gmail.com).
 
 <hr>
 
