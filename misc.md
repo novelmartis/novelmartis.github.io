@@ -13,8 +13,6 @@ title: Misc.
 - [Conference on Cognitive Computational Neuroscience 2018 summary](https://twitter.com/martisamuser/status/1037930887592206336?s=20)
   - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp)
 
-- [Brain Twitter Conference 2017 presentation](https://twitter.com/abc_aalto/status/855043613453058048?s=20)
-
 <p class="message">
   Some useful resources on the internet.
 </p>
