@@ -6,7 +6,14 @@ layout: default
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
 </script>
 
-<div class="page">
-  <h1 class="page-title">{{ page.title }}</h1>
-  {{ content }}
-</div>
+{% if page.title != "About" %}
+  <div class="page">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {{ content }}
+  </div>
+{% else %}
+  <div class="page">
+    {{ content }}
+  </div>
+{% endif %}
+

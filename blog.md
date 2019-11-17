@@ -1,0 +1,68 @@
+---
+layout: default
+title: Blog
+flager: 1
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    
+    {% assign post = post %}
+{% if post.tags.size > 0 %}
+    {% capture tags_content %}Tags: {% endcapture %}
+    {% for post_tag in post.tags %}
+        {% for data_tag in site.data.tags %}
+            {% if data_tag.slug == post_tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+        {% endfor %}
+        {% if tag %}
+            {% capture tags_content_temp %}{{ tags_content }}<a href="/blog/tags/{{ tag.slug }}/">{{ tag.name }}</a>{% if forloop.last == false %}, {% endif %}{% endcapture %}
+            {% assign tags_content = tags_content_temp %}
+        {% endif %}
+    {% endfor %}
+{% else %}
+    {% assign tags_content = '' %}
+{% endif %}
+    
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-tags">{{ tags_content }}</span>
+    {% if post.description %}
+      <p class="message">{{ post.description }}&nbsp;<a href="{{ post.url }}">(read on)</a></p>
+    {% else %}
+      <p class="message">No description.&nbsp;<a href="{{ post.url }}">(read on)</a></p>
+    {% endif %}
+    
+    {% comment %}
+    {{ post.content }}
+    {% include  share.html %}
+    {% endcomment %}  
+      
+  </div>
+  
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

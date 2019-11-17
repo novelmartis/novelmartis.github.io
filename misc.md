@@ -29,4 +29,9 @@ title: Misc.
 
 - [Installing Jekyll for creating a website](https://x-team.com/blog/build-a-free-website-with-jekyll-and-github-pages/)
 	- If your website is configured to an older version of Jekyll, you might not use the bundler and use 'jekyll serve' alone. In that case, refer to [this issue](https://github.com/Huxpro/huxpro.github.io/issues/62). After that, manually install all the packages jekyll says are missing by using 'gem install jekyll-x', where x is the package of interest (e.g. archives)
+  - If you want to make a page other then the Blog your homepage, check [this discussion](https://github.com/jekyll/jekyll-help/issues/289).
+
+<hr>
+
+This webpage, hosted with [Github Pages](https://pages.github.com), was built with [Jekyll](http://jekyllrb.com) using the [Hyde](https://github.com/poole/hyde) theme designed by [@mdo](https://twitter.com/mdo). The image of [Goku riding Nimbus](https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-241742.png) was taken from [Taringa!](https://www.taringa.net/post/imagenes/18835146/Wallpapers-Dragon-Ball.html)
 
