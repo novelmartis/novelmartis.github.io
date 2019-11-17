@@ -64,7 +64,7 @@ title: Projects
 [//]: # (Project with Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Understanding the animacy organisation in the human visual ventral stream using Convolutional Neural Networks</h3>
+  <h3 class="p_post_h">The nature of the animacy organization in human ventral temporal cortex</h3>
   <img class="p_post" src="{{site.url}}/assets/anim_proj.png" height="200">
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="https://scholar.google.nl/citations?user=v4CvWHgAAAAJ&hl=en">Daniel Kaiser</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (derived through a behavioural task).<br>
