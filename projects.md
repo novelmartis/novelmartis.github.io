@@ -22,7 +22,7 @@ title: Projects
   <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
-  <b>Comments:</b> fMRI experiment and data analysis ongoing.
+  <b>Comments:</b> fMRI experiment and data analysis in progress.
 </div>
 
 <!--
@@ -46,9 +46,19 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
   <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
-  <b>With:</b> <a href="https://www.ru.nl/personen/aldegheri-g/">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations <i>are not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
   <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
+</div>
+
+[//]: # (Project with Ilze, Sjoerd, and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">The influence of scene information on object processing</h3>
+  <img class="p_post" src="{{site.url}}/assets/sc-obj.png" height="200">
+  <b>With:</b> Ilze Thoonen, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for assessing these observations. <br>
+  <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
 
 [//]: # (Project with Peelen)

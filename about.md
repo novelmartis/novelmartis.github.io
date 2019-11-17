@@ -13,6 +13,7 @@ Ciao! I am <b>Sushrut R. Thorat</b>.
     + Working at [Marius Peelen's Lab](https://sites.google.com/site/peelenlab/)
 * Research interests:
     + Modulation of visual processing via attention - its nature and function
+    + Statistical learning of the positional and co-occurrence regularity of distractors in visual object detection, towards understanding the continuum between objects and scenes
     + Why do mechanisms such as recurrence and reconstruction emerge in the visual system, and how would they help in machine learning?
     + The nature of personal identity and subjective experience
 
