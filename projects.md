@@ -21,7 +21,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
+  <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation (FSGM)</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
   <b>Comments:</b> fMRI experiment and data analysis in progress.
 </div>
 
@@ -57,7 +57,7 @@ title: Projects
   <h3 class="p_post_h">The influence of scene information on object processing</h3>
   <img class="p_post" src="{{site.url}}/assets/sc-obj.png" height="200">
   <b>With:</b> Ilze Thoonen, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for assessing these observations. <br>
+  <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for validating these observations. <br>
   <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
 
@@ -67,7 +67,7 @@ title: Projects
   <h3 class="p_post_h">The nature of the animacy organization in human ventral temporal cortex</h3>
   <img class="p_post" src="{{site.url}}/assets/anim_proj.png" height="200">
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="https://scholar.google.nl/citations?user=v4CvWHgAAAAJ&hl=en">Daniel Kaiser</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (derived through a behavioural task).<br>
+  <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (quantified through a behavioural task).<br>
   <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">CAOs'17 Talk</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Masters Thesis</a>, <a href="https://doi.org/10.7554/eLife.47142">eLife'19 paper</a>, <a href="https://doi.org/10.6084/m9.figshare.10033025.v1">CCN'19 poster</a><br>
   <b>Comments:</b> <a href="https://twitter.com/abc_aalto/status/855043613453058048?s=20">Masters thesis in brief</a>, <a href="https://twitter.com/martisamuser/status/1171381533128777728?s=20">eLife paper in brief</a><br>
 </div>
@@ -92,7 +92,7 @@ title: Projects
   <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
   <img class="p_post" src="{{site.url}}/assets/revmap.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/vardos/">Varad Choudhari</a> <br>
-  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs atleast as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k.<br>
+  <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k.<br>
   <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a>, <a href="{{site.url}}/assets/coling2016_poster.pdf">COLING'16 Poster</a>, <a href="https://github.com/novelmartis/RD16demo">Code and Data</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">COLING paper in brief</a><br>
 </div>

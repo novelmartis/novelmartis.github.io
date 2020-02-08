@@ -10,7 +10,7 @@ title: Sushrut Thorat.
     + At the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University.
     + Advised by [Marius Peelen](https://sites.google.com/site/peelenlab/lab-members).
 * Research interests:
-    + Modulation of visual processing via attention - its nature and function.
+    + The nature and function of attentional modulation of visual object processing.
     + Statistical learning of the positional and co-occurrence regularity of distractors in visual object detection - towards understanding the continuum between objects and scenes.
     + Why do mechanisms such as recurrence and reconstruction emerge in the visual system, and how would they help in machine learning?
     + The nature of personal identity and subjective experience.
