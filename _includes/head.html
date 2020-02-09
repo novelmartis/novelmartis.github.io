@@ -42,11 +42,15 @@
   <!-- Twitter cards -->
   <meta name="twitter:creator" content="@martisamuser">
 
-  {% if page.description %}
+  {% if page.title %}
     <meta name="twitter:title"   content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
     <meta name="twitter:title"   content="{{ site.title }}">
+  {% endif %}
+
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
 
