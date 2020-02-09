@@ -16,7 +16,7 @@ author:
   name:           ‘Sushrut Thorat’
   url:            https://sushrutthorat.com
 
-plugins: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji, jekyll-seo-tag]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
 paginate:         10
 paginate_path: "page:num"
 
