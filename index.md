@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title:
 ---
 
 <img align="top-left" src="{{site.url}}/assets/convo_img.jpg" height="190">

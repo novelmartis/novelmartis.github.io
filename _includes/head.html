@@ -11,10 +11,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <title>
-    {% if page.title == "Sushrut Thorat." %}
-      {{ site.title }}
-    {% else %}
+    {% if page.title %}
       {{ page.title }}
+    {% else %}
+      {{ site.title }}
     {% endif %}
   </title>
 
