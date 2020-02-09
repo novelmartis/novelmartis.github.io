@@ -6,7 +6,7 @@ description: Details about the implementation of TFCE in the MATLAB toolbox CoSM
 comments: true
 ---
 
-<i>It is assumed here that the reader is already somewhat familiar with the TFCE procedure.</i>
+<i>It is assumed here that the reader is already somewhat familiar with the TFCE procedure and can use CoSMoMVPA.</i>
 
 While the [2016 Frontiers paper][16cosmo] introduces the framework of CoSMoMVPA, the exact details of how it implements threshold-free cluster enhancement (TFCE) for multiple-comparisons correction are somewhat opaque. This blog post is aimed at describing those details.
 
@@ -37,20 +37,20 @@ In a typical neuroimaging analysis, we have values for a given variable across v
 
 #### The null distribution and statistical inference
 
-As we are usually interested in inferring if a voxel's value is above/below baseline, we would want to compare that value to a null distribution of values that are equally spread around the baseline. In CoSMoMVPA, this is accomplished by iteratively flipping the sign of the voxel values of a random half of the participants (after subtracting the baseline value). For each iteration, the TFCE values are computed, separately for the positively and negatively valued voxels, as above, to generate null distributions of TFCE values for both the positively and negatively valued voxels respectively. 
+As we are usually interested in inferring if a voxel's value is above/below baseline, we would want to compare that value to a null distribution of values that are equally spread around the baseline. In CoSMoMVPA, this is accomplished by iteratively flipping the sign of the voxel values of a random half of the participants (after subtracting the baseline value). This ensures that the expected mean across iterations, for each voxel, is equal to the baseline. For each iteration, the TFCE values are computed, separately for the positively and negatively valued voxels, as above, to generate null distributions of TFCE values for both the positively and negatively valued voxels respectively. 
 
-In the case of the positively valued voxels, the number of iterations where the TFCE values for the positively valued voxels, in those iterations, were less than the actual TFCE value is computed. If that number is more than half of the total number of iterations, that number is scaled to lie between 0.5 and 1 (1 where all iterations yield lower TFCE values than the real one). Similarly, for the negatively valued voxels, that number is scaled to lie between 0 (0 where all iterations yield lower TFCE values than the real one) and 0.5. Then using the inverse normal CDF, a z-score is computed for each voxel which is the output of the entire procedure.
+In the case of a positively valued voxel, the iterations where the z-scores (obtained after the standardization procedure explained earlier) are positive for that voxel, are considered. The number of iterations where the TFCE values are less than the actual TFCE value of that voxel is computed. If that number is more than half of the total number of iterations, that number is scaled to lie between 0.5 and 1 (1 where all iterations yield lower TFCE values than the actual value). Similarly, for a negatively valued voxel, that number is scaled to lie between 0 (0 where all iterations yield lower TFCE values than the actual one) and 0.5. Then using the inverse normal CDF, a z-score is computed for each voxel which is the output of the entire procedure.
 
-If we wish to restrict the false discovery rate to, say, 5%, we can threshold the final output at $$z\geq1.96$$ and $$z\leq-1.96$$.
+For statistical inference, if we wish to restrict the false discovery rate to, say, 5%, we can threshold the final output at $$z\geq1.96$$ and $$z\leq-1.96$$.
 
 #### Example script
 
 Adapted from [CoSMoMVPA demo code][dst].
 
 ```Matlab
-% Let's say ds contains the voxel values (e.g. output of a searchlight analysis) across the aligned brains of N participants.
+% Let ds.samples contains the voxel values (e.g. output of a searchlight analysis) across the aligned brains of N participants.
 
-% Compute voxel neighborhoods (useful in clustering required during TFCE computation)
+% Compute voxel neighborhoods (used in the clustering procedure required during TFCE computation)
 cluster_nbrhood = cosmo_cluster_neighborhood(ds);
 
 % Parameters of the procedure
@@ -69,8 +69,12 @@ z_th = norminv(1-p/2); % two-sided test
 % Create thresholded maps and save them
 pos_voxs = tfce_zscores.samples >= z_th;
 neg_voxs = tfce_zscores.samples <= -z_th;
+
+% map of all responses significantly above the baseline
 tfce_zscores.samples = pos_voxs;
-cosmo_map2fmri(tfce_zscores, 'pos_voxs.nii');
+cosmo_map2fmri(tfce_zscores, 'pos_voxs.nii'); 
+
+% map of all responses significantly below the baseline
 tfce_zscores.samples = neg_voxs;
 cosmo_map2fmri(tfce_zscores, 'neg_voxs.nii');
 ```
