@@ -39,11 +39,24 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-  <!-- I prefer the summary_large_image Twitter card for posts. -->
-  <meta name="twitter:card" content="summary_large_image" />
-  <!-- You, you're the creator. -->
-  <meta name="twitter:creator" content="@martisamuser" />
-  <!-- This property is for the article title, not site title. -->
-  <meta name="twitter:title" content="{{page.title}}" />
+  <!-- Twitter cards -->
+  <meta name="twitter:creator" content="@martisamuser">
+  <meta name="twitter:title"   content="{{ page.title }}">
+
+  {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+
+  {% if page.image %}
+    <meta name="twitter:card"  content="summary_large_image">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  {% else %}
+    <meta name="twitter:card"  content="summary">
+    <meta name="twitter:image" content="{{ site.title_image }}">
+  {% endif %}
+  <!-- end of Twitter cards -->
+
       
 </head>

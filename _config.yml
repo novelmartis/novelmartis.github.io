@@ -11,6 +11,7 @@ tagline:          ’Tis Sushrut Thorat
 description:      '<a href="https://ellafrancessanders.com/untranslatable-words-from-other-cultures/" target="_blank">Pochemuchka</a>.'
 url:              https://sushrutthorat.com
 baseurl:          
+title_image:       {{site.url}}/assets/goku_peace.png
 
 author:
   name:           ‘Sushrut Thorat’
