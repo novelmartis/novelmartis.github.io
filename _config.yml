@@ -11,12 +11,13 @@ tagline:          ’Tis Sushrut Thorat
 description:      '<a href="https://ellafrancessanders.com/untranslatable-words-from-other-cultures/" target="_blank">Pochemuchka</a>.'
 url:              https://sushrutthorat.com
 baseurl:          
+twitter_username: martisamuser
 
 author:
   name:           ‘Sushrut Thorat’
   url:            https://sushrutthorat.com
 
-plugins: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji]
+plugins: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji, jekyll-seo-tag]
 paginate:         10
 paginate_path: "page:num"
 
