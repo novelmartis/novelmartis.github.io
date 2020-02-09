@@ -6,6 +6,8 @@ description: Details about the implementation of TFCE in the MATLAB toolbox CoSM
 comments: true
 ---
 
+<i>It is assumed here that the reader is already somewhat familiar with the TFCE procedure.</i>
+
 While the [2016 Frontiers paper][16cosmo] introduces the framework of CoSMoMVPA, the exact details of how it implements threshold-free cluster enhancement (TFCE) for multiple-comparisons correction are somewhat opaque. This blog post is aimed at describing those details.
 
 #### The principle
@@ -22,9 +24,10 @@ There are two steps in this procedure:
 
 $$TFCE(p) = \int_{h_0}^{h_p}e(h)^Eh^Hdh$$
 
-While the above formula defines TFCE, in CoSMoMVPA it is computed in an iterative procedure as follows. 
+E and H are constants which weigh the contribution of the cluster extent (e) and height (h) towards the TFCE value. While the above formula defines TFCE, in CoSMoMVPA it is computed in an iterative procedure as follows.
 
-Let's say the maximum value of the relevant variable (e.g. GLM weights in fMRI) across voxels is $$h_m$$. Then we define $$\approx (h_m-h_0)/\Delta h$$ markers between $$h_0$$ and $$h_m$$, where $$h_0$$ is the baseline value. At every marker, we list the voxels with values above the value of the marker. We then identify the largest possible clusters with contiguous voxels. In each cluster, every voxel's TFCE value is incremented by $$\Delta h(\text{# of voxels in the cluster})^E(\text{value of the marker})^H$$, where usually $$\Delta h = 0.1$$, $$E = 0.5$$, and $$H = 2$$ (check out the [TFCE paper][09tfce] for justification).
+Let's say the maximum value of the relevant variable (e.g. GLM weights in fMRI) across voxels is $$h_m$$. Then we define $$\approx (h_m-h_0)/\Delta h$$ markers between $$h_0$$ and $$h_m$$, where $$h_0$$ is the baseline value (e.g. 0 in the case of fMRI GLM weights, or 50 in the case of binary classification accuracy. Note that these raw scores are not directly used to compute the TFCE values, as explained later). 
+At every marker, we list the voxels with values above the value of the marker. We then identify the largest possible clusters with contiguous voxels. In each cluster, every voxel's TFCE value is incremented by $$\Delta h(\text{# of voxels in the cluster})^E(\text{value of the marker})^H$$, where usually $$\Delta h = 0.1$$, $$E = 0.5$$, and $$H = 2$$ (check out the [TFCE paper][09tfce] for justification).
 
 This computation of TFCE values is done with the function [<i>cosmo_measure_clusters</i>][cmc] in CoSMoMVPA.
 
