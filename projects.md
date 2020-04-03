@@ -25,6 +25,16 @@ title: Projects
   <b>Comments:</b> fMRI experiment and data analysis in progress.
 </div>
 
+[//]: # (Project with Giacomo, Peelen and Marcel)
+
+<div class="p_post">
+  <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
+  <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations are <i>not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
+  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
+</div>
+
 <!--
 [//]: # (Project with Peelen in the PhD)
 
@@ -40,16 +50,6 @@ title: Projects
   2019
 </div>
 </h3>
-
-[//]: # (Project with Giacomo, Peelen and Marcel)
-
-<div class="p_post">
-  <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
-  <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations are <i>not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
-  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
-</div>
 
 [//]: # (Project with Ilze, Sjoerd, and Peelen)
 
