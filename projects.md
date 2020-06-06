@@ -22,7 +22,16 @@ title: Projects
   <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation (FSGM)</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
-  <b>Comments:</b> fMRI experiment and data analysis in progress.
+  <b>Comments:</b> fMRI acquisition completed. Data analysis in progress.
+</div>
+
+[//]: # (Project with Gen and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">The influence of distractor regularities on visual search</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if we can do the same with novel groups of abstract objects and if such regularities can be learnt implicitly during the search task to increase efficiency.<br>
+  <b>Comments:</b> Online behavioural testing in progress.
 </div>
 
 [//]: # (Project with Giacomo, Peelen and Marcel)
@@ -124,4 +133,3 @@ title: Projects
   Comments / Further links
 </div>
 {% endcomment %}
-
