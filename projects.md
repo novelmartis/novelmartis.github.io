@@ -22,7 +22,7 @@ title: Projects
   <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation (FSGM)</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
-  <b>Comments:</b> fMRI acquisition completed. Data analysis in progress.
+  <b>Comments:</b> fMRI acquisition and analysis completed. Paper being written.
 </div>
 
 [//]: # (Project with Gen and Peelen)
@@ -30,35 +30,25 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The influence of distractor regularities on visual search</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if we can do the same with novel groups of abstract objects and if such regularities can be learnt implicitly during the search task to increase efficiency.<br>
-  <b>Comments:</b> Online behavioural testing in progress.
+  <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if such regularities can be learnt implicitly during the search task to increase efficiency, and how the representations of these objects change as a result of grouping.<br>
+  <b>Comments:</b> Online behavioural testing and EEG experiment in progress.
 </div>
-
-[//]: # (Project with Giacomo, Peelen and Marcel)
-
-<div class="p_post">
-  <h3 class="p_post_h">The function and nature of early task-based modulations in object detection</h3>
-  <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations are <i>not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
-  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
-</div>
-
-<!--
-[//]: # (Project with Peelen in the PhD)
-
-<div class="p_post">
-  <h3 class="p_post_h">The functions and neural underpinnings of object and scene processing, and their interactions</h3>
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Object-scene interactions and object grouping (<a href="https://www.jneurosci.org/content/37/32/7700?utm_source=TrendMD&utm_medium=cpc&utm_campaign=JNeurosci_TrendMD_1">1</a>, <a href="https://doi.org/10.1016/j.neuroimage.2017.12.065">2</a>)
-</div>
--->
 
 <h3>
 <div class="p_year">
   2019
 </div>
 </h3>
+
+[//]: # (Project with Giacomo, Peelen and Marcel)
+
+<div class="p_post">
+  <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
+  <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations are <i>not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
+  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
+</div>
 
 [//]: # (Project with Ilze, Sjoerd, and Peelen)
 
