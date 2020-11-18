@@ -19,10 +19,10 @@ title: Projects
 [//]: # (Project with Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">The neural underpinnings of feature-based attention in the human brain</h3>
+  <h3 class="p_post_h">Spatially-global attention to body silhouettes in the human brain</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> <a href="https://doi.org/10.1016/j.cub.2004.04.028">Feature-similarity gain modulation (FSGM)</a> has been proposed as a candidate for neural modulations underlying feature-based attention. Our <a href="https://arxiv.org/abs/1903.10446">previous work</a> suggests that when attending to objects, FSGM might not be optimal in early visual areas. We are investigating if this suggestion holds true in the case of the human brain, with an fMRI experiment. <br>
-  <b>Comments:</b> fMRI acquisition and analysis completed. Paper being written.
+  <b>Summary:</b> If high-level visual features (e.g. shape) can be prioritised (attended) in a spatially-global fashion is unclear. We found attentional gain modulation of the fMRI representations of body silhouettes in high-level visual cortex, even though those silhouttes were presented in task-irrelevant locations. <br>
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper being written.
 </div>
 
 [//]: # (Project with Gen and Peelen)
