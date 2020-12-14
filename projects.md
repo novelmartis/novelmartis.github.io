@@ -19,9 +19,9 @@ title: Projects
 [//]: # (Project with Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Spatially-global attention to body silhouettes in the human brain</h3>
+  <h3 class="p_post_h">Bodies as features in visual search</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> If high-level visual features (e.g. shape) can be prioritised (attended) in a spatially-global fashion is unclear. We found attentional gain modulation of the fMRI representations of body silhouettes in high-level visual cortex, even though those silhouttes were presented in task-irrelevant locations. <br>
+  <b>Summary:</b> Are high-level visual features (e.g. shape) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
   <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper being written.
 </div>
 
