@@ -34,6 +34,14 @@ title: Projects
   <b>Comments:</b> Online behavioural testing and EEG experiment in progress.
 </div>
 
+[//]: # (Project with Giacomo and Tim)
+
+<div class="p_post">
+  <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
+  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> The recurrent connectivity in a recurrent neural network performing view invariant object categorisation, in debris, carries information about category-orthogonal object features in order to, iteratively, filter out information about the debris throughout the network.<br>
+</div>
+
 <h3>
 <div class="p_year">
   2019
