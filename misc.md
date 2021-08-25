@@ -19,7 +19,8 @@ title: Misc.
 
 - [Installing LaTeX and TexMaker on a Mac](https://thetechsolo.wordpress.com/2016/01/28/latex-on-mac-the-easy-way/)
   - The [Homebrew](https://brew.sh) and [Homebrew Cask](https://caskroom.github.io) installation instructions are updated on their respective webpages.
-  - The other instructions work fine (04/10/17)
+  - In the installation codes just drop "cask"
+  - The other instructions work fine (25/08/21)
 
 - [Running Tensorboard through a remote server](https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server)
   - The first solution works wonderfully (14/12/17)
@@ -29,7 +30,7 @@ title: Misc.
 
 - [Installing Jekyll for creating a website](https://x-team.com/blog/build-a-free-website-with-jekyll-and-github-pages/)
 	- If your website is configured to an older version of Jekyll, you might not use the bundler and use 'jekyll serve' alone. In that case, refer to [this issue](https://github.com/Huxpro/huxpro.github.io/issues/62). After that, manually install all the packages jekyll says are missing by using 'gem install jekyll-x', where x is the package of interest (e.g. archives)
-  - If you want to make a page other then the Blog your homepage, check [this discussion](https://github.com/jekyll/jekyll-help/issues/289).
+  - If you want to make a page other than the Blog your homepage, check [this discussion](https://github.com/jekyll/jekyll-help/issues/289).
   - If you are having trouble with ruby or jekyll (if "jekyll -v" throws an error), you might want to perform a clean install of homebrew to jekyll. You can do so with [this script](https://github.com/monfresh/laptop)
 
 <hr>
