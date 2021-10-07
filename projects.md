@@ -22,7 +22,7 @@ title: Projects
   <h3 class="p_post_h">Bodies as features in visual search</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Are high-level visual features (e.g. shape) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper being written.
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper under review.
 </div>
 
 [//]: # (Project with Gen and Peelen)
@@ -40,7 +40,7 @@ title: Projects
   <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> The recurrent connectivity in a recurrent neural network performing view invariant object categorisation, in debris, carries information about category-orthogonal object features in order to, iteratively, filter out information about the debris throughout the network.<br>
-  <b>Comments:</b> Paper being written.
+  <b>Comments:</b> Paper under review.
 </div>
 
 <h3>
