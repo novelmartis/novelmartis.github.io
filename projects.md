@@ -35,6 +35,12 @@ title: Projects
   <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
 </div>
 
+<h3>
+<div class="p_year">
+  2021
+</div>
+</h3>
+
 [//]: # (Project with Giacomo and Tim)
 
 <div class="p_post">
