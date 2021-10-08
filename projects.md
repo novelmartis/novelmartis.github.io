@@ -20,9 +20,10 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Bodies as features in visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Are high-level visual features (e.g. shape) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper under review.
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper submitted.
 </div>
 
 [//]: # (Project with Gen and Peelen)
@@ -31,7 +32,7 @@ title: Projects
   <h3 class="p_post_h">The influence of distractor regularities on visual search</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if such regularities can be learnt implicitly during the search task to increase efficiency, and how the representations of these objects change as a result of grouping.<br>
-  <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP 2021 poster</a>, paper being written.
+  <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP 2021 poster</a>, papers being written.
 </div>
 
 [//]: # (Project with Giacomo and Tim)
@@ -39,8 +40,8 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> The recurrent connectivity in a recurrent neural network performing view invariant object categorisation, in debris, carries information about category-orthogonal object features in order to, iteratively, filter out information about the debris throughout the network.<br>
-  <b>Comments:</b> Paper under review.
+  <b>Summary:</b> The recurrent flow in a recurrent neural network performing view-invariant object categorisation in clutter, carries information about category-orthogonal object features in order to, iteratively, filter out information about the clutter throughout the network.<br>
+  <b>Comments:</b> <a href = "https://doi.org/10.6084/m9.figshare.16778050.v1">CRS 2021 poster</a>, paper under review.
 </div>
 
 <h3>
