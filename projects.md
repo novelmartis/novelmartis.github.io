@@ -16,16 +16,6 @@ title: Projects
 </div>
 </h3>
 
-[//]: # (Project with Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Bodies as features in visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper submitted.
-</div>
-
 [//]: # (Project with Gen and Peelen)
 
 <div class="p_post">
@@ -49,6 +39,16 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In a recurrent neural network trained for view-invariant object categorisation in cluttered images, the recurrent flow carries information about category-orthogonal object features (e.g. object location), which is used, iteratively, to constrain subsequent processing towards optimising categorisation. <br>
   <b>Comments:</b> <a href = "https://doi.org/10.6084/m9.figshare.16778050.v1">CRS'21 poster</a>, paper under review.
+</div>
+
+[//]: # (Project with Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Bodies as features in visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper submitted.
 </div>
 
 <h3>
