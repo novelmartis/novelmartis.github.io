@@ -124,7 +124,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">A Spiking Neural Network as a Quadcopter Flight Controller</h3>
   <img class="p_post" src="{{site.url}}/assets/btp.png" height="200">
-  <b>With:</b> <a href="https://in.linkedin.com/in/sukanya-patil-b45009107">Sukanya Patil</a>, <a href="https://sites.google.com/site/rajendranbipin/">Bipin Rajendran</a> <br>
+  <b>With:</b> <a href="https://in.linkedin.com/in/sukanya-patil-b45009107">Sukanya Patil</a>, <a href="https://scholar.google.com/citations?user=QDEeC8EAAAAJ&hl=en">Bipin Rajendran</a> <br>
   <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses. SNNs are hard to tame!<br>
   <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a>, <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a> (based on part <i>b</i>, <a href="{{site.url}}/assets/ijcnn2015_poster.pdf">IJCNN'15 Poster</a>) <br>
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
