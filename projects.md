@@ -19,7 +19,7 @@ title: Projects
 [//]: # (Project with Gen and Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">The influence of distractor regularities on visual search</h3>
+  <h3 class="p_post_h">The influence of distractor regularities in visual search</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if such regularities can be learnt implicitly during the search task to increase efficiency, and how the representations of these objects change as a result of grouping.<br>
   <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
