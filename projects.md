@@ -21,15 +21,9 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The influence of distractor regularities in visual search</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Natural object groups (e.g. egg on egg cup) <a href="https://www.pnas.org/content/111/30/11217">have been shown</a> to enhance object search as compared to their irregular versions (e.g. egg cup on egg). We are assessing if such regularities can be learnt implicitly during the search task to increase efficiency, and how the representations of these objects change as a result of grouping.<br>
+  <b>Motivation:</b> Visual search can become more efficient by relying on the co-occurrence statistics of distractor shapes. This increased efficiency is reflected in better orientation of visual attention (N2pc component in EEG) and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
   <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
 </div>
-
-<h3>
-<div class="p_year">
-  2021
-</div>
-</h3>
 
 [//]: # (Project with Giacomo and Tim)
 
@@ -48,7 +42,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper submitted.
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper under review.
 </div>
 
 <h3>
