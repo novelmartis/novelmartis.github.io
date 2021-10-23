@@ -19,7 +19,7 @@ title: Projects
 [//]: # (Project with Gen and Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">The influence of distractor regularities in visual search</h3>
+  <h3 class="p_post_h">Statistical learning of distractor object groups aids visual search</h3>
   <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Motivation:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. The increased search efficiency is reflected in better orientation of visual attention (N2pc component in EEG), and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
