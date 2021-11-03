@@ -59,7 +59,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/SwitchSchem.png" height="200">
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.nl/citations?user=sX0ZypwAAAAJ&hl=en&oi=ao">Marcel van Gerven</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Task-based modulation of early visual processing in neural networks alleviates subsequent capacity limits caused by task and neural constraints.  Bias/gain modulation of neural activations can be linked to tapping into a superposition of networks. Optimised neural modulations are <i>not</i> <a href="https://doi.org/10.1016/j.cub.2004.04.028">feature-similarity gain modulations</a>. <br>
-  <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
+  <b>Publications:</b> <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
 </div>
 
 [//]: # (Project with Ilze, Sjoerd, and Peelen)
@@ -69,7 +69,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/sc-obj.png" height="200">
   <b>With:</b> Ilze Thoonen, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for validating these observations. <br>
-  <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
+  <b>Comments:</b> <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
 
 [//]: # (Project with Peelen)
@@ -79,7 +79,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/anim_proj.png" height="200">
   <b>With:</b> <a href="https://scholar.google.it/citations?user=5GQjAZkAAAAJ&hl=en&oi=ao">Daria Proklova</a>, <a href="https://scholar.google.nl/citations?user=v4CvWHgAAAAJ&hl=en">Daniel Kaiser</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The animacy organisation in the ventral temporal cortex is not fully driven by visual feature differences (modelled with a CNN). It also depends on non-visual (inferred) factors such as agency (quantified through a behavioural task).<br>
-  <a href="https://youtu.be/L-BZKw72Nb4?list=PL0HxeKpsusXCyMF_GfQJ0eMagKNYU79xq">CAOs'17 Talk</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Masters Thesis</a>, <a href="https://doi.org/10.7554/eLife.47142">eLife'19 paper</a>, <a href="https://doi.org/10.6084/m9.figshare.10033025.v1">CCN'19 poster</a><br>
+  <b>Publications:</b> <a href="https://doi.org/10.7554/eLife.47142">eLife'19 paper</a>, <a href="https://doi.org/10.6084/m9.figshare.5919154.v1">Masters Thesis</a> <br>
   <b>Comments:</b> <a href="https://twitter.com/abc_aalto/status/855043613453058048?s=20">Masters thesis in brief</a>, <a href="https://twitter.com/martisamuser/status/1171381533128777728?s=20">eLife paper in brief</a><br>
 </div>
 
@@ -104,7 +104,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/revmap.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/vardos/">Varad Choudhari</a> <br>
   <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k.<br>
-  <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a>, <a href="{{site.url}}/assets/coling2016_poster.pdf">COLING'16 Poster</a>, <a href="https://github.com/novelmartis/RD16demo">Code and Data</a><br>
+  <b>Publications:</b> <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">COLING paper in brief</a><br>
 </div>
 
@@ -121,7 +121,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/btp.png" height="200">
   <b>With:</b> <a href="https://in.linkedin.com/in/sukanya-patil-b45009107">Sukanya Patil</a>, <a href="https://scholar.google.com/citations?user=QDEeC8EAAAAJ&hl=en">Bipin Rajendran</a> <br>
   <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses. SNNs are hard to tame!<br>
-  <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a>, <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a> (based on part <i>b</i>, <a href="{{site.url}}/assets/ijcnn2015_poster.pdf">IJCNN'15 Poster</a>) <br>
+  <b>Publications:</b> <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a>, <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
 </div>
 
