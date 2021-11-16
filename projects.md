@@ -48,8 +48,8 @@ title: Projects
   <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
   <img class="p_post" src="{{site.url}}/assets/rnn-filter.png" height="200">
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In a recurrent neural network, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is iteratively used to constrain inferences about the object's category.<br>
-  <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a>
+  <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is iteratively used to constrain subsequent inference about the object's category.<br>
+  <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
   <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>.
 </div>
 
