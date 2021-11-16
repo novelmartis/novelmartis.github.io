@@ -50,7 +50,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is used, iteratively, to constrain the subsequent inferences about the object's category.<br>
   <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
-  <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>.
+  <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
 </div>
 
 <h3>
@@ -111,7 +111,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/revmap.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/vardos/">Varad Choudhari</a> <br>
   <b>Summary:</b> A method to process any forward word dictionary to build a reverse dictionary, using a n-hop reverse search on a graph, through word definitions. Performs as well as the state-of-the-art on a 3k lexicon. Doesn't scale well to 80k.<br>
-  <b>Publications:</b> <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a><br>
+  <b>Publication:</b> <a href="https://arxiv.org/abs/1606.00025">COLING'16 Paper</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">COLING paper in brief</a><br>
 </div>
 
