@@ -33,7 +33,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, paper being revised.
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, <a href="https://doi.org/10.1101/2021.11.17.469004">bioRxiv preprint</a>
 </div>
 
 <h3>
