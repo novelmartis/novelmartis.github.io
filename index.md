@@ -3,7 +3,7 @@ layout: page
 title:
 ---
 
-<img align="top-left" src="{{site.url}}/assets/convo_img.jpg" height="190">
+<img align="top-left" src="{{site.url}}/assets/portrait_main.JPG" height="190">
 # Sushrut Thorat.
 
 I am a cognitive scientist as heart and a computational cognitive neuroscientist in practice. I am currently on a quest to understand how we can study the human brain to figure out the information processing underlying certain visual cognitive processes. However, in the future I plan to focus on building artificial cognitive systems, and only look at biological nervous systems for inspiration. In addition to the building blocks of open-domain artificial agents - knowledge representation, continual learning, memory encoding and retrieval, and theory of mind - I am also interested in the concepts of personal identity and subjective experience.
