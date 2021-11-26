@@ -128,7 +128,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/btp.png" height="200">
   <b>With:</b> <a href="https://in.linkedin.com/in/sukanya-patil-b45009107">Sukanya Patil</a>, <a href="https://scholar.google.com/citations?user=QDEeC8EAAAAJ&hl=en">Bipin Rajendran</a> <br>
   <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses. SNNs are hard to tame!<br>
-  <b>Publications:</b> <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">IJCNN'15 paper</a>, <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a><br>
+  <b>Publications:</b> <a href="{{site.url}}/assets/15_ijcnn.pdf">IJCNN'15 paper</a>, <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
 </div>
 
