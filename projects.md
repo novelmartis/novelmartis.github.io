@@ -22,18 +22,8 @@ title: Projects
   <h3 class="p_post_h">Statistical learning of distractor object groups aids visual search</h3>
   <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Motivation:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. The increased search efficiency is reflected in better orientation of visual attention (N2pc component in EEG), and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
+  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. The increased search efficiency is reflected in better orientation of visual attention (N2pc component in EEG), and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
   <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
-</div>
-
-[//]: # (Project with Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Bodies as features in visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, <a href="https://doi.org/10.1101/2021.11.17.469004">bioRxiv preprint</a>
 </div>
 
 <h3>
@@ -51,6 +41,16 @@ title: Projects
   <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is used, iteratively, to constrain the subsequent inferences about the object's category.<br>
   <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
   <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
+</div>
+
+[//]: # (Project with Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Bodies as features in visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Similar to the low-level features (e.g. orientation), are high-level visual features (e.g. shape category) prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
+  <b>Comments:</b> <a href = "https://www.youtube.com/watch?v=lfK4oOH0AAE">NMC'3.0 talk</a>, <a href="https://doi.org/10.1101/2021.11.17.469004">bioRxiv preprint</a>
 </div>
 
 <h3>
