@@ -3,7 +3,7 @@ layout: float_page
 title: Useful books, going beyond the norm, during JEE Advanced prep
 ---
 
-The book suggested below aren't essential for you to crack JEE Advanced. However, if you are someone who is bored with the usual JEE stuff, these books will reignite your passion for whatever subjects/topics you are interested in.
+The book suggested below aren't essential for you to crack JEE Advanced. However, if you are someone who is bored with the usual JEE stuff, these books will reignite your passion for whatever subjects/topics you are interested in. Additionally, I want you to be aware that many students in the topmost batches of institutes in Kota (I was one of them) read these books.
 
 ### Physics:
 1. Problems in General Physics - Irodov
