@@ -26,6 +26,22 @@ title: Projects
   <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
 </div>
 
+[//]: # (Project with Lu-Chun and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Task-dependent characteristics of multi-object processing</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b>Lu-Chun Yeh</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> The association between the neural processing of multi-object displays and the (independent) representations of those objects presented in isolation is task-dependent: in terms of unique associations with spatiotemporal stages of independent representations, same/different judgement - earlier, and object search - later stages. <br>
+</div>
+
+[//]: # (Project with Surya and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b>Surya Gayet</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.<br>
+</div>
+
 <h3>
 <div class="p_year">
   2021
@@ -74,7 +90,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The influence of scene information on object processing</h3>
   <img class="p_post" src="{{site.url}}/assets/sc-obj.png" height="200">
-  <b>With:</b> Ilze Thoonen, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://www.linkedin.com/in/ilzethoonen/">Ilze Thoonen</a>, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for validating these observations. <br>
   <b>Comments:</b> <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
