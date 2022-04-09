@@ -2,8 +2,19 @@
 layout: page
 title: Misc.
 ---
+
 <p class="message">
-  Some of my informative Twitter threads.
+  Notable presentations
+</p>
+
+- [Careers of the future - Neuroscience](https://doi.org/10.6084/m9.figshare.19560856.v1)
+
+- [Representations: useful, useless, or harmful?](https://doi.org/10.6084/m9.figshare.18347789.v2)
+
+- [A perspective on Mind Uploading](https://doi.org/10.6084/m9.figshare.8868782.v1)
+
+<p class="message">
+  Notable Twitter threads.
 </p>
 
 - [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
@@ -14,7 +25,7 @@ title: Misc.
   - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp)
 
 <p class="message">
-  Some useful resources on the internet.
+  Useful resources on the internet.
 </p>
 
 - [Installing LaTeX and TexMaker on a Mac](https://thetechsolo.wordpress.com/2016/01/28/latex-on-mac-the-easy-way/)
