@@ -7,11 +7,13 @@ title: Misc.
   Notable presentations
 </p>
 
-- [Careers of the future - Neuroscience](https://doi.org/10.6084/m9.figshare.19560856.v1)
+- [Careers of the future - Neuroscience (2022)](https://doi.org/10.6084/m9.figshare.19560856.v1)
 
-- [Representations: useful, useless, or harmful?](https://doi.org/10.6084/m9.figshare.18347789.v2)
+- [List of books aimed at JEE preparation (2022)](https://sushrutthorat.com/jee_prep/)
 
-- [A perspective on Mind Uploading](https://doi.org/10.6084/m9.figshare.8868782.v1)
+- [Representations: useful, useless, or harmful? (2019)](https://doi.org/10.6084/m9.figshare.18347789.v2)
+
+- [A perspective on Mind Uploading (2019)](https://doi.org/10.6084/m9.figshare.8868782.v1)
 
 <p class="message">
   Notable Twitter threads.
