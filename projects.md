@@ -5,7 +5,7 @@ title: Projects
 
 
 <p class="message">
-  Find information about my current and past projects below.<br>
+  Find information about my current and past projects below. Where applicable, collaborators leading the project are highlighted.<br>
   My peer-reviewed and preprint publications can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.<br>
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut%20Thorat/522624">figshare</a>.
 </p>
@@ -30,7 +30,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Task-dependent characteristics of multi-object processing</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b>Lu-Chun Yeh</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b>Lu-Chun Yeh*</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The association between the neural processing of multi-object displays and the (independent) representations of those objects presented in isolation is task-dependent: in terms of unique associations with spatiotemporal stages of independent representations, same/different judgement - earlier, and object search - later stages. <br>
 </div>
 
@@ -38,7 +38,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b>Surya Gayet</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b>Surya Gayet*</b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.<br>
 </div>
 
