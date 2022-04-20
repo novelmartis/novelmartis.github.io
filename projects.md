@@ -45,6 +45,23 @@ title: Projects
 
 <h3>
 <div class="p_year">
+  2022
+</div>
+</h3>
+
+[//]: # (Project with Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Bodies as features in visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Are high-level visual features prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
+  <b>Publication:</b> <a href="https://doi.org/10.1016/j.neuroimage.2022.119207">NeuroImage'22 paper</a><br>
+  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">NeuroImage paper in brief</a>
+</div>
+
+<h3>
+<div class="p_year">
   2021
 </div>
 </h3>
@@ -58,17 +75,6 @@ title: Projects
   <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is used, iteratively, to constrain the subsequent inferences about the object's category.<br>
   <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
   <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
-</div>
-
-[//]: # (Project with Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Bodies as features in visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/bod-attn.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Are high-level visual features prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
-  <b>Publication:</b> <a href="https://doi.org/10.1016/j.neuroimage.2022.119207">NeuroImage paper</a><br>
-  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">NeuroImage paper in brief</a>
 </div>
 
 <h3>
