@@ -24,7 +24,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
   <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. The increased search efficiency is reflected in better orientation of visual attention (N2pc component in EEG), and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
-  <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, papers being written.
+  <b>Comments:</b> <a href = "https://osf.io/wkyft/">ECVP'21 poster</a>, <a href = "https://www.biorxiv.org/content/10.1101/2022.04.20.488921">bioRxiv'22 preprint</a>.
 </div>
 
 [//]: # (Project with Lu-Chun and Peelen)
@@ -57,7 +57,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Are high-level visual features prioritised, via feature-based attention, spatially-globally? We found attentional gain modulation of the fMRI representations of body silhouettes, presented in task-irrelevant locations, in high-level visual cortex. <br>
   <b>Publication:</b> <a href="https://doi.org/10.1016/j.neuroimage.2022.119207">NeuroImage'22 paper</a><br>
-  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">NeuroImage paper in brief</a>
+  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">NeuroImage paper in brief</a>, <a href = "https://doi.org/10.17605/OSF.IO/HJ5VC">Code + Data</a>
 </div>
 
 <h3>
