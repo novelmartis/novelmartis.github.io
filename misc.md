@@ -7,7 +7,7 @@ title: Misc.
   Notable presentations
 </p>
 
-- [Careers of the future - Neuroscience (2022)](https://doi.org/10.6084/m9.figshare.19560856.v1)
+- [Careers of the future - Neuroscience (2022)](https://youtu.be/78QvSqDbDo0)
 
 - [List of books aimed at JEE preparation (2022)](https://sushrutthorat.com/jee_prep/)
 
