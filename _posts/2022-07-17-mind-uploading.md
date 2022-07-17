@@ -6,9 +6,11 @@ description: Those who are dead are not dead they're just living in my head (42,
 comments: true
 ---
 
-This article builds upon an older [presentation][prez] of mine on the topic.
+This article builds upon an older [presentation][prez] of mine on the topic. The image displayed below was generated using [DALL.E 2][dalle].
 
 <hr>
+
+![Illustration]({{site:url}}/assets/dalle_img_mu.png)
 
 Existing independent of the biological bodies and brains that are a part of us could bring benefits long considered in science fiction: immortality, the ability to learn and experience things faster (or slower), and an unprecedented level of control of ourselves and our environments. However, mind uploading, the common moniker for transferring identities onto artificial substrates, continues to be one of the hardest issues to reason about. This is due to our limited understanding of what minds, identities, and their dependencies on the biological substrates (the brain and the body) are. Additionally, we are unsure if there are any other substrates (e.g. silicon-based) capable of hosting minds and identities. In this article, I outline my current thoughts on this issue.
 
@@ -36,6 +38,7 @@ Being able to experience and behave richly in the world are crucial abilities re
 
 In humanity's long-term project of identity preservation via stories about people - written or spoken - the next step might be the possibility of animating those identities such that we can interact with them. The first step is the construction of artificial agents with cognitive capabilities rivaling ours. Then we will have to figure out how to <i>[style-transfer][bethge]</i> an identity onto those substrates. Until then the most pressing issue is how to best preserve an identity until such bootstrapping onto another substrate is possible. Shall we write biographies for everyone? What information is critical? Can this be done on a mass scale using the abundance of information on the internet about most people? Many questions abound…
 
+[dalle]: https://openai.com/dall-e-2/
 [prez]: https://doi.org/10.6084/m9.figshare.8868782.v1
 [nina]: https://doi.org/10.1016/j.cognition.2013.12.005
 [tom]: https://doi.org/10.1016/j.cub.2005.08.041
