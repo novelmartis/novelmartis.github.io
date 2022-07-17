@@ -6,7 +6,7 @@ description: Those who are dead are not dead they're just living in my head (42,
 comments: true
 ---
 
-This article builds upon an older [presentation][prez] of mine on the topic. The image displayed below was generated using [DALL.E 2][dalle].
+Here are some rough ideas about mind uploading building upon an older [presentation][prez] of mine on the topic. The image displayed below was generated using [DALL.E 2][dalle].
 
 <hr>
 

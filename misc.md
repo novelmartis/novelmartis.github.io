@@ -13,7 +13,7 @@ title: Misc.
 
 - [Representations: useful, useless, or harmful? (2019)](https://doi.org/10.6084/m9.figshare.18347789.v2)
 
-- [A perspective on Mind Uploading (2019)](https://doi.org/10.6084/m9.figshare.8868782.v1)
+<!---- - [A perspective on Mind Uploading (2019)](https://doi.org/10.6084/m9.figshare.8868782.v1) ----->
 
 <p class="message">
   Notable Twitter threads.
