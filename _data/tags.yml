@@ -1,56 +1,62 @@
 - slug: github
   name: github
-  
+
 - slug: sciencing
   name: sciencing
-  
+
 - slug: thesis
   name: thesis
-  
+
 - slug: 2015
   name: 2015
-  
+
 - slug: 2016
   name: 2016
-  
+
 - slug: snn
   name: snn
 
 - slug: quadcopter
   name: quadcopter
-  
+
 - slug: show-all
   name: show-all
-  
+
 - slug: synaptic-plasticity
   name: synaptic-plasticity
-  
+
 - slug: publication
   name: publication
-  
+
 - slug: vision
   name: vision
-  
+
 - slug: series
   name: series
-  
+
 - slug: semantics
   name: semantics
-  
+
 - slug: 2017
   name: 2017
-  
+
 - slug: 2018
   name: 2018
-  
+
 - slug: conference
   name: conference
 
 - slug: 2020
   name: 2020
-  
+
 - slug: coding
   name: coding
 
 - slug: fmri
   name: fmri
+
+- slug: 2022
+  name: 2022
+
+- slug: mind-uploading
+  name: mind-uploading
