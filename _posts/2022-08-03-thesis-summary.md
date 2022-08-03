@@ -6,7 +6,7 @@ description: A short summary of my Ph.D. thesis titled "Smart Search".
 comments: true
 ---
 
-The thesis presents studies on human visual search behavior and how the machinery of the human brain operates toward generating that behavior. The thesis has been approved for defense by the review committee and further details can be found [here][defense_link].
+The thesis, "Smart Search: Investigations into human visual search in structured environments", presents studies on human visual search behavior and how the machinery of the human brain operates toward generating that behavior. The thesis has been approved for defense by the review committee and further details can be found [here][defense_link].
 
 <hr>
 
