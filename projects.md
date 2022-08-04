@@ -98,7 +98,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">The influence of scene information on object processing</h3>
   <img class="p_post" src="{{site.url}}/assets/sc-obj.png" height="200">
-  <b>With:</b> <a href="https://www.linkedin.com/in/ilzethoonen/">Ilze Thoonen</a>, Sjoerd Meijer, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://www.linkedin.com/in/ilzethoonen/">Ilze Thoonen</a>, <a href="https://www.semanticscholar.org/author/Sjoerd-W.-Meijer/2061386172">Sjoerd Meijer</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> Task-irrelevant scene information biases categorization response towards co-varying objects (e.g. cars on roads). However, no evidence is found, across 4 experiments, for task-irrelevant scene information boosting the sensitivity of detecting co-varying objects. Further experimentation is required for validating these observations. <br>
   <b>Comments:</b> <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
