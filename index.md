@@ -10,27 +10,31 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
 
 #### Current position:
 
-* Doctoral candidate in Cognitive Neuroscience.
-    + At the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Radboud University.
-    + Advised by [Marius Peelen](https://sites.google.com/site/peelenlab/lab-members).
-* Doctoral research interests:
-    + The nature and function of the attentional modulation of visual object processing.
-    + Statistical and perceptual learning of distractor regularities in visual object detection - towards understanding the continuum between objects and scenes.
-    + Why do mechanisms such as recurrence and reconstruction emerge in the visual system, and how would they help in machine learning?
+* Postdoctoral researcher in Machine Learning.
+    + At the [Institute of Cognitive Science](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Osnabrück University.
+    + Advised by [Tim Kietzmann](https://www.kietzmannlab.org/lab/).
+* Research interests:
+    + Iterative refinement of object identity inference in recurrent neural networks.
+    + Lifelong learning on continuous data streams with recurrent neural networks.
+    + Interactions between memory, perception, and decision-making systems.
+    + Bio-inspired local learning rules as alternatives to backpropagation-based updates.
 
 #### Previous education/experience:
 
+* PhD in Cognitive Neuroscience from the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/), Radboud University.
 * MSc in Cognitive Neuroscience from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
 * BTech in Engineering Physics from [IIT Bombay](http://iitb.ac.in). <br>
 
 Further academically-relevant information can be found in my curriculum vitae ([full]({{site.url}}/assets/cv-full.pdf)/[short]({{site.url}}/assets/cv-short.pdf)). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my projects. A list of my publications can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
+
+In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, you can connect with me on [Twitter](https://twitter.com/martisamuser) or [shoot an email](mailto:sushrut.thorat94@gmail.com).
+
+<hr>
 
 Beyond research, I enjoy playing League of Legends, Age of Empires 2, badminton, and board games (Catan <3). I am always up for water-sports: swimming, kayaking, snorkelling, stand-up paddling, and scuba diving. Also sign me up for any adrenaline-pumping, motivating, or tear-jerking anime (have you watched Hunter x Hunter yet? Your Lie in April?), or movies!
 
 I occasionally blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy.
 
 <!-- I occasionally (mostly used to) write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com). -->
-
-I am active on [Twitter](https://twitter.com/martisamuser). Feel free to connect there, or [shoot an email](mailto:sushrut.thorat94@gmail.com).
 
 <hr>
