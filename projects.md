@@ -49,7 +49,7 @@ title: Projects
   <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. This suggests that previously reported expectation-driven illusions might be post-perceptual in nature.
+  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.
 </div>
 
 <h3>
