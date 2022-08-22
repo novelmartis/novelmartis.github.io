@@ -2,9 +2,10 @@
 layout: float_page
 title: Ph.D. thesis defense information
 ---
-The thesis has been accepted for defense. Details forthcoming.
 
-<img class="p_post" src="{{site.url}}/assets/phd_invitation.jpg" height="600" float="left">
+<img class="p_post" src="{{site.url}}/assets/phd_invitation.jpg" height="1000" align="left">
+<br>
+The thesis has been accepted for defense. Details forthcoming.
 
 <b> Date of defense: </b> 9 November, 2022 at 16:30 (CET)<br>
 
