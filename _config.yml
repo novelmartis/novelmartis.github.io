@@ -7,10 +7,10 @@ permalink:        pretty
 
 # Setup
 title:            martis.
-tagline:          ’Tis Sushrut Thorat
-description:      Pochemuchka.
+tagline:          ’Tis Sushrut Thorat.
+description:      Sushrut Thorat's website.
 url:              https://sushrutthorat.com
-baseurl:          
+baseurl:
 title_image:       https://sushrutthorat.com/assets/goku_peace_sq.png
 
 author:
