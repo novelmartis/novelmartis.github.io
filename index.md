@@ -13,6 +13,7 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
 * Postdoctoral researcher in Machine Learning.
     + At the [Institute of Cognitive Science](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Osnabrück University.
     + Advised by [Tim Kietzmann](https://www.kietzmannlab.org/lab/).
+    + Institutional email address: [sthorat@uos.de](mailto:sthorat@uos.de)
 * Research interests:
     + Iterative refinement of object identity inference in recurrent neural networks.
     + Lifelong learning on continuous data streams with recurrent neural networks.
@@ -27,7 +28,7 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
 
 Further academically-relevant information can be found in my curriculum vitae ([full]({{site.url}}/assets/cv-full.pdf)/[short]({{site.url}}/assets/cv-short.pdf)). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my projects. A list of my publications can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
 
-In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, you can connect with me on [Twitter](https://twitter.com/martisamuser) or [shoot an email](mailto:sushrut.thorat94@gmail.com).
+In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, you can connect with me on Twitter [@martisamuser](https://twitter.com/martisamuser) or email [sushrut.thorat94@gmail.com](mailto:sushrut.thorat94@gmail.com).
 
 <hr>
 
