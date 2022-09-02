@@ -17,16 +17,6 @@ title: Projects
 </div>
 </h3>
 
-[//]: # (Project with Gen and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Statistical learning of distractor object groups aids visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. The increased search efficiency is reflected in better orientation of visual attention (N2pc component in EEG), and is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
-  <b>Comments:</b> <a href = "https://www.biorxiv.org/content/10.1101/2022.04.20.488921">bioRxiv'22 preprint</a>, <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">preprint in brief</a>
-</div>
-
 [//]: # (Project with Lu-Chun and Peelen)
 
 <div class="p_post">
@@ -58,6 +48,17 @@ title: Projects
   2022
 </div>
 </h3>
+
+[//]: # (Project with Gen and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. Increased search efficiency among co-occurring distractors is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
+  <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
+  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
+</div>
 
 [//]: # (Project with Peelen)
 
