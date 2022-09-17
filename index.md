@@ -11,7 +11,7 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
 #### Current position:
 
 * Postdoctoral researcher in Machine Learning.
-    + At the [Institute of Cognitive Science](https://www.ru.nl/donders/ "Donders Institute for Brain, Cognition and Behaviour"), Osnabrück University.
+    + At the [Institute of Cognitive Science](https://www.ikw.uni-osnabrueck.de/en/home.html), Osnabrück University.
     + Advised by [Tim Kietzmann](https://www.kietzmannlab.org/lab/).
     + Institutional email address: [sthorat@uos.de](mailto:sthorat@uos.de)
 * Research interests:
