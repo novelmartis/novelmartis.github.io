@@ -5,7 +5,7 @@ title: Ph.D. thesis defense information
 
 <img class="p_post" src="{{site.url}}/assets/phd_invitation.jpg" height="1000" align="left">
 <br>
-The thesis has been accepted for defense. Details forthcoming.
+The thesis has been accepted for defense. Here are the details.
 
 <b> Date of defense: </b> 9 November, 2022 at 16:30 (CET)<br>
 
