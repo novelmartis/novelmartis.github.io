@@ -22,7 +22,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Iterative category inference in recurrent neural networks</h3>
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en"><b><u>Adrien Doerig</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Can we see signs of iterative category inference in RNNs? If so, what operations in the RNN lead to this process?<br>
+  <b>Summary:</b> Can we see signs of iterative category inference in RNNs? What kind of shape/texture/semantic space does the inference adhere to? Does the network play 20 questions with the image? What operations in the RNN lead to these processes?<br>
 </div>
 
 [//]: # (Project with Lu-Chun and Peelen)
