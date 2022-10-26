@@ -22,9 +22,9 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
 
 #### Previous education/experience:
 
-* PhD in Cognitive Neuroscience from the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/), Radboud University.
-* MSc in Cognitive Neuroscience from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
-* BTech in Engineering Physics from [IIT Bombay](http://iitb.ac.in). <br>
+* PhD in Cognitive Neuroscience ([thesis](https://doi.org/10.6084/m9.figshare.21214391.v1)) from the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/), Radboud University.
+* MSc in Cognitive Neuroscience ([thesis](https://doi.org/10.6084/m9.figshare.5919154.v1)) from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
+* BTech in Engineering Physics ([thesis](https://doi.org/10.6084/m9.figshare.1582657.v2)) from [IIT Bombay](http://iitb.ac.in). <br>
 
 Further academically-relevant information can be found in my curriculum vitae ([full]({{site.url}}/assets/cv-full.pdf)/[short]({{site.url}}/assets/cv-short.pdf)). I am currently working on projects related to my research interests. The [projects page]({{site.url}}/projects/) contains brief summaries of my projects. A list of my publications can be found on [Google Scholar](https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en).
 
