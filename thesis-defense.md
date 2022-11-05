@@ -7,7 +7,7 @@ title: Ph.D. thesis defense information
 <br>
 The thesis has been accepted for defense. Here are the details.
 
-<b> Date of defense: </b> 9 November, 2022 at 16:30 (CET)<br>
+<b> Date of defense: </b> 9 November, 2022 at 16:30 CET / 21:00 IST <br>
 
 <b> Location: </b> Auditorium, Radboud University<br>
 <b> [Online broadcast link][broadcast]</b><br>
