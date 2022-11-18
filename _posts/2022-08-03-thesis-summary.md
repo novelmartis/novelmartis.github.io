@@ -6,7 +6,7 @@ description: A short summary of my Ph.D. thesis titled "Smart Search".
 comments: true
 ---
 
-The thesis, "Smart Search: Investigations into human visual search in structured environments", presents studies on human visual search behavior and how the machinery of the human brain operates toward generating that behavior. The thesis has been approved for defense by the review committee and further details can be found [here][defense_link].
+The thesis, "Smart Search: Investigations into human visual search in structured environments", presents studies on human visual search behavior and how the machinery of the human brain operates toward generating that behavior. You can find a copy of the thesis [here][thesis_link]. You can watch the defense [here][defense_link]. Further details can be found [here][defense_details].
 
 <hr>
 
@@ -32,4 +32,6 @@ In <b>Chapter 6</b>, we assessed the neural processes underlying the observed be
 
 In this thesis, in the spirit of computational cognitive neuroscience, we peeked under the hood of the routines we employ in visual search, to further understand how the human brain uses its machinery to execute those routines. These investigations involved the use of highly controlled, artificial stimuli to isolate the effects of interest in answering the questions posed. However, as outlined above, further experiments are essential to know if the observed/postulated processes are indeed at work during our search in the real world. This thesis serves as another small step towards unraveling the workings of the human brain that underlies all the mind-boggling behavior produced on this mote of dust suspended in a sunbeam.
 
-[defense_link]: http://sushrutthorat.com/thesis-defense
+[defense_details]: http://sushrutthorat.com/thesis-defense
+[defense_link]: https://youtu.be/taH6NjedBgg
+[thesis_link]: https://doi.org/10.6084/m9.figshare.21214391.v1
