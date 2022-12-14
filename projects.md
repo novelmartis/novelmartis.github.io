@@ -28,9 +28,9 @@ title: Projects
 [//]: # (Project with Lu-Chun and Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Task-dependent characteristics of multi-object processing</h3>
+  <h3 class="p_post_h">Task-dependent characteristics of neural multi-object processing</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> The association between the neural processing of multi-object displays and the (independent) representations of those objects presented in isolation is task-dependent: in terms of unique associations with spatiotemporal stages of independent representations, same/different judgement - earlier, and object search - later stages.<br>
+  <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: unique associations with spatiotemporal stages of the object representations, same/different judgement - earlier, and object search - later stages in MEG/fMRI signals.<br>
   <b>Comments:</b> Paper being written.
 </div>
 
