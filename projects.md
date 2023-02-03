@@ -31,6 +31,7 @@ title: Projects
   <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/daniel-anthes-680621163"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
   <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
+  <b>Comments:</b> Paper being written.
 </div>
 
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
@@ -54,7 +55,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.<br>
   <b>Comments:</b> Paper being written.
 </div>
