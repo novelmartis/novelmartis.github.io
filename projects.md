@@ -30,8 +30,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/daniel-anthes-680621163"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
-  <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
-  <b>Comments:</b> Paper being written.
+  <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?
 </div>
 
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
