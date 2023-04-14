@@ -35,14 +35,6 @@ title: Projects
   <b>Comments:</b> CCN submission.
 </div>
 
-[//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
-
-<div class="p_post">
-  <h3 class="p_post_h">Brain reading with a Transformer</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we are studying the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
-</div>
-
 [//]: # (Project with Lu-Chun and Peelen)
 
 <div class="p_post">
@@ -52,19 +44,28 @@ title: Projects
   <b>Comments:</b> Paper being written.
 </div>
 
-<h3>
-<div class="p_year">
-  Dormant
-</div>
-</h3>
-
 [//]: # (Project with Surya and Peelen)
 
 <div class="p_post">
   <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.
+  <b>Comments:</b> Paper being written.
 </div>
+
+[//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
+
+<div class="p_post">
+  <h3 class="p_post_h">Brain reading with a Transformer</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we are studying the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
+</div>
+
+<h3>
+<div class="p_year">
+  Dormant
+</div>
+</h3>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
 
