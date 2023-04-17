@@ -49,7 +49,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
-  <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.
+  <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.<br>
   <b>Comments:</b> Paper being written.
 </div>
 
