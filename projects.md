@@ -54,21 +54,6 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Dormant
-</div>
-</h3>
-
-[//]: # (Project with Jochem, Gen, and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
-  <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
-  <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. This suggests that previously reported expectation-driven illusions might be post-perceptual in nature.<br>
-</div>
-
-<h3>
-<div class="p_year">
   2023
 </div>
 </h3>
@@ -205,6 +190,21 @@ title: Projects
   <b>Summary:</b> <i>a</i>. Model-based control system for quadcopters towards velocity-waypoint navigation.<br> <i>b</i>. Modular SNNs for real-time arithmetic operations, using plastic synapses. SNNs are hard to tame!<br>
   <b>Publications:</b> <a href="{{site.url}}/assets/15_ijcnn.pdf">IJCNN'15 paper</a>, <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">B.Tech. Thesis</a><br>
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
+</div>
+
+<h3>
+<div class="p_year">
+  Dormant
+</div>
+</h3>
+
+[//]: # (Project with Jochem, Gen, and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
+  <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
+  <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. This suggests that previously reported expectation-driven illusions might be post-perceptual in nature.<br>
 </div>
 
 {% comment %}
