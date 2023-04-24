@@ -44,15 +44,6 @@ title: Projects
   <b>Comments:</b> Paper being written.
 </div>
 
-[//]: # (Project with Surya and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
-  <b>Summary:</b> Object size varies with the location of the object in scenes. These variations get reflected in the search for that object in a given set of locations in a scene: our search is better for a smaller object further out in the scene as compared to closer in the scene.<br>
-  <b>Comments:</b> Paper being written.
-</div>
-
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
 
 <div class="p_post">
@@ -74,6 +65,22 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. This suggests that previously reported expectation-driven illusions might be post-perceptual in nature.<br>
+</div>
+
+<h3>
+<div class="p_year">
+  2023
+</div>
+</h3>
+
+[//]: # (Project with Surya and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
+  <img class="p_post" src="{{site.url}}/assets/size-search.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
+  <b>Summary:</b> Object size varies with the location of the object in scenes. During search for an object, the attentional template contains information about object size, entangled with its identity, inferred from its location in the scene.<br>
+  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a><br>
 </div>
 
 <h3>
