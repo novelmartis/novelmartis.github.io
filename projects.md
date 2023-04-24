@@ -80,7 +80,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/size-search.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. During search for an object, the attentional template contains information about object size, attached to its identity, which is inferred from the object's location in the scene.<br>
-  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a><br>
+  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">PsyArxiv preprint</a><br>
 </div>
 
 <h3>
