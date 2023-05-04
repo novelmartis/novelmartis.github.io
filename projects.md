@@ -3,7 +3,6 @@ layout: page
 title: Projects
 ---
 
-
 <p class="message">
   Find information about my current and past projects below.<br>
   Where applicable, collaborators leading those projects are <b><u>highlighted</u></b>.<br>
@@ -50,6 +49,22 @@ title: Projects
   <h3 class="p_post_h">Brain reading with a Transformer</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we are studying the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
+</div>
+
+[//]: # (Project with Lotta)
+
+<div class="p_post">
+  <h3 class="p_post_h">Emergence of an attention schema in object tracking</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a><br>
+</div>
+
+[//]: # (Project with Andrei and Thomas)
+
+<div class="p_post">
+  <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Building a modular codebase of deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
 </div>
 
 <h3>
