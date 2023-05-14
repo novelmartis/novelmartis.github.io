@@ -3,7 +3,7 @@ layout: page
 title:
 ---
 
-<img align="top-left" src="{{site.url}}/assets/portrait_main.JPG" height="190">
+<img align="top-left" src="{{site.url}}/assets/portrait_main.png" height="190">
 # Sushrut Thorat.
 
 I am a cognitive scientist, ultimately interested in building resource-constrained artificial agents that can learn and function in the wild.
