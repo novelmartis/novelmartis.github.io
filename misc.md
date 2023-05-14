@@ -30,10 +30,10 @@ title: Misc.
   Useful resources on the internet.
 </p>
 
-- [Installing LaTeX and TexMaker on a Mac](https://thetechsolo.wordpress.com/2016/01/28/latex-on-mac-the-easy-way/)
-  - The [Homebrew](https://brew.sh) and [Homebrew Cask](https://caskroom.github.io) installation instructions are updated on their respective webpages.
-  - In the installation codes just drop "cask"
-  - The other instructions work fine (25/08/21)
+- Installing LaTeX on a Mac (14/05/2023)
+  - Install [MacTex via brew](https://formulae.brew.sh/cask/mactex)
+  - Install [Visual Studio Code](https://code.visualstudio.com/)
+  - Install 'LaTeX' and 'LaTeX Workshop' extensions in VS Code and restart VS Code
 
 - [Running Tensorboard through a remote server](https://stackoverflow.com/questions/37987839/how-can-i-run-tensorboard-on-a-remote-server)
   - The first solution works wonderfully (14/12/17)
