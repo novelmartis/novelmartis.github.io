@@ -31,7 +31,7 @@ title: Misc.
 </p>
 
 - Installing LaTeX on a Mac (14/05/2023)
-  - Install [MacTex via brew](https://formulae.brew.sh/cask/mactex)
+  - Install [MacTex via Homebrew](https://formulae.brew.sh/cask/mactex)
   - Install [Visual Studio Code](https://code.visualstudio.com/)
   - Install 'LaTeX' and 'LaTeX Workshop' extensions in VS Code and restart VS Code
 
