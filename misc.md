@@ -7,13 +7,13 @@ title: Misc.
   Notable presentations
 </p>
 
+- [Useful scene representations (2023)](https://doi.org/10.6084/m9.figshare.22698157.v1)
+
 - [Careers of the future - Neuroscience (2022)](https://youtu.be/78QvSqDbDo0)
 
 - [List of books aimed at JEE preparation (2022)](https://sushrutthorat.com/jee_prep/)
 
 - [Representations: useful, useless, or harmful? (2019)](https://doi.org/10.6084/m9.figshare.18347789.v2)
-
-<!---- - [A perspective on Mind Uploading (2019)](https://doi.org/10.6084/m9.figshare.8868782.v1) ----->
 
 <p class="message">
   Notable Twitter threads.
