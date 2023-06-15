@@ -34,15 +34,6 @@ title: Projects
   <b>Comments:</b> Presenting at CCN'23.
 </div>
 
-[//]: # (Project with Lu-Chun and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Task-dependent characteristics of neural multi-object processing</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: unique associations with spatiotemporal stages of the object representations, same/different judgement - earlier, and object search - later stages in MEG/fMRI signals.<br>
-  <b>Comments:</b> Paper being written.
-</div>
-
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
 
 <div class="p_post">
@@ -80,6 +71,16 @@ title: Projects
   2023
 </div>
 </h3>
+
+[//]: # (Project with Lu-Chun and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Task-dependent characteristics of neural multi-object processing</h3>
+  <img class="p_post" src="{{site.url}}/assets/vs-neural.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: unique associations with spatiotemporal stages of the object representations, same/different judgement - earlier, and object search - later stages in MEG/fMRI signals.<br>
+  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a><br>
+</div>
 
 [//]: # (Project with Surya and Peelen)
 
