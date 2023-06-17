@@ -31,7 +31,7 @@ title: Misc.
 - [Perception Day 2018 summary](https://twitter.com/martisamuser/status/1071357743318077441?s=20)
 
 - [Conference on Cognitive Computational Neuroscience 2018 summary](https://twitter.com/martisamuser/status/1037930887592206336?s=20)
-  - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp)
+  <!-- - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp) -->
 
 <p class="message">
   Useful resources on the internet
