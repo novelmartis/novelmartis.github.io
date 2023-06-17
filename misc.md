@@ -4,6 +4,13 @@ title: Misc.
 ---
 
 <p class="message">
+  Teaching material
+</p>
+
+- [Topics in Cognitive Neuroscience (2023)](https://doi.org/10.6084/m9.figshare.23537094.v1)
+  - Bachelors/Masters 6-session introductory block course at Osnabruck University.
+
+<p class="message">
   Notable presentations
 </p>
 
