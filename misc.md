@@ -8,7 +8,7 @@ title: Misc.
 </p>
 
 - [Topics in Cognitive Neuroscience (2023)](https://doi.org/10.6084/m9.figshare.23537094.v1)
-  - Bachelors/Masters 6-session introductory block course at Osnabruck University.
+  - Bachelors/Masters 6-session introductory block course at Osnabruck University
 
 <p class="message">
   Notable presentations
@@ -23,7 +23,7 @@ title: Misc.
 - [Representations: useful, useless, or harmful? (2019)](https://doi.org/10.6084/m9.figshare.18347789.v2)
 
 <p class="message">
-  Notable Twitter threads.
+  Notable Twitter threads
 </p>
 
 - [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
@@ -34,7 +34,7 @@ title: Misc.
   - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp)
 
 <p class="message">
-  Useful resources on the internet.
+  Useful resources on the internet
 </p>
 
 - Installing LaTeX on a Mac (14/05/2023)
