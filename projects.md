@@ -62,7 +62,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://www.linkedin.com/in/varun-kapoor-6734b982">Varun Kapoor</a>, et al.<br>
   <b>Summary:</b> Building a modular codebase for deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
 </div>
 
