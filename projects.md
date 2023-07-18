@@ -58,14 +58,6 @@ title: Projects
   <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
 </div>
 
-[//]: # (Project with Andrei and Thomas)
-
-<div class="p_post">
-  <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://www.linkedin.com/in/varun-kapoor-6734b982">Varun Kapoor</a>, et al.<br>
-  <b>Summary:</b> Building a modular codebase for deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
-</div>
-
 <h3>
 <div class="p_year">
   2023
@@ -230,6 +222,15 @@ title: Projects
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. This suggests that previously reported expectation-driven illusions might be post-perceptual in nature.<br>
 </div>
+
+[//]: # (Project with Andrei and Thomas)
+{% comment %}
+<div class="p_post">
+  <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://www.linkedin.com/in/varun-kapoor-6734b982">Varun Kapoor</a>, et al.<br>
+  <b>Summary:</b> Building a modular codebase for deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
+</div>
+{% endcomment %}
 
 {% comment %}
 <h3>
