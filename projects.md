@@ -60,8 +60,8 @@ title: Projects
   <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
   <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
-  <b>Publications:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">Preprint</a>
-  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> -->
+  <b>Publications:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a><br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2310.04741">Preprint</a>
 </div>
 
 [//]: # (Project with Adrien and Tim)
