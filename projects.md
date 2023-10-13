@@ -19,9 +19,17 @@ title: Projects
 [//]: # (Project with Zejin, Tim, Radek)
 
 <div class="p_post">
-  <h3 class="p_post_h">Shape/texture bias in minds and machines</h3>
+  <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><b><u>Zejin Lu</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a><br>
   <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
+</div>
+
+[//]: # (Project with Johannes and Tim)
+
+<div class="p_post">
+  <h3 class="p_post_h">Multi-area readouts in brains and machines</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=z558t4EAAAAJ&hl=en&oi=ao"><b><u>Johannes Singer</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Given <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the visual cortex and NNs, is useful in performing classification tasks. <br>
 </div>
 
 [//]: # (Project with Daniel, Tim, and Peter)
@@ -43,7 +51,7 @@ title: Projects
 [//]: # (Project with Rowan, Daniel, and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">Flexible rule learning in minds and machines</h3>
+  <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
   <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
@@ -73,7 +81,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
   <b>Publications:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
-  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> --><br>
+  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a><br>
 </div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
