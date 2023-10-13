@@ -269,3 +269,18 @@ title: Projects
   Comments / Further links
 </div>
 {% endcomment %}
+
+{% comment %}
+
+Students supervised:
+
+1. Sjoerd Meijer, Ilse Thoonen, Ingrid Mulder, Loes Tonnissen -> bachelor's thesis 2018
+2. Lieke van der Velden, Joep Willems, Stefan Long -> bachelor's thesis 2018
+3. Jochem Koopmans -> masters thesis 2020
+4. Lotta Pfieke -> bachelor's thesis 2023
+5. Nicolle Rogalla -> bachelor's thesis 2023
+6. Thomas Nortmann, Andrei Klimenok -> masters's projects 2023
+7. Daniel Anthes, Zejin Lu, Johannes Singer -> PhD projects 2023
+
+{% endcomment %}
+
