@@ -57,10 +57,10 @@ title: Projects
 [//]: # (Project with Daniel, Tim, and Peter)
 
 <div class="p_post">
-  <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
+  <h3 class="p_post_h">Structured representational drift aids continual learning</h3>
   <img class="p_post" src="{{site.url}}/assets/rdac.png" height="200">
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
-  <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
+  <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
   <b>Publications:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a><br>
   <b>Comments:</b> <a href="https://arxiv.org/abs/2310.04741">Preprint</a>
 </div>
@@ -68,10 +68,10 @@ title: Projects
 [//]: # (Project with Adrien and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">Iterative category inference in recurrent neural networks</h3>
+  <h3 class="p_post_h">How recurrence dovetails with feedforward processing in RNNs</h3>
   <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Can we see signs of iterative category inference in RNNs? What kind of shape/texture/semantic space does the inference adhere to? Does the network play 20 questions with the image? What operations in the RNN lead to these processes?<br>
+  <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
   <b>Publications:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
   <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> --><br>
 </div>
