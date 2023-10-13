@@ -82,7 +82,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem defended his masters' thesis.<br>
+  <b>Comments:</b> Jochem defended his masters' thesis.<br><br>
 </div>
 
 <h3>
@@ -98,7 +98,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/vs-neural.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: same/different judgement relates to earlier, and object search to later stages in MEG/fMRI signals.<br>
-  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a><br>
+  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a><br><br>
 </div>
 
 [//]: # (Project with Surya and Peelen)
@@ -108,7 +108,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/size-search.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. During search for an object, in addition to the object's identity, the attentional template contains information its size, entangled with its identity, which is inferred from its location in the scene.<br>
-  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a><br>
+  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a><br><br>
 </div>
 
 <h3>
