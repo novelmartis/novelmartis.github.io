@@ -72,16 +72,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Can we see signs of iterative category inference in RNNs? What kind of shape/texture/semantic space does the inference adhere to? Does the network play 20 questions with the image? What operations in the RNN lead to these processes?<br>
   <b>Publications:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
-  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> -->
-</div>
-
-[//]: # (Project with Lotta)
-
-<div class="p_post">
-  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
-  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
-  <b>Comments:</b> Lotta is finishing her bachelors' thesis.
+  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> --><br>
 </div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
@@ -91,7 +82,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem defended his masters' thesis.
+  <b>Comments:</b> Jochem defended his masters' thesis.<br>
 </div>
 
 <h3>
@@ -245,13 +236,19 @@ title: Projects
 </div>
 
 [//]: # (Project with Andrei and Thomas)
-{% comment %}
-<div class="p_post">
+<!-- <div class="p_post">
   <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://www.linkedin.com/in/varun-kapoor-6734b982">Varun Kapoor</a>, et al.<br>
   <b>Summary:</b> Building a modular codebase for deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
-</div>
-{% endcomment %}
+</div> -->
+
+[//]: # (Project with Lotta)
+<!-- <div class="p_post">
+  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
+  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
+  <b>Comments:</b> Lotta is finishing her bachelors' thesis.
+</div> -->
 
 {% comment %}
 <h3>
