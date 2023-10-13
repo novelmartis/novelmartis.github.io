@@ -29,7 +29,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Multi-area readouts in brains and machines</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=z558t4EAAAAJ&hl=en&oi=ao"><b><u>Johannes Singer</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Given <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the visual cortex and NNs, is useful in performing classification tasks. <br>
+  <b>Summary:</b> Given observations in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the human visual cortex and ANNs, is useful in performing classification tasks. <br>
 </div>
 
 [//]: # (Project with Daniel, Tim, and Peter)
