@@ -16,22 +16,20 @@ title: Projects
 </div>
 </h3>
 
-[//]: # (Project with Adrien and Tim)
+[//]: # (Project with Zejin, Tim, Radek)
 
 <div class="p_post">
-  <h3 class="p_post_h">Iterative category inference in recurrent neural networks</h3>
-  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Can we see signs of iterative category inference in RNNs? What kind of shape/texture/semantic space does the inference adhere to? Does the network play 20 questions with the image? What operations in the RNN lead to these processes?<br>
-  <b>Publications:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a>
+  <h3 class="p_post_h">Shape/texture bias in minds and machines</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><b><u>Zejin Lu</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a><br>
+  <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
 </div>
 
 [//]: # (Project with Daniel, Tim, and Peter)
 
 <div class="p_post">
-  <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/daniel-anthes-680621163"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
-  <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
-  <b>Publications:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>
+  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
+  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
 </div>
 
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
@@ -42,19 +40,12 @@ title: Projects
   <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
 </div>
 
-[//]: # (Project with Zejin, Tim, Radek)
+[//]: # (Project with Rowan, Daniel, and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">Shape/texture bias in minds and machines</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><b><u>Zejin Lu</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a><br>
-  <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
-</div>
-
-[//]: # (Project with Lotta)
-<div class="p_post">
-  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
-  <b>With:</b> <a href="https://github.com/lolotta">Lotta Piefke</a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
+  <h3 class="p_post_h">Flexible rule learning in minds and machines</h3>
+  <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
 
 <h3>
@@ -62,6 +53,36 @@ title: Projects
   Dormant
 </div>
 </h3>
+
+[//]: # (Project with Daniel, Tim, and Peter)
+
+<div class="p_post">
+  <h3 class="p_post_h">Characterising catastrophic forgetting and finding solutions</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
+  <b>Summary:</b> What aspects of training neural networks continually leads to catastrophic forgetting? Can we find simple solutions, either bio-inspired or executable without much overhead, to workaround those aspects?<br>
+  <b>Publications:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">Preprint</a>
+  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> -->
+</div>
+
+[//]: # (Project with Adrien and Tim)
+
+<div class="p_post">
+  <h3 class="p_post_h">Iterative category inference in recurrent neural networks</h3>
+  <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Can we see signs of iterative category inference in RNNs? What kind of shape/texture/semantic space does the inference adhere to? Does the network play 20 questions with the image? What operations in the RNN lead to these processes?<br>
+  <b>Publications:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
+  <!-- <b>Comments:</b> <a href="">CCN paper in brief</a> -->
+</div>
+
+[//]: # (Project with Lotta)
+
+<div class="p_post">
+  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
+  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
+  <b>Comments:</b> Lotta is finishing her bachelors' thesis.
+</div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
 
