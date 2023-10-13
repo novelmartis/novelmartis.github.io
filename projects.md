@@ -68,7 +68,7 @@ title: Projects
 [//]: # (Project with Adrien and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">How recurrence dovetails with feedforward processing in RNNs</h3>
+  <h3 class="p_post_h">Recurrence dovetails with feedforward processing in RNNs</h3>
   <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
