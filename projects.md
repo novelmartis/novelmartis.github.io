@@ -32,20 +32,21 @@ title: Projects
   <b>Summary:</b> Given observations in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the human visual cortex and ANNs, is useful in performing classification tasks. <br>
 </div>
 
+[//]: # (Project with Lotta)
+
+<div class="p_post">
+  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
+  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
+  <b>Comments:</b> Lotta is finishing her bachelors' thesis.
+</div>
+
 [//]: # (Project with Daniel, Tim, and Peter)
 
 <div class="p_post">
   <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
   <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
-</div>
-
-[//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
-
-<div class="p_post">
-  <h3 class="p_post_h">Brain reading with a Transformer</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
 </div>
 
 [//]: # (Project with Rowan, Daniel, and Tim)
@@ -56,22 +57,19 @@ title: Projects
   <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
 
+[//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
+
+<div class="p_post">
+  <h3 class="p_post_h">Brain reading with a Transformer</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
+</div>
+
 <h3>
 <div class="p_year">
   Dormant
 </div>
 </h3>
-
-[//]: # (Project with Adrien and Tim)
-
-<div class="p_post">
-  <h3 class="p_post_h">How does recurrence interact with feedforward processing in RNNs?</h3>
-  <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
-  <b>Publication:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a><br>
-</div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
 
@@ -88,6 +86,17 @@ title: Projects
   2023
 </div>
 </h3>
+
+[//]: # (Project with Adrien and Tim)
+
+<div class="p_post">
+  <h3 class="p_post_h">How does recurrence interact with feedforward processing in RNNs?</h3>
+  <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
+  <b>Publication:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
+  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a><br>
+</div>
 
 [//]: # (Project with Daniel, Tim, and Peter)
 
@@ -249,14 +258,6 @@ title: Projects
   <h3 class="p_post_h">Building and evaluating expressive recurrent neural networks</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/andreyklimenok/">Andrei Klimenok</a>, <a href="https://github.com/thonor111">Thomas Nortmann</a>, <a href="https://www.linkedin.com/in/varun-kapoor-6734b982">Varun Kapoor</a>, et al.<br>
   <b>Summary:</b> Building a modular codebase for deploying BLT RNNs - previously used for modelling neural responses - at scale, understanding when recurrence is useful, and benchmarking them on Brain-Score.<br>
-</div> -->
-
-[//]: # (Project with Lotta)
-<!-- <div class="p_post">
-  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
-  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
-  <b>Comments:</b> Lotta is finishing her bachelors' thesis.
 </div> -->
 
 {% comment %}
