@@ -11,7 +11,7 @@ title: Misc.
   - Bachelors/Masters 6-session introductory block course at Osnabruck University
 
 <p class="message">
-  Notable presentations
+  Misc. presentations
 </p>
 
 - [Useful scene representations (2023)](https://doi.org/10.6084/m9.figshare.22698157.v1)
@@ -23,7 +23,7 @@ title: Misc.
 - [Representations: useful, useless, or harmful? (2019)](https://doi.org/10.6084/m9.figshare.18347789.v2)
 
 <p class="message">
-  Notable Twitter threads
+  Conference summaries
 </p>
 
 - [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
@@ -32,6 +32,12 @@ title: Misc.
 
 - [Conference on Cognitive Computational Neuroscience 2018 summary](https://twitter.com/martisamuser/status/1037930887592206336?s=20)
   <!-- - Correction to the first tweet - the accepted papers can be found [here](https://ccneuro.org/2018/Papers/AcceptedPapers.asp) -->
+
+<p class="message">
+  Book summaries
+</p>
+
+- [Natural General Intelligence - Chris Summerfield](https://x.com/martisamuser/status/1620197018072190976?s=20)
 
 <p class="message">
   Useful resources on the internet
