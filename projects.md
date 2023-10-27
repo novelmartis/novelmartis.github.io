@@ -106,7 +106,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
   <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
   <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a><br>
-  <b>Comments:</b> <a href="https://arxiv.org/abs/2310.04741">Preprint</a>
+  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href="https://arxiv.org/abs/2310.04741">RDAC Preprint</a>
 </div>
 
 [//]: # (Project with Lu-Chun and Peelen)
