@@ -32,12 +32,23 @@ title: Projects
   <b>Summary:</b> Given observations in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the human visual cortex and ANNs, is useful in performing classification tasks. <br>
 </div>
 
-[//]: # (Project with Daniel, Tim, and Peter)
+[//]: # (Project with Jochem, Gen, and Peelen)
 
 <div class="p_post">
-  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
-  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
+  <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
+  <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
+  <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
+  <b>Comments:</b> Jochem defended his masters' thesis. Paper being written.<br>
+</div>
+
+[//]: # (Project with Lotta)
+
+<div class="p_post">
+  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
+  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
+  <b>Comments:</b> Lotta completed her bachelors' thesis.
 </div>
 
 [//]: # (Project with Rowan, Daniel, and Tim)
@@ -48,6 +59,14 @@ title: Projects
   <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
 
+[//]: # (Project with Daniel, Tim, and Peter)
+
+<div class="p_post">
+  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a><br>
+  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
+</div>
+
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
 
 <div class="p_post">
@@ -56,30 +75,11 @@ title: Projects
   <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
 </div>
 
-<h3>
+<!-- <h3>
 <div class="p_year">
   Dormant
 </div>
-</h3>
-
-[//]: # (Project with Lotta)
-
-<div class="p_post">
-  <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
-  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
-  <b>Comments:</b> Lotta finished her bachelors' thesis.
-</div>
-
-[//]: # (Project with Jochem, Gen, and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
-  <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
-  <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem defended his masters' thesis.<br><br>
-</div>
+</h3> -->
 
 <h3>
 <div class="p_year">
