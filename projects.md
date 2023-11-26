@@ -290,6 +290,7 @@ Students supervised:
 5. Nicolle Rogalla -> bachelor's thesis 2023
 6. Thomas Nortmann, Andrei Klimenok -> masters's projects 2023
 7. Daniel Anthes, Zejin Lu, Johannes Singer -> PhD projects 2023
+8. Jonas Bieber -> bachelor's thesis 2024
 
 {% endcomment %}
 
