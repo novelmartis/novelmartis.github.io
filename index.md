@@ -15,6 +15,7 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
     + Advised by [Tim Kietzmann](https://www.kietzmannlab.org/lab/).
     + Institutional email address: [sthorat@uos.de](mailto:sthorat@uos.de)
 * Research interests:
+    + Normative models of visual relational reasoning.
     + Iterative refinement of object identity inference in recurrent neural networks.
     + Lifelong learning on continuous data streams with recurrent neural networks.
     + Interactions between memory, perception, and decision-making systems.
