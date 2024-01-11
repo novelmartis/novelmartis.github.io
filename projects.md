@@ -39,7 +39,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem defended his masters' thesis.<br><br>
+  <b>Comments:</b> Jochem's masters thesis. Paper in prep.<br><br>
 </div>
 
 [//]: # (Project with Lotta)
@@ -48,7 +48,7 @@ title: Projects
   <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
   <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, does a reinforcement learning agent learn to rely on an explicit encoding of the attention state - the attention schema? Related to <a href="https://www.pnas.org/doi/abs/10.1073/pnas.2102421118">Wilterson et al. PNAS 2021</a>.<br>
-  <b>Comments:</b> Lotta completed her bachelors' thesis.
+  <b>Comments:</b> Lotta's bachelors thesis. Paper in prep.
 </div>
 
 [//]: # (Project with Rowan, Daniel, and Tim)
@@ -116,7 +116,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/vs-neural.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: same/different judgement relates to earlier, and object search to later stages in MEG/fMRI signals.<br>
-  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a><br><br>
+  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a>, in press at JoN<br><br>
 </div>
 
 [//]: # (Project with Surya and Peelen)
@@ -126,7 +126,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/size-search.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. During search for an object, in addition to the object's identity, the attentional template contains information its size, entangled with its identity, which is inferred from its location in the scene.<br>
-  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a><br><br>
+  <b>Comments:</b> <a href="https://psyarxiv.com/ktayb/">Preprint</a>, in press at JEP:HPP<br><br>
 </div>
 
 <h3>
