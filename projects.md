@@ -46,7 +46,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
-  <img class="p_post" src="{{site.url}}/assets/ast_schema" height="200">
+  <img class="p_post" src="{{site.url}}/assets/ast_schema.png" height="200">
   <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In tracking an object through clutter with signal-boosting spatial attention, a reinforcement learning agent learns to create an explicit encoding of the attentional state - the attention schema. This schema is most useful when the attentional state cannot be inferred from the stimulus.<br>
   <b>Comments:</b> <a href="https://arxiv.org/abs/2402.01056">Preprint</a>, under review<br><br>
