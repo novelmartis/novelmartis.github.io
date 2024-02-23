@@ -106,7 +106,8 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/vs-neural.png" height="200">
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=3Fj2iKkAAAAJ"><b><u>Lu-Chun Yeh</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: same/different judgement relates to earlier, and object search to later stages in MEG/fMRI signals.<br>
-  <b>Comments:</b> <a href="https://doi.org/10.1101/2023.06.15.545065">Preprint</a>, in press at JoN<br><br>
+  <b>Publication:</b> <a href="https://doi.org/10.1523/JNEUROSCI.1107-23.2024">JoN'24 paper</a><br>
+  <b>Comments:</b> Tweeprint forthcoming.
 </div>
 
 [//]: # (Project with Surya and Peelen)
