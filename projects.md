@@ -118,7 +118,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>, et al.<br>
   <b>Summary:</b> Object size varies with the location of the object in scenes. During search for an object, in addition to the object's identity, the attentional template contains information its size, entangled with its identity, which is inferred from its location in the scene.<br>
   <b>Publication:</b> <a href="https://psycnet.apa.org/doi/10.1037/xhp0001172">JEP:HPP'24 paper</a><br>
-  <b>Comments:</b> Tweeprint forthcoming.
+  <b>Comments:</b> <a href="https://x.com/SuryaGayet/status/1763881177415364740?s=20">JEP paper in brief</a>
 </div>
 
 <h3>
@@ -135,7 +135,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
   <b>Publication:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a><br>
+  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a>
 </div>
 
 <h3>
