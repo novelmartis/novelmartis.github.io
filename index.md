@@ -35,8 +35,6 @@ In case you would like to discuss the possibility of a collaboration or just ide
 
 Beyond research, I enjoy playing League of Legends, Age of Empires 2, badminton, and board games (Catan <3). I am always up for water-sports: swimming, kayaking, snorkelling, stand-up paddling, and scuba diving. Also sign me up for any adrenaline-pumping, motivating, or tear-jerking anime (have you watched Hunter x Hunter yet? Your Lie in April?), or movies!
 
-I occasionally blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy.
-
-<!-- I occasionally (mostly used to) write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com). -->
+I occasionally blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy. I occasionally write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com).
 
 <hr>
