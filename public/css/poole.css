@@ -469,6 +469,10 @@ a.pagination-item:hover {
     color: #4099FF;
 }
 
+.fa-youtube-play {
+  color: #FF0000;
+}
+
 /* Projects Page styling */
 
 .p_year {
