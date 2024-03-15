@@ -1,24 +1,22 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <style>
     
-/* .social p {
+.social p {
     float:right;
     margin-top: 5px;
     margin-right: -10px;
-} */
+}
 
 .social{
     float:center;
-    width: 350px;
-    padding-bottom: 1em;
-    /* padding-top: 0em; */
+    width: 180px;
+    padding-bottom: 2em;
 }
     
 .social ul {
     overflow: auto;
-    float: center;
-    /* margin-left: -40px;   */
-    /* -60 */
+    float: left;
+    margin-left: -60px;
 }
  
 .social ul li {
@@ -67,24 +65,22 @@
       {% endcomment %}
       
 
-      <a class="sidebar-nav-item{% if page.url == {{site.url}} %} active{% endif %}" href="{{site.url}}">About</a>
-      <a class="sidebar-nav-item{% if page.url == {{site.url}}/projects %} active{% endif %}" href="{{site.url}}/projects">Projects</a>
-      <a class="sidebar-nav-item{% if page.url == {{site.url}}/blog %} active{% endif %}" href="{{site.url}}/blog">Blog</a>
-      <a class="sidebar-nav-item{% if page.url == {{site.url}}/misc %} active{% endif %}" href="{{site.url}}/misc">Misc.</a>
+      <a class="sidebar-nav-item{% if page.url == / %} active{% endif %}" href="{{site.url}}">About</a>
+      <a class="sidebar-nav-item{% if page.url == /projects/ %} active{% endif %}" href="{{site.url}}/projects">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == /blog/ %} active{% endif %}" href="{{ site.url}}/blog">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == /misc/ %} active{% endif %}" href="{{site.url}}/misc">Misc.</a>
 
       {% comment %} <span class="sidebar-nav-item">Currently v{{ site.version }}</span> {% endcomment %}
     </nav>
       
-    <center>
-    <div class="social">  
+      <center>
+      <div class="social">  
     <ul>
     <li><a href="https://twitter.com/martisamuser" target="_blank"><i class="fa fa-twitter"></i></a></li>
     <li><a href="https://github.com/novelmartis" target="_blank"><i class="fa fa-github"></i> </a></li>
-    <li><a href="https://youtube.com/playlist?list=PL0HxeKpsusXA5nsj27SpczdpZb_R9ipCB&si=bxfK_PV6Cnj2Swy-" target="_blank"><i class="fa fa-youtube-play"></i> </a></li>
     <li><a href="https://novelmartiswrites.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i> </a></li>
-    <li><a href="https://www.kietzmannlab.org/lab/" target="_blank"><i class="fa fa-briefcase"></i> </a></li>
     </ul>
-    <!-- <p>&copy; {{ site.time | date: '%y' }}</p> -->
+    <p>&copy; {{ site.time | date: '%Y' }}</p>
     </div>
     </center>
       
