@@ -11,7 +11,7 @@
     float:center;
     width: 250px;
     padding-bottom: 2em;
-    padding-top: 1em;
+    padding-top: 2em;
 }
     
 .social ul {
@@ -67,10 +67,10 @@
       {% endcomment %}
       
 
-      <a class="sidebar-nav-item" href="{{site.url}}">About</a>
-      <a class="sidebar-nav-item" href="{{site.url}}/projects">Projects</a>
-      <a class="sidebar-nav-item" href="{{site.url}}/blog">Blog</a>
-      <a class="sidebar-nav-item" href="{{site.url}}/misc">Misc.</a>
+      <a class="sidebar-nav-item{% if page.url == {{site.url}} %} active{% endif %}" href="{{site.url}}">About</a>
+      <a class="sidebar-nav-item{% if page.url == {{site.url}}/projects %} active{% endif %}" href="{{site.url}}/projects">Projects</a>
+      <a class="sidebar-nav-item{% if page.url == {{site.url}}/blog %} active{% endif %}" href="{{site.url}}/blog">Blog</a>
+      <a class="sidebar-nav-item{% if page.url == {{site.url}}/misc %} active{% endif %}" href="{{site.url}}/misc">Misc.</a>
 
       {% comment %} <span class="sidebar-nav-item">Currently v{{ site.version }}</span> {% endcomment %}
     </nav>
@@ -82,7 +82,7 @@
     <li><a href="https://github.com/novelmartis" target="_blank"><i class="fa fa-github"></i> </a></li>
     <li><a href="https://youtube.com/playlist?list=PL0HxeKpsusXA5nsj27SpczdpZb_R9ipCB&si=bxfK_PV6Cnj2Swy-" target="_blank"><i class="fa fa-youtube-play"></i> </a></li>
     <li><a href="https://novelmartiswrites.wordpress.com" target="_blank"><i class="fa fa-wordpress"></i> </a></li>
-    <!-- <li><a href="https://www.kietzmannlab.org/lab/" target="_blank"><i class="fa fa-briefcase"></i> </a></li> -->
+    <li><a href="https://www.kietzmannlab.org/lab/" target="_blank"><i class="fa fa-briefcase"></i> </a></li>
     </ul>
     <!-- <p>&copy; {{ site.time | date: '%y' }}</p> -->
     </div>
