@@ -20,7 +20,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Gaze stitching models of visual processing</h3>
-  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>With:</b> <u>Jonas Jocham</u>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, we assess whether gaze prediction/stitching models explain representations in PPC, and serve as useful priors for visual reasoning.<br>
 </div>
 
