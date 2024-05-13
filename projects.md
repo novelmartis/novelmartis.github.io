@@ -16,12 +16,28 @@ title: Projects
 </div>
 </h3>
 
+[//]: # (Project with Adrien, Tim, Carmen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Gaze stitching models of visual processing</h3>
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, we assess whether gaze prediction/stitching models explain representations in PPC, and serve as useful priors for visual reasoning.<br>
+</div>
+
 [//]: # (Project with Zejin, Tim, Radek)
 
 <div class="p_post">
   <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><b><u>Zejin Lu</u></b></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
+</div>
+
+[//]: # (Project with Jonas Bieber)
+
+<div class="p_post">
+  <h3 class="p_post_h">Decision-making RNNs</h3>
+  <b>With:</b> <b><u>Jonas Bieber</u></b>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
 </div>
 
 [//]: # (Project with Johannes and Tim)
@@ -48,14 +64,6 @@ title: Projects
   <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
   <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
-</div>
-
-[//]: # (Project with Jonas Bieber)
-
-<div class="p_post">
-  <h3 class="p_post_h">Decision-making RNNs</h3>
-  <b>With:</b> <b><u>Jonas Bieber</u></b>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
 </div>
 
 [//]: # (Project with Daniel, Tim, and Peter)
