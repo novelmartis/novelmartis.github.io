@@ -5,7 +5,7 @@ title: Projects
 
 <p class="message">
   Find information about my current and past projects below.<br>
-  Where applicable, collaborators leading those projects are <b><u>highlighted</u></b>.<br>
+  Where applicable, collaborators leading those projects are <b><u>highlighted</u>'</b>.<br>
   My peer-reviewed and preprint publications can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.<br>
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut_Thorat/522624">figshare</a>.
 </p>
