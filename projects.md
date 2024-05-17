@@ -5,7 +5,7 @@ title: Projects
 
 <p class="message">
   Find information about my current and past projects below.<br>
-  Where applicable, collaborators leading those projects are <b><u>highlighted</u>'</b>.<br>
+  Where applicable, collaborators leading those projects are <b><u>highlighted</u></b>.<br>
   My peer-reviewed and preprint publications can be found on <a href="https://scholar.google.it/citations?user=MPFzJQgAAAAJ&hl=en">Google Scholar</a>.<br>
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut_Thorat/522624">figshare</a>.
 </p>
@@ -20,7 +20,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Gaze stitching models of visual processing</h3>
-  <b>With:</b> Jonas Jocham', <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>With:</b> <u>Jonas Jocham</u>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, we assess whether gaze prediction/stitching models explain representations in PPC, and serve as useful priors for visual reasoning.<br>
 </div>
 
@@ -28,7 +28,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><b><u>Zejin Lu</u></b></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
 </div>
 
@@ -36,7 +36,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Decision-making RNNs</h3>
-  <b>With:</b> <b><u>Jonas Bieber</u></b>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> <u>Jonas Bieber</u>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
 </div>
 
@@ -99,7 +99,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
   <img class="p_post" src="{{site.url}}/assets/ast_schema.png" height="200">
-  <b>With:</b> <a href="https://github.com/lolotta"><b><u>Lotta Piefke</u></b></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> <a href="https://github.com/lolotta"><u>Lotta Piefke</u></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In tracking an object through clutter with spatial attention, with RL, an agent learns to create an explicit encoding of the attentional state - an attention schema. This schema is most useful when the attentional state cannot be inferred from the stimulus.<br>
   <b>Comments:</b> <a href="https://arxiv.org/abs/2402.01056">Preprint</a>, accepted at CogSci'24<br><br>
 </div>
