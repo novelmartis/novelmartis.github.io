@@ -6,7 +6,7 @@ title:
 <img align="top-left" src="{{site.url}}/assets/portrait_main.png" height="190">
 # Sushrut Thorat.
 
-I am a cognitive scientist, ultimately interested in building resource-constrained artificial agents that can learn and function in the wild.
+I am a cognitive scientist, aiming to build resource-constrained artificial agents that can learn and function in the wild.
 
 #### Current position:
 
@@ -16,10 +16,9 @@ I am a cognitive scientist, ultimately interested in building resource-constrain
     + Institutional email address: [sthorat@uos.de](mailto:sthorat@uos.de)
 * Research interests:
     + Normative models of visual relational reasoning.
-    + Iterative refinement of object identity inference in recurrent neural networks.
-    + Lifelong learning on continuous data streams with recurrent neural networks.
+    + Image processing with recurrent neural networks.
+    + Lifelong learning on continuous data streams.
     + Interactions between memory, perception, and decision-making systems.
-    + Bio-inspired local learning rules as alternatives to backpropagation-based updates.
 
 #### Previous education/experience:
 
@@ -33,7 +32,7 @@ In case you would like to discuss the possibility of a collaboration or just ide
 
 <hr>
 
-Beyond research, I enjoy playing League of Legends, Age of Empires 2, badminton, and board games (Catan <3). I am always up for water-sports: swimming, kayaking, snorkelling, stand-up paddling, and scuba diving. Also sign me up for any adrenaline-pumping, motivating, or tear-jerking anime (have you watched Hunter x Hunter yet? Your Lie in April?), or movies!
+Beyond research, I enjoy playing League of Legends, Age of Empires 2, badminton, and board games (Pandemic, Catan <3). I am always up for water-sports: swimming, kayaking, snorkelling, stand-up paddling, and scuba diving. Also sign me up for any adrenaline-pumping, motivating, or tear-jerking anime (have you watched Hunter x Hunter yet? Your Lie in April?), or movies!
 
 I occasionally blog about the green screens of my projects, half-baked but interesting ideas, and other random stuff which might come in handy. I occasionally write short stories and poems (I am a novice). They can be found at [Meadows](https://novelmartiswrites.wordpress.com).
 
