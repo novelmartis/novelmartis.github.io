@@ -28,7 +28,7 @@ I am a cognitive scientist, aiming to build resource-constrained artificial agen
 
 Further academically-relevant information can be found in my curriculum vitae ([full]({{site.url}}/assets/cv-full.pdf)/[short]({{site.url}}/assets/cv-short.pdf)). The [projects page]({{site.url}}/projects/) lists and briefly summarizes my projects.
 
-In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, connect with me on Twitter [@martisamuser](https://twitter.com/martisamuser) or email [contact@sushrutthorat.com](mailto:contact@sushrutthorat.com).
+In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, connect with me on Twitter [@martisamuser](https://twitter.com/martisamuser) or email [sushrut.thorat94@gmail.com](mailto:sushrut.thorat94@gmail.com).
 
 <hr>
 
