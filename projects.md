@@ -46,7 +46,7 @@ title: Projects
   <h3 class="p_post_h">Multi-area readouts in brains and machines</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=z558t4EAAAAJ&hl=en&oi=ao"><b><u>Johannes Singer</u></b></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Given observations in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the human visual cortex and ANNs, is useful in performing classification tasks. <br>
-  <b>Comments:</b> First results be presented at CCN'24
+  <b>Comments:</b> Preliminary results will be presented at CCN'24
 </div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
@@ -81,7 +81,7 @@ title: Projects
   <h3 class="p_post_h">Brain reading with a Transformer</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
-  <b>Comments:</b> First results be presented at CCN'24
+  <b>Comments:</b> Preliminary results will be presented at CCN'24
 </div>
 
 <!-- <h3>
@@ -114,7 +114,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/rdac.png" height="200">
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
-  <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a><br>, <a href="https://arxiv.org/abs/2310.04741">Preprint</a> (accepted at COLLAS'24)
+  <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a><br>, <a href="https://arxiv.org/abs/2310.04741">CoLLAs'24 paper</a><br>
   <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, new results @ CCN'24
 </div>
 
