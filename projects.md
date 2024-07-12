@@ -10,40 +10,57 @@ title: Projects
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut_Thorat/522624">figshare</a>.
 </p>
 
+
 <h3>
 <div class="p_year">
-  Recurrent computations
+  Learning - developmental & lifelong
 </div>
 </h3>
 
-[//]: # (Project with Jonas Bieber)
+[//]: # (Project with Zejin, Tim, Radek)
 
 <div class="p_post">
-  <h3 class="p_post_h">Decision-making RNNs</h3>
-  <b>With:</b> <u>Jonas Bieber</u>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
+  <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
 </div>
 
-[//]: # (Project with Adrien and Tim)
+[//]: # (Project with Rowan, Daniel, and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">How does recurrence interact with feedforward processing in RNNs?</h3>
-  <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
-  <b>Publication:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a>
+  <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
+  <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
 
-[//]: # (Project with Giacomo and Tim)
+[//]: # (Project with Daniel, Tim, and Peter)
 
 <div class="p_post">
-  <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
-  <img class="p_post" src="{{site.url}}/assets/rnn-filter.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is used, iteratively, to constrain the subsequent inferences about the object's category.<br>
-  <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
-  <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
+  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
+</div>
+
+[//]: # (Project with Daniel, Tim, and Peter)
+
+<div class="p_post">
+  <h3 class="p_post_h">Structured representational drift aids continual learning</h3>
+  <img class="p_post" src="{{site.url}}/assets/rdac.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
+  <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">CoLLAs'24 paper</a><br>
+  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, new results @ CCN'24
+</div>
+
+[//]: # (Project with Gen and Peelen)
+
+<div class="p_post">
+  <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. Increased search efficiency among co-occurring distractors is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
+  <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
+  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
 </div>
 
 
@@ -118,42 +135,38 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Developmental science
+  Recurrent computations
 </div>
 </h3>
 
-[//]: # (Project with Zejin, Tim, Radek)
+[//]: # (Project with Jonas Bieber)
 
 <div class="p_post">
-  <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
+  <h3 class="p_post_h">Decision-making RNNs</h3>
+  <b>With:</b> <u>Jonas Bieber</u>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
 </div>
 
-
-<h3>
-<div class="p_year">
-  Lifelong learning
-</div>
-</h3>
-
-[//]: # (Project with Rowan, Daniel, and Tim)
+[//]: # (Project with Adrien and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
-  <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
+  <h3 class="p_post_h">How does recurrence interact with feedforward processing in RNNs?</h3>
+  <img class="p_post" src="{{site.url}}/assets/blt_arrangement.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In RNNs performing image classification, the feedforward sweep instantiates a representational arrangement that dovetails with the recurrence-induced "equal movement for all representations" prior, allowing classifications to be corrected.<br>
+  <b>Publication:</b> <a href="https://arxiv.org/abs/2308.12435">CCN'23 paper</a><br>
+  <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a>
 </div>
 
-[//]: # (Project with Daniel, Tim, and Peter)
+[//]: # (Project with Giacomo and Tim)
 
 <div class="p_post">
-  <h3 class="p_post_h">Structured representational drift aids continual learning</h3>
-  <img class="p_post" src="{{site.url}}/assets/rdac.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
-  <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">CoLLAs'24 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, new results @ CCN'24
+  <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
+  <img class="p_post" src="{{site.url}}/assets/rnn-filter.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.co.in/citations?user=qVvqArkAAAAJ&hl=en&oi=ao">Giacomo Aldegheri</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> In a recurrent neural network trained for object categorization, the recurrent flow carries category-orthogonal object feature (e.g. object location) information, which is used, iteratively, to constrain the subsequent inferences about the object's category.<br>
+  <b>Publication:</b> <a href = "https://arxiv.org/abs/2111.07898">SVRHM'21 paper</a><br>
+  <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
 </div>
 
 
@@ -171,14 +184,6 @@ title: Projects
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
   <b>Comments:</b> Jochem's masters thesis. Paper in prep.<br><br>
-</div>
-
-[//]: # (Project with Daniel, Tim, and Peter)
-
-<div class="p_post">
-  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
 </div>
 
 [//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
@@ -201,18 +206,6 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/LuChunYeh/status/1771482781337387299?s=20">JN paper in brief</a>
 </div>
 
-[//]: # (Project with Gen and Peelen)
-
-<div class="p_post">
-  <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. Increased search efficiency among co-occurring distractors is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
-  <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
-  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
-</div>
-
-
 [//]: # (Project with Peelen)
 
 <div class="p_post">
@@ -227,7 +220,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Machine Learning
+  Classical machine learning
 </div>
 </h3>
 
