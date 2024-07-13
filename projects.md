@@ -11,11 +11,11 @@ title: Projects
 </p>
 
 
-<h3>
+<h2>
 <div class="p_year">
   Learning - Developmental & Lifelong
 </div>
-</h3>
+</h2>
 
 [//]: # (Project with Zejin, Tim, Radek)
 
@@ -64,11 +64,11 @@ title: Projects
 </div>
 
 
-<h3>
+<h2>
 <div class="p_year">
   Attentional Processes
 </div>
-</h3>
+</h2>
 
 [//]: # (Project with Johannes and Tim)
 
@@ -133,11 +133,11 @@ title: Projects
 </div>
 
 
-<h3>
+<h2>
 <div class="p_year">
   Recurrent Computations
 </div>
-</h3>
+</h2>
 
 [//]: # (Project with Jonas Bieber)
 
@@ -170,11 +170,11 @@ title: Projects
 </div>
 
 
-<h3>
+<h2>
 <div class="p_year">
   Visual Representations
 </div>
-</h3>
+</h2>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
 
