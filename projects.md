@@ -218,11 +218,11 @@ title: Projects
 </div>
 
 
-<h3>
+<h2>
 <div class="p_year">
   Engineering Computational Systems
 </div>
-</h3>
+</h2>
 
 [//]: # (Project with Varad, RD)
 
