@@ -13,7 +13,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Learning - developmental & lifelong
+  Learning - Developmental & Lifelong
 </div>
 </h3>
 
@@ -66,7 +66,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Attentional processes
+  Attentional Processes
 </div>
 </h3>
 
@@ -135,7 +135,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Recurrent computations
+  Recurrent Computations
 </div>
 </h3>
 
@@ -172,7 +172,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Classical visual processing
+  Visual Representations
 </div>
 </h3>
 
@@ -220,7 +220,7 @@ title: Projects
 
 <h3>
 <div class="p_year">
-  Classical machine learning
+  Engineering Computational Systems
 </div>
 </h3>
 
