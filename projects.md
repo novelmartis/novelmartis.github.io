@@ -245,19 +245,6 @@ title: Projects
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
 </div>
 
-<h2>
-  <button class="collapsible">Learning - Developmental & Lifelong</button>
-</h2>
-<div class="content">
-  [//]: # (Project with Zejin, Tim, Radek)
-  <div class="p_post">
-    <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
-    <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-    <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
-  </div>
-  <!-- Add more project divs here if needed -->
-</div>
-
 
 {% comment %}
 <h3>
