@@ -26,6 +26,8 @@ title: Misc.
   Conference summaries
 </p>
 
+- [Analogy conference 2024 summary](https://x.com/martisamuser/status/1815870491170681193)
+
 - [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
 
 - [Perception Day 2018 summary](https://twitter.com/martisamuser/status/1071357743318077441?s=20)
