@@ -26,6 +26,8 @@ title: Misc.
   Conference summaries
 </p>
 
+- [CogSci 2024 conference summary](https://x.com/martisamuser/status/1816228709587902573)
+
 - [Analogy conference 2024 summary](https://x.com/martisamuser/status/1815870491170681193)
 
 - [Language in Interaction Symposium 2019 summary](https://twitter.com/martisamuser/status/1115679784942673922?s=20)
