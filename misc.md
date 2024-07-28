@@ -26,7 +26,7 @@ title: Misc.
   Conference summaries
 </p>
 
-- [CogSci 2024 conference summary](https://x.com/martisamuser/status/1816228709587902573)
+- [CogSci conference 2024 summary](https://x.com/martisamuser/status/1816228709587902573)
 
 - [Analogy conference 2024 summary](https://x.com/martisamuser/status/1815870491170681193)
 

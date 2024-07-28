@@ -86,7 +86,7 @@ title: Projects
   <b>With:</b> <a href="https://github.com/lolotta"><u>Lotta Piefke</u></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In tracking an object through clutter with spatial attention, with RL, an agent learns to create an explicit encoding of the attentional state - an attention schema. This schema is most useful when the attentional state cannot be inferred from the stimulus.<br>
   <b>Publication:</b> <a href="https://escholarship.org/uc/item/1516x0js">CogSci'24 paper</a><br>
-  <b>Comments:</b> Summary incoming
+  <b>Comments:</b> <a href="https://x.com/lolotta6/status/1815370164600246348">CogSci paper in brief</a>
 </div>
 
 [//]: # (Project with Surya and Peelen)
