@@ -41,9 +41,9 @@ title: Misc.
   Book summaries
 </p>
 
-- [Natural General Intelligence - Chris Summerfield](https://x.com/martisamuser/status/1620197018072190976?s=20)
-
 - [How We Learn - Stanislas Dehaene](https://x.com/martisamuser/status/1715296374831399358?s=20)
+
+- [Natural General Intelligence - Chris Summerfield](https://x.com/martisamuser/status/1620197018072190976?s=20)
 
 <p class="message">
   Useful resources on the internet

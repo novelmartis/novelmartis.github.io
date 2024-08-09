@@ -21,9 +21,9 @@ The books suggested below aren't essential for you to crack JEE Advanced. Howeve
 2. Plane Trigonometry, Part 1 - Loney
   - A big part of a successful mathematician is the ability to visualise complex structures while reasoning about math variables. Moving through this book will provide you a glimpse into that world.
 3. What is Mathematics: An elementary approach to Ideas and Methods - Courant and Robbins
-  - This book takes you on a tour through the world on mathematics. It goes way beyond what is expected in JEE, but for someone interested in math is a must-read.
+  - This book takes you on a tour through the world of mathematics. It goes way beyond what is expected in JEE, but for someone interested in math is a must-read.
 4. Proofs from THE BOOK: Aigner and Ziegler
-  - Exclusively for people extremely interested in mathematics. A gem unlike any other, it covers the foundational arguments in mathematics.
+  - Exclusively for people extremely interested in mathematics. A gem unlike any other, it covers many of the foundational arguments in mathematics.
 
 ### Chemistry:
 1. Atkins' Physical Chemistry - Atkins and Paula
