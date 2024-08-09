@@ -48,7 +48,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
   <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">CoLLAs'24 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, new results @ CCN'24
+  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href = "https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf"> new results @ CCN'24 </a>
 </div>
 
 [//]: # (Project with Gen and Peelen)
@@ -75,7 +75,7 @@ title: Projects
   <h3 class="p_post_h">Multi-area readouts in brains and machines</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=z558t4EAAAAJ&hl=en&oi=ao"><b><u>Johannes Singer</u></b></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Given observations in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a> and <a href="https://www.biorxiv.org/content/10.1101/2023.06.15.545065v1.abstract">Yeh et al. 2023</a>, we study if readout from multiple areas, in the human visual cortex and ANNs, is useful in performing classification tasks. <br>
-  <b>Comments:</b> Preliminary results will be presented at CCN'24
+  <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/98_Paper_authored_submission_non_anonymous.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
 [//]: # (Project with Lotta)
@@ -168,12 +168,19 @@ title: Projects
   <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
 </div>
 
-
 <h2>
 <div class="p_year">
   Visual Representations
 </div>
 </h2>
+
+[//]: # (Project with Adrien, Carmen, Tim)
+
+<div class="p_post">
+  <h3 class="p_post_h">Relational representations via gaze stitching</h3>
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en"><u>Jonas Jocham</u></a>, <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
+</div>
 
 [//]: # (Project with Jochem, Gen, and Peelen)
 
@@ -191,7 +198,7 @@ title: Projects
   <h3 class="p_post_h">Brain reading with a Transformer</h3>
   <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
-  <b>Comments:</b> Preliminary results will be presented at CCN'24
+  <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
 [//]: # (Project with Lu-Chun and Peelen)
