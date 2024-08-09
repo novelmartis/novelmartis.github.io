@@ -10,11 +10,11 @@ title: Projects
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut_Thorat/522624">figshare</a>.
 </p>
 
-<h2>
 <div class="p_year">
+<h2>
   Learning - Developmental & Lifelong
-</div>
 </h2>
+</div>
 
 [//]: # (Project with Zejin, Tim, Radek)
 
