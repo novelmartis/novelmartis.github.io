@@ -11,12 +11,8 @@ title: Projects
 </p>
 
 <details>
-  <summary>
-<h2>
-<div class="p_year">
+  <summary class="p_year">
   Learning - Developmental & Lifelong
-</div>
-</h2>
 </summary>
 
 <!-- (Project with Zejin, Tim, Radek) -->
