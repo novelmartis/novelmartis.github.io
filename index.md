@@ -26,7 +26,7 @@ I am a cognitive scientist, aiming to build resource-constrained artificial agen
 * MSc in Cognitive Neuroscience ([thesis](https://doi.org/10.6084/m9.figshare.5919154.v1)) from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
 * BTech in Engineering Physics ([thesis](https://doi.org/10.6084/m9.figshare.1582657.v2)) from [IIT Bombay](http://iitb.ac.in). <br>
 
-Further academically-relevant information can be found in my curriculum vitae ([full]({{site.url}}/assets/cv-full.pdf)/[short]({{site.url}}/assets/cv-short.pdf)). The [projects page]({{site.url}}/projects/) lists and briefly summarizes my projects.
+Further academically-relevant information can be found in my [curriculum vitae]({{site.url}}/assets/cv-full.pdf). The [projects page]({{site.url}}/projects/) lists and briefly summarizes my projects.
 
 In case you would like to discuss the possibility of a collaboration or just ideas/critiques related to my work, connect with me on Twitter [@martisamuser](https://twitter.com/martisamuser) or email [sushrut.thorat94@gmail.com](mailto:sushrut.thorat94@gmail.com).
 
