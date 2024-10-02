@@ -10,11 +10,14 @@ title: Projects
   All my project reports and presentations are hosted at <a href="https://figshare.com/authors/Sushrut_Thorat/522624">figshare</a>.
 </p>
 
+<details>
+  <summary>
 <h2>
 <div class="p_year">
   Learning - Developmental & Lifelong
 </div>
 </h2>
+</summary>
 
 [//]: # (Project with Zejin, Tim, Radek)
 
@@ -48,7 +51,7 @@ title: Projects
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> In contemporary continual learning, readout misalignment due to learning-induced representational drift poses a big problem. However, constraining this drift to the readout null-space helps networks be both stable and plastic. <br>
   <b>Publication:</b> <a href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN'23 paper</a>, <a href="https://arxiv.org/abs/2310.04741">CoLLAs'24 paper</a><br>
-  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href = "https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf"> new results @ CCN'24 </a>
+  <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href = "https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf"> new analyses @ CCN'24 </a>
 </div>
 
 [//]: # (Project with Gen and Peelen)
@@ -61,7 +64,7 @@ title: Projects
   <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
   <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
 </div>
-
+</details>
 
 <h2>
 <div class="p_year">
