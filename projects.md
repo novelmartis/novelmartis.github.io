@@ -60,15 +60,15 @@ title: Projects
   <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
   <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
 </div>
+
 </details>
 
-<h2>
-<div class="p_year">
+<details>
+  <summary class="p_year">
   Attentional Processes
-</div>
-</h2>
+</summary>
 
-[//]: # (Project with Johannes and Tim)
+<!-- (Project with Johannes and Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Multi-area readouts in brains and machines</h3>
@@ -77,7 +77,7 @@ title: Projects
   <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/98_Paper_authored_submission_non_anonymous.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
-[//]: # (Project with Lotta)
+<!-- (Project with Lotta) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Assessing the emergence of an attention schema in object tracking</h3>
@@ -88,7 +88,7 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/lolotta6/status/1815370164600246348">CogSci paper in brief</a>
 </div>
 
-[//]: # (Project with Surya and Peelen)
+<!-- (Project with Surya and Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Size-dependence of object search templates in natural scenes</h3>
@@ -99,7 +99,7 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/SuryaGayet/status/1763881177415364740?s=20">JEP:HPP paper in brief</a>
 </div>
 
-[//]: # (Project with Peelen)
+<!-- (Project with Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Bodies as features in visual search</h3>
@@ -110,7 +110,7 @@ title: Projects
   <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">NeuroImage paper in brief</a>, <a href = "https://doi.org/10.17605/OSF.IO/HJ5VC">Code + Data</a>
 </div>
 
-[//]: # (Project with Giacomo, Peelen and Marcel)
+<!-- (Project with Giacomo, Peelen and Marcel) -->
 
 <div class="p_post">
   <h3 class="p_post_h">The function of early task-based modulations in object detection</h3>
@@ -120,7 +120,7 @@ title: Projects
   <b>Publications:</b> <a href="https://sushrutthorat.com/ccn18/">CCN'18 paper</a>, <a href="https://arxiv.org/abs/1907.12309">CCN'19 paper</a><br>
 </div>
 
-[//]: # (Project with Ilze, Sjoerd, and Peelen)
+<!-- (Project with Ilze, Sjoerd, and Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">The influence of scene information on object processing</h3>
@@ -130,14 +130,14 @@ title: Projects
   <b>Comments:</b> <a href="https://doi.org/10.6084/m9.figshare.9804725.v2">Summary presentation</a><br>
 </div>
 
+</details>
 
-<h2>
-<div class="p_year">
+<details>
+  <summary class="p_year">
   Recurrent Computations
-</div>
-</h2>
+</summary>
 
-[//]: # (Project with Jonas Bieber)
+<!-- (Project with Jonas Bieber) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Decision-making RNNs</h3>
@@ -145,7 +145,7 @@ title: Projects
   <b>Summary:</b> Human categorisation reaction times can be <i>inferred</i> from RNN representations/outputs (<a href="https://doi.org/10.1371/journal.pcbi.1008215">Spoerer et al. 2020</a>, <a href="https://openreview.net/forum?id=1xPsn2gCOe">Goetschalckx et al. 2023</a>). Instead, we explore whether RNNs can <i>generate</i> RTs that are comparable to human RTs.<br>
 </div>
 
-[//]: # (Project with Adrien and Tim)
+<!-- (Project with Adrien and Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">How does recurrence interact with feedforward processing in RNNs?</h3>
@@ -156,7 +156,7 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/martisamuser/status/1712812776790311293?s=20">CCN paper in brief</a>
 </div>
 
-[//]: # (Project with Giacomo and Tim)
+<!-- (Project with Giacomo and Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Recurrent operations in neural networks trained to recognise objects</h3>
@@ -167,13 +167,14 @@ title: Projects
   <b>Comments:</b> <a href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">SVRHM paper in brief</a>
 </div>
 
-<h2>
-<div class="p_year">
-  Visual Representations
-</div>
-</h2>
+</details>
 
-[//]: # (Project with Adrien, Carmen, Tim)
+<details>
+  <summary class="p_year">
+  Visual Representations
+</summary>
+
+<!-- (Project with Adrien, Carmen, Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Relational representations via gaze stitching</h3>
@@ -181,7 +182,7 @@ title: Projects
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
 </div>
 
-[//]: # (Project with Jochem, Gen, and Peelen)
+<!-- (Project with Jochem, Gen, and Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Perception of rare inverted letters among upright ones</h3>
@@ -191,7 +192,7 @@ title: Projects
   <b>Comments:</b> Jochem's masters thesis. Paper in prep.<br><br>
 </div>
 
-[//]: # (Project with Victoria, Daniel, Tim, and Peter, etc.)
+<!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Brain reading with a Transformer</h3>
@@ -200,7 +201,7 @@ title: Projects
   <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
-[//]: # (Project with Lu-Chun and Peelen)
+<!-- (Project with Lu-Chun and Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Task-dependent characteristics of neural multi-object processing</h3>
@@ -211,7 +212,7 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/LuChunYeh/status/1771482781337387299?s=20">JNeurosci paper in brief</a>
 </div>
 
-[//]: # (Project with Peelen)
+<!-- (Project with Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">The nature of the animacy organization in human ventral temporal cortex</h3>
@@ -222,14 +223,14 @@ title: Projects
   <b>Comments:</b> <a href="https://twitter.com/abc_aalto/status/855043613453058048?s=20">Masters thesis in brief</a>, <a href="https://twitter.com/martisamuser/status/1171381533128777728?s=20">eLife paper in brief</a><br>
 </div>
 
+</details>
 
-<h2>
-<div class="p_year">
+<details>
+  <summary class="p_year">
   Engineering Computational Systems
-</div>
-</h2>
+</summary>
 
-[//]: # (Project with Varad, RD)
+<!-- (Project with Varad, RD) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Reverse dictionary using a word-definition based graph search</h3>
@@ -240,7 +241,7 @@ title: Projects
   <b>Comments:</b> <a href="{{site.url}}/2016/11/06/reverse-dictionary">COLING paper in brief</a><br>
 </div>
 
-[//]: # (Project with Bipin, IJCNN)
+<!-- (Project with Bipin, IJCNN) -->
 
 <div class="p_post">
   <h3 class="p_post_h">A Spiking Neural Network as a Quadcopter Flight Controller</h3>
@@ -251,6 +252,7 @@ title: Projects
   <b>Comments:</b> <a href="{{site.url}}/2016/06/05/quadcopter-control-using-snn">Thesis rumination</a>, <a href="{{site.url}}/2016/06/09/arithmetic-computation">IJCNN paper in brief</a><br>
 </div>
 
+</details>
 
 {% comment %}
 <h3>
