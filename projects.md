@@ -19,7 +19,7 @@ title: Projects
 </h2>
 </summary>
 
-[//]: # (Project with Zejin, Tim, Radek)
+<!-- (Project with Zejin, Tim, Radek) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
@@ -27,7 +27,7 @@ title: Projects
   <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrent processing and developmental trajectories on the shape bias in RNNs and humans.<br>
 </div>
 
-[//]: # (Project with Rowan, Daniel, and Tim)
+<!-- (Project with Rowan, Daniel, and Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
@@ -35,7 +35,7 @@ title: Projects
   <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
 </div>
 
-[//]: # (Project with Daniel, Tim, and Peter)
+<!-- (Project with Daniel, Tim, and Peter) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
@@ -43,7 +43,7 @@ title: Projects
   <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
 </div>
 
-[//]: # (Project with Daniel, Tim, and Peter)
+<!-- (Project with Daniel, Tim, and Peter) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Structured representational drift aids continual learning</h3>
@@ -54,7 +54,7 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href = "https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf"> new analyses @ CCN'24 </a>
 </div>
 
-[//]: # (Project with Gen and Peelen)
+<!-- (Project with Gen and Peelen) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
