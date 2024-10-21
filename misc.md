@@ -10,6 +10,9 @@ title: Misc.
 - [Topics in Cognitive Neuroscience (2023)](https://doi.org/10.6084/m9.figshare.23537094.v1)
   - Bachelors/Masters 6-session introductory block course at Osnabruck University
 
+- [Reading group on the intersection of Neuroscience and Machine Learning](https://x.com/martisamuser/status/1848415795988009403)
+  - Bachelors/Masters course at Osnabruck University
+
 <p class="message">
   Misc. presentations
 </p>
