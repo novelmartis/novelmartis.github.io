@@ -6,7 +6,7 @@ title:
 <img align="top-left" src="{{site.url}}/assets/portrait_main.png" height="190">
 # Sushrut Thorat.
 
-I am a cognitive scientist, aiming to build resource-constrained artificial agents that can learn and function in the wild.
+I am a computational cognitive neuroscientist, aiming to model resource-constrained agents that learn and function in the wild.
 
 #### Current position:
 
@@ -29,7 +29,7 @@ I am a cognitive scientist, aiming to build resource-constrained artificial agen
 
 Further academically-relevant information can be found in my [curriculum vitae]({{site.url}}/assets/cv-full.pdf). The [projects page]({{site.url}}/projects/) lists and briefly summarizes my projects.
 
-In case you would like to discuss the possibility of a collaboration, or just ideas related to or critiques of my work, connect with me on X [@martisamuser](https://twitter.com/martisamuser), [BlueSky](https://bsky.app/profile/sushrutthorat.bsky.social), or email [sushrut.thorat94@gmail.com](mailto:sushrut.thorat94@gmail.com).
+In case you would like to discuss the possibility of a collaboration, or just ideas related to or critiques of my work, connect with me via email [sthorat@uos.de](mailto:sthorat@uos.de).
 
 <hr>
 
