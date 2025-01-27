@@ -71,7 +71,7 @@ title: Projects
 <!-- (Project with Johannes and Tim) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Attentional routing works as well as direct access</h3>
+  <h3 class="p_post_h">Attentional Routing is as effective as Direct Access</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=z558t4EAAAAJ&hl=en&oi=ao"><b><u>Johannes Singer</u></b></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Challenging the claims in <a href="https://doi.org/10.1038/s41467-019-11448-7">Birman & Gardner 2019</a>, ANN models reveal attention routing can route task-relevant information residing in lower-level areas through the network equally well as directly accessing that information from those areas.<br>
   <b>Publication:</b> <a href="https://2024.ccneuro.org/pdf/98_Paper_authored_submission_non_anonymous.pdf">CCN'24 paper</a>
