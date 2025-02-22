@@ -12,7 +12,7 @@ title: Projects
 
 <details>
   <summary class="p_year">
-  Learning - Developmental & Lifelong
+  Learning
 </summary>
 
 <!-- (Project with Rowan, Daniel, and Tim) -->
