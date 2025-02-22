@@ -175,12 +175,21 @@ title: Projects
   Visual Representations
 </summary>
 
-<!-- (Project with Adrien, Carmen, Tim) -->
+<!-- (Project with Adrien, Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Relational representations via gaze stitching</h3>
-  <b>With:</b> Linda Ventura, Jonas Jocham, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> Linda Ventura, Jonas Jocham, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
+</div>
+
+<!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Brain reading with a Transformer</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
+  <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
 <!-- (Project with Jochem, Gen, and Peelen) -->
@@ -191,15 +200,6 @@ title: Projects
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
   <b>Comments:</b> Jochem's masters thesis. Paper in prep.<br><br>
-</div>
-
-<!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Brain reading with a Transformer</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
-  <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
 <!-- (Project with Lu-Chun and Peelen) -->
