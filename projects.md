@@ -12,7 +12,7 @@ title: Projects
 
 <details>
   <summary class="p_year">
-  Learning Processes
+  Learning Mechanisms
 </summary>
 
 <!-- (Project with Rowan, Daniel, and Tim) -->
