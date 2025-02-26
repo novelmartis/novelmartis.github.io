@@ -15,20 +15,22 @@ title: Projects
   Learning Mechanisms
 </summary>
 
-<!-- (Project with Rowan, Daniel, and Tim) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Flexible rule learning in brains and machines</h3>
-  <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Inspired by the Wisconsin Card Sorting Task, we study the priors needed for neural networks to learn object/scene-specific rules continually, and relate their behaviors to human behavior on the same tasks.<br>
-</div>
-
 <!-- (Project with Daniel, Tim, and Peter) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
+</div>
+
+<!-- (Project with Rowan, Daniel, and Tim) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Flexible rule learning in ANNs</h3>
+  <img class="p_post" src="{{site.url}}/assets/winn.png" height="200">
+  <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by <a href="https://openreview.net/forum?id=6orC5MvgPBK">Hummos</a>, we built a system to solve an image-based variant of the Wisconsin Card Sorting Task, and found behaviors suggesting sparks of cognitive flexibility. Main finding: compositional rule inference in activity space.<br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2502.15634">Preprint</a>
 </div>
 
 <!-- (Project with Daniel, Tim, and Peter) -->
