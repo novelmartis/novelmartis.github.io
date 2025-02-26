@@ -26,7 +26,7 @@ title: Projects
 <!-- (Project with Rowan, Daniel, and Tim) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Flexible rule learning in ANNs</h3>
+  <h3 class="p_post_h">Flexible rule learning in machines</h3>
   <img class="p_post" src="{{site.url}}/assets/winn.png" height="200">
   <b>With:</b> <a href="https://www.semanticscholar.org/author/R.-Sommers/114455459"><b><u>Rowan Sommers</u></b></a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Inspired by <a href="https://openreview.net/forum?id=6orC5MvgPBK">Hummos</a>, we built a system to solve an image-based variant of the Wisconsin Card Sorting Task, and found behaviors suggesting sparks of cognitive flexibility. Main finding: compositional rule inference in activity space.<br>
