@@ -15,14 +15,6 @@ title: Projects
   Learning Mechanisms
 </summary>
 
-<!-- (Project with Daniel, Tim, and Peter) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
-</div>
-
 <!-- (Project with Rowan, Daniel, and Tim) -->
 
 <div class="p_post">
@@ -183,6 +175,14 @@ title: Projects
   <h3 class="p_post_h">Relational representations via gaze stitching</h3>
   <b>With:</b> Linda Ventura, Jonas Jocham, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
+</div>
+
+<!-- (Project with Daniel, Tim, and Peter) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
 </div>
 
 <!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
