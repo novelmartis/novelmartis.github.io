@@ -165,7 +165,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
-  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrence and development on the shape bias in RNNs, humans, and macaques.<br>
 </div>
 
@@ -173,7 +173,7 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Relational representations via gaze stitching</h3>
-  <b>With:</b> Linda Ventura, Jonas Jocham, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>With:</b> Linda Ventura, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
 </div>
 
