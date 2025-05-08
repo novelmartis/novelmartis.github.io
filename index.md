@@ -6,7 +6,7 @@ title:
 <img align="top-left" src="{{site.url}}/assets/portrait_main.png" height="190">
 # Sushrut Thorat.
 
-I am a computational cognitive neuroscientist, aiming to model resource-constrained agents that learn and function in the wild.
+I am a cognitive computational neuroscientist, aiming to model resource-constrained agents that learn and function in the wild.
 
 #### Current position:
 
