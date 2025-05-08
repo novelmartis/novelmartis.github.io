@@ -172,9 +172,9 @@ title: Projects
 <!-- (Project with Adrien, Tim) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Relational representations via gaze stitching</h3>
+  <h3 class="p_post_h">Relational representations via glimpse prediction</h3>
   <b>With:</b> Linda Ventura, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next gaze towards generating scene representations that bear relational information about its constituents.<br>
+  <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next glimpse towards generating scene representations that bear relational information about its constituents.<br>
 </div>
 
 <!-- (Project with Daniel, Tim, and Peter) -->
