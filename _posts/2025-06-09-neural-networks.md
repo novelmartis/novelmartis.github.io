@@ -6,7 +6,7 @@ description: The why, how, and what.
 comments: true
 ---
 
-A simple explainer into why we build neural networks, how they learn, and what they mean for the rest of us, as narrated by ChatGPT o3 (with a lot of prodding). If you want a technical introduction to Neural Networks, I recommend Michael Nielsen's [online book][mn_link].
+A simple explainer into why we build neural networks, how they learn, and what they mean for the rest of us, as narrated by ChatGPT o3 (with a LOT of prodding). If you want a technical introduction to Neural Networks, I recommend Michael Nielsen's [online book][mn_link].
 
 <hr>
 
