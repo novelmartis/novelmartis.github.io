@@ -6,7 +6,11 @@ description: The why, how, and what.
 comments: true
 ---
 
-Why We Built Them, How They Learn, and What They Mean for the Rest of Us. (Narrated by ChatGPT o3, with a lot of prodding).
+A simple explainer into why we build neural networks, how they learn, and what they mean for the rest of us, as narrated by ChatGPT o3 (with a lot of prodding). If you want a technical introduction to Neural Networks, I recommend Michael Nielsen's [online book][mn_link].
+
+<hr>
+
+![Illustration]({{site:url}}/assets/nn_blog.png)
 
 #### A tiny everyday puzzle
 
@@ -15,7 +19,7 @@ With a handful of clear-cut cases—“car sensor on → close; car sensor off �
 
 That is the moment you start craving a different kind of software—one that **adapts** from examples rather than follows a frozen playbook. In that craving lies the seed of modern machine learning.
 
-#### From hand-written rules to learned lines
+#### From hand-written rules to learned lines
 
 The gentlest form of learning is **linear regression**. Give the computer a scatter of points—say, month of the year on the x-axis and the supermarket price of strawberries on the y-axis—and ask it to draw the straight line that best threads through them. The slope and intercept become a tiny "program" the model has written for itself:
 
@@ -29,14 +33,14 @@ But strawberries behave politely. Mangos, avocados, petrol, stock prices, and te
 
 We need an engine that can *sculpt* any curve the data whispers, without us guessing the curve first.
 
-![Illustration]({{site:url}}/assets/nn_eg.svg)
+![Examples of machine learning algorithms]({{site:url}}/assets/nn_eg.svg)
 
 #### Enter the neuron
 
 A computational **neuron** does only two tricks:
 
 1. **Add**. Multiply each incoming number by a weight and sum them up.
-2. **Squash**. Pass that sum through a kinked gate called an activation function. These days the gate is usually ReLU (Rectified Linear Unit): *If the sum is positive, keep it; if negative, zero it out*.
+2. **Squash**. Pass that sum through a kinked gate called an activation function. These days the gate is usually ReLU (Rectified Linear Unit): *If the sum is positive, keep it; else zero it*.
 
 That single kink is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting.
 
@@ -54,13 +58,13 @@ Run this blame-and-tweak loop over thousands of examples, and the weights settle
 
 Sometimes we do have a hint about how the data is structured:
 
-1. **Images**: neighbouring pixels usually belong to the same object. Convolutional Neural Networks (CNNs) hard-wire that local-patch assumption.
-2. **Language and audio**: the next word or sound depends on the ones just spoken. Recurrent Neural Networks (RNNs) loop information forward in time.
-3. **Molecules, social graphs, road maps**: items connect in webs, not grids. Graph Neural Networks keep track of those links.
+- **Images**: neighbouring pixels usually belong to the same object. Convolutional Neural Networks (CNNs) hard-wire that local-patch assumption.
+- **Language and audio**: the next word or sound depends on the ones just spoken. Recurrent Neural Networks (RNNs) loop information forward in time.
+- **Molecules, social graphs, road maps**: items connect in webs, not grids. Graph Neural Networks keep track of those links.
 
 By baking the hint into the architecture, we save the model from relearning obvious facts and let it spend its capacity on the subtler patterns.
 
-#### Transformers and the "predict-the-next-token" game
+#### Transformers and the "predict-the-next-token" game
 
 Taking our hints to the frontier, the rock-star architecture of the past few years is the **Transformer**. It discards convolutions and recurrence in favour of self-attention: every word in a sentence can look at every other word in one shot and decide how much it cares - *discover the connections you needs*. Training boils down to the laziest game in AI: "given the text so far, guess the next chunk." Feed the system the open web—Wikipedia, Reddit, arXiv, cooking blogs—and the network must absorb grammar, facts, styles, and a surprising slice of reasoning simply to stay good at the game.
 
@@ -70,21 +74,21 @@ Scale that recipe and you get today’s ultra-expressive large language models. 
 
 Pop open a Transformer and you meet billions of weights—far too many for human inspection. Researchers now poke these models the way cognitive scientists probe brains:
 
-1. *Behavioural tests*: Can it count syllables? reason about physics? follow ethical constraints?
-2. *Mechanistic digs*: trace little circuits dubbed induction heads that spot patterns like “A…B…A → predict B,” an algorithm useful for copying, translating, even doing simple logic.
+- *Behavioural tests*: Can it count syllables? reason about physics? follow ethical constraints?
+- *Mechanistic digs*: trace little circuits dubbed induction heads that spot patterns like “A…B…A → predict B,” an algorithm useful for copying, translating, even doing simple logic.
 
 The digs reveal flashes of structure but also expose fragility. Slightly rephrase a prompt and the same model that solved your logic puzzle might hallucinate a reference or mis-quote a statistic. Flexibility and interpretability remain a trade-off we have not fully solved. Currently, as the internal processes of these networks are hard to understand, to assess the "trustworthiness" of their capacities, we mostly fall back to *behavioural auditing*—test them the way we test pilots or surgeons: repeated drills, stress cases, constant monitoring.
 
 #### Beyond the glitz: Where neural nets (might) live and affect you
 
-1. **Hospitals**: CNNs can highlight tumours in MRI scans within seconds, helping radiologists catch early cancers—but regulators demand rigorous validation because a missed pixel can cost a life.
-2. **Highways**: driver-assist systems lean on vision networks to track lanes and spot pedestrians; a handful of tragic crashes underscore why "mostly works" is not good enough for safety-critical gear.
-3. **Video games**: non-player characters (NPCs) now hold fluid conversations and adapt their strategies mid-match, thanks to language-driven planning models.
-4. **Scientific labs**: protein-folding networks predict 3-D structures that once took months of crystallography, speeding up drug discovery.
+- **Hospitals**: CNNs can highlight tumours in MRI scans within seconds, helping radiologists catch early cancers—but regulators demand rigorous validation because a missed pixel can cost a life.
+- **Highways**: driver-assist systems lean on vision networks to track lanes and spot pedestrians; a handful of tragic crashes underscore why "mostly works" is not good enough for safety-critical gear.
+- **Video games**: non-player characters (NPCs) now hold fluid conversations and adapt their strategies mid-match, thanks to language-driven planning models.
+- **Scientific labs**: protein-folding networks predict 3-D structures that once took months of crystallography, speeding up drug discovery.
 
 Notice a pattern: wherever the environment is too fuzzy for rule lists, neural nets creep in. Of course, they aren't just everywhere because many of these domains require us to "explain" why one does what one does, which is hard to extract from neural networks.
 
-#### So, should you trust them?
+#### So, should you trust them?
 
 Broadly, "trust" is perhaps a limiting lens; *Literacy* is more important. You don’t "trust" electricity—you learn its rules enough to wire a lamp safely. Neural networks are becoming a similar infrastructure layer. The people who grasp even the rough outlines of how they fit curves, how they can surprise you, and where they tend to fail will be better equipped to build on them, critique them, or simply use them wisely.
 
@@ -102,3 +106,5 @@ Whether that brain-alignment research pans out or not, the order of operations s
 - Understanding the basics lets you harness the magic without buying into the hype.
 
 That, in the end, is the point of this post: not to crown neural networks as artificial minds, nor to dismiss them as inscrutable black boxes, but to hand you the conceptual map so you can wander the territory with your eyes open. Whatever you build—or question—next, you’ll do it on firmer ground.
+
+[mn_link]: http://neuralnetworksanddeeplearning.com/
