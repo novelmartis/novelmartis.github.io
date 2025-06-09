@@ -106,6 +106,6 @@ Whether that brain-alignment research pans out or not, the order of operations s
 - From medical imaging to chatbots, neural nets are poised to shape daily life.
 - Understanding the basics lets you harness the magic without buying into the hype.
 
-That, in the end, is the point of this post: not to crown neural networks as artificial minds, nor to dismiss them as inscrutable black boxes, but to hand you the conceptual map so you can wander the territory with your eyes open. Whatever you build—or question—next, you’ll do it on firmer ground.
+That, in the end, is the point of this post: not to crown neural networks as artificial minds, nor to dismiss them as inscrutable black boxes, but to hand you the conceptual map so you can wander the territory with your eyes open. Your next build/question will be on firmer ground.
 
 [mn_link]: http://neuralnetworksanddeeplearning.com/
