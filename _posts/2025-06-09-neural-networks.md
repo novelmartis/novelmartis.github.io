@@ -31,7 +31,7 @@ That humble line already beats a rule list because you never typed the numbers; 
 
 But strawberries behave politely. Mangos, avocados, petrol, stock prices, and teenage growth spurts do not. Their curves dip, spike, or plateau in ways a straight line can’t follow. We could bolt on manual fixes—split the year into seasons, add a polynomial, toss in a “Christmas surge” term—but each bolt is another handwritten assumption. Eventually the patchwork collapses under its own specificity.
 
-We need an engine that can *sculpt* any curve the data whispers.
+We need an engine that can *sculpt* any curve the data whispers, by itself.
 
 ![Examples of machine learning algorithms]({{site:url}}/assets/nn_eg.svg)
 
