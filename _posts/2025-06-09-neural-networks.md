@@ -37,12 +37,12 @@ We need an engine that can *sculpt* any curve the data whispers, by itself.
 
 #### Enter the neuron
 
-A computational **neuron** does only two tricks:
+Simple artificial "neurons" carry out two tricks:
 
 1. **Add**. Multiply each incoming number by a weight and sum them up.
-2. **Squash**. Pass that sum through a kinked gate called an activation function. These days the gate is usually ReLU (Rectified Linear Unit): *If the sum is positive, keep it; else zero it*.
+2. **Squash**. Pass that sum through a gate called an activation function. The most-used gate is ReLU (Rectified Linear Unit): *If the sum is positive, keep it; else zero it*.
 
-That single kink is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting.
+That simple gate is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting.
 
 A nice symmetry pops out here: if you *remove* every kink—replace all the gates with identity functions—a single-layer network collapses right back to linear regression. So neural nets are not mystical departures from classical stats; they are linear models with an unlimited supply of bends. How we make those bends obey our needs?
 
