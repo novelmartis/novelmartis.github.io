@@ -29,9 +29,12 @@ But strawberries behave politely. Mangos, avocados, petrol, stock prices, and te
 
 We need an engine that can *sculpt* any curve the data whispers, without us guessing the curve first.
 
+![Illustration]({{site:url}}/assets/nn_eg.svg)
+
 #### Enter the neuron
 
 A computational **neuron** does only two tricks:
+
 1. **Add**. Multiply each incoming number by a weight and sum them up.
 2. **Squash**. Pass that sum through a kinked gate called an activation function. These days the gate is usually ReLU (Rectified Linear Unit): *If the sum is positive, keep it; if negative, zero it out*.
 
@@ -47,14 +50,13 @@ Learning is just weight-tweaking. Each time the network makes a prediction, we c
 
 Run this blame-and-tweak loop over thousands of examples, and the weights settle into values that slash the overall error. Back-prop is often caricatured as heavy calculus, but at heart it is a glorified chain rule mixed with bookkeeping—a way to send the "fix the leak" message to the precise pipes responsible.
 
-![Illustration]({{site:url}}/assets/nn_example.svg)
-
 #### Helping the network with our prior hunches
 
 Sometimes we do have a hint about how the data is structured:
--**Images**: neighbouring pixels usually belong to the same object. Convolutional Neural Networks (CNNs) hard-wire that local-patch assumption.
--**Language and audio**: the next word or sound depends on the ones just spoken. Recurrent Neural Networks (RNNs) loop information forward in time.
--**Molecules, social graphs, road maps**: items connect in webs, not grids. Graph Neural Networks keep track of those links.
+
+1. **Images**: neighbouring pixels usually belong to the same object. Convolutional Neural Networks (CNNs) hard-wire that local-patch assumption.
+2. **Language and audio**: the next word or sound depends on the ones just spoken. Recurrent Neural Networks (RNNs) loop information forward in time.
+3. **Molecules, social graphs, road maps**: items connect in webs, not grids. Graph Neural Networks keep track of those links.
 
 By baking the hint into the architecture, we save the model from relearning obvious facts and let it spend its capacity on the subtler patterns.
 
@@ -67,17 +69,18 @@ Scale that recipe and you get today’s ultra-expressive large language models. 
 #### But what exactly did the model learn?
 
 Pop open a Transformer and you meet billions of weights—far too many for human inspection. Researchers now poke these models the way cognitive scientists probe brains:
-- *Behavioural tests*: Can it count syllables? reason about physics? follow ethical constraints?
-- *Mechanistic digs*: trace little circuits dubbed induction heads that spot patterns like “A…B…A → predict B,” an algorithm useful for copying, translating, even doing simple logic.
+
+1. *Behavioural tests*: Can it count syllables? reason about physics? follow ethical constraints?
+2. *Mechanistic digs*: trace little circuits dubbed induction heads that spot patterns like “A…B…A → predict B,” an algorithm useful for copying, translating, even doing simple logic.
 
 The digs reveal flashes of structure but also expose fragility. Slightly rephrase a prompt and the same model that solved your logic puzzle might hallucinate a reference or mis-quote a statistic. Flexibility and interpretability remain a trade-off we have not fully solved. Currently, as the internal processes of these networks are hard to understand, to assess the "trustworthiness" of their capacities, we mostly fall back to *behavioural auditing*—test them the way we test pilots or surgeons: repeated drills, stress cases, constant monitoring.
 
 #### Beyond the glitz: Where neural nets (might) live and affect you
 
-- **Hospitals**: CNNs can highlight tumours in MRI scans within seconds, helping radiologists catch early cancers—but regulators demand rigorous validation because a missed pixel can cost a life.
-- **Highways**: driver-assist systems lean on vision networks to track lanes and spot pedestrians; a handful of tragic crashes underscore why "mostly works" is not good enough for safety-critical gear.
-- **Video games**: non-player characters (NPCs) now hold fluid conversations and adapt their strategies mid-match, thanks to language-driven planning models.
-- **Scientific labs**: protein-folding networks predict 3-D structures that once took months of crystallography, speeding up drug discovery.
+1. **Hospitals**: CNNs can highlight tumours in MRI scans within seconds, helping radiologists catch early cancers—but regulators demand rigorous validation because a missed pixel can cost a life.
+2. **Highways**: driver-assist systems lean on vision networks to track lanes and spot pedestrians; a handful of tragic crashes underscore why "mostly works" is not good enough for safety-critical gear.
+3. **Video games**: non-player characters (NPCs) now hold fluid conversations and adapt their strategies mid-match, thanks to language-driven planning models.
+4. **Scientific labs**: protein-folding networks predict 3-D structures that once took months of crystallography, speeding up drug discovery.
 
 Notice a pattern: wherever the environment is too fuzzy for rule lists, neural nets creep in. Of course, they aren't just everywhere because many of these domains require us to "explain" why one does what one does, which is hard to extract from neural networks.
 
