@@ -12,7 +12,7 @@ A simple explainer into why we build neural networks, how they learn, and what t
 
 ![Illustration]({{site:url}}/assets/nn_blog.png)
 
-#### A tiny everyday puzzle
+#### Our everyday puzzle
 
 Imagine a quiet side street at dusk. Your smart garage door is supposed to close only when **your** car has fully rolled in, stay open for your partner’s bike, and never squash the neighbour’s cat.
 With a handful of clear-cut cases—“car sensor on → close; car sensor off → open”—you can write a crisp rule-based program. But the real alley is messy: shadows wobble, bikes glide halfway in, a delivery van idles across the sensor beam. To handle the chaos you’d have to lay down an impossibly long checklist of if-this-then-that rules and update it every time the world invents a new edge case.
