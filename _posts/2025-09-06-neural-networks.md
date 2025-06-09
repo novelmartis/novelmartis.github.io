@@ -2,9 +2,11 @@
 layout: post
 title: Neural Networks
 tags: [2025, explainer]
-description: Why We Built Them, How They Learn, and What They Mean for the Rest of Us. (Narrated by ChatGPT o3, with a lot of prodding)
+description: The why, how, and what.
 comments: true
 ---
+
+Why We Built Them, How They Learn, and What They Mean for the Rest of Us. (Narrated by ChatGPT o3, with a lot of prodding).
 
 #### A tiny everyday puzzle
 
