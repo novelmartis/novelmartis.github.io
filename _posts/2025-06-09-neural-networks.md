@@ -17,7 +17,7 @@ A simple explainer into why we build neural networks, how they learn, and what t
 Imagine a quiet side street at dusk. Your smart garage door is supposed to close only when **your** car has fully rolled in, stay open for your partner’s bike, and never squash the neighbour’s cat.
 With a handful of clear-cut cases—“car sensor on → close; car sensor off → open”—you can write a crisp rule-based program. But the real alley is messy: shadows wobble, bikes glide halfway in, a delivery van idles across the sensor beam. To handle the chaos you’d have to lay down an impossibly long checklist of if-this-then-that rules and update it every time the world invents a new edge case.
 
-That is the moment you start craving a different kind of software—one that **adapts** from examples rather than follows a frozen playbook. In that craving lies the seed of modern machine learning.
+That is the moment you start craving a different kind of software—one that **adapts** from examples rather than follows a frozen playbook. In that craving lies the seed of machine learning.
 
 #### From hand-written rules to learned lines
 
@@ -31,7 +31,7 @@ That humble line already beats a rule list because you never typed the numbers; 
 
 But strawberries behave politely. Mangos, avocados, petrol, stock prices, and teenage growth spurts do not. Their curves dip, spike, or plateau in ways a straight line can’t follow. We could bolt on manual fixes—split the year into seasons, add a polynomial, toss in a “Christmas surge” term—but each bolt is another handwritten assumption. Eventually the patchwork collapses under its own specificity.
 
-We need an engine that can *sculpt* any curve the data whispers, without us guessing the curve first.
+We need an engine that can *sculpt* any curve the data whispers.
 
 ![Examples of machine learning algorithms]({{site:url}}/assets/nn_eg.svg)
 
@@ -48,7 +48,7 @@ A nice symmetry pops out here: if you *remove* every kink—replace all the gate
 
 #### How the bends learn to bend
 
-Learning is just weight-tweaking. Each time the network makes a prediction, we compare it to the truth, measure the error, and ask a now-famous algorithm called back-propagation to apportion blame:
+Learning is just weight-tweaking. Each time the network makes a prediction, we compare it to the truth, measure the error, and ask a now-famous algorithm called back-propagation to levy blame:
 
 *"Output neuron, you were off by +2. Hidden neuron #3 contributed 20% to that mistake, so nudge its weights downward accordingly; hidden neuron #4 contributed −5%, so bump it up,”* and so on.
 
@@ -92,11 +92,12 @@ Notice a pattern: wherever the environment is too fuzzy for rule lists, neural n
 
 Broadly, "trust" is perhaps a limiting lens; *Literacy* is more important. You don’t "trust" electricity—you learn its rules enough to wire a lamp safely. Neural networks are becoming a similar infrastructure layer. The people who grasp even the rough outlines of how they fit curves, how they can surprise you, and where they tend to fail will be better equipped to build on them, critique them, or simply use them wisely.
 
-That said, another camp is working on something deeper: can we bring the networks’ internal logic closer to how human brains reason, so that the everyday notion of “trust”—the way you trust a seasoned pilot—starts to apply to future AI *agents*? Projects that compare neural activations to brain recordings, or weave symbolic reasoning into deep nets, are early steps on that path. 
+That said, another camp is working on something deeper: can we bring the networks’ internal logic closer to how human brains reason, so that the everyday notion of “trust”—the way you trust a seasoned pilot—starts to apply to future AI *agents*? Projects that compare neural activations to brain recordings, or weave symbolic reasoning into deep neural networks, are early steps on that path. 
 
 Whether that brain-alignment research pans out or not, the order of operations stays the same: **first we cultivate basic AI literacy, then—after rigorous, transparent testing—we can grant the system genuine trust**.
 
-#### A short parting checklist
+#### A short parting checklist
+
 - Hand-written rules crumble in a messy world.
 - Linear regression writes its own tiny rule—but only straight lines.
 - Neurons plus kinks give us curves on demand; back-prop teaches them.
