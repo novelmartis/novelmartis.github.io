@@ -42,19 +42,19 @@ Simple artificial "neurons" carry out two tricks:
 1. **Add**. Multiply each incoming number by a weight and sum them up.
 2. **Squash**. Pass that sum through a gate called an activation function. The most-used gate is ReLU (Rectified Linear Unit): *If the sum is positive, keep it; else zero it*.
 
-That simple gate is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting.
+That simple gate is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting. kink
 
-A nice symmetry pops out here: if you *remove* every kink—replace all the gates with identity functions—a single-layer network collapses right back to linear regression. So neural nets are not mystical departures from classical stats; they are linear models with an unlimited supply of bends. How we make those bends obey our needs?
+A nice symmetry pops out here: if you *remove* every gate—replace them with identity functions—a single-layer network collapses right back to linear regression. So neural nets are not mystical departures from classical stats; they are linear models with an unlimited supply of bends. How we make those bends obey our needs?
 
 #### How the bends learn to bend
 
-Learning is just weight-tweaking. Each time the network makes a prediction, we compare it to the truth, measure the error, and ask a now-famous algorithm called back-propagation to levy blame:
+Learning is just weight-tweaking. Each time the network makes a prediction, we compare it to the truth, measure the error, and ask a now-famous algorithm called backpropagation to levy blame:
 
 *"Output neuron, you were off by +2. Hidden neuron #3 contributed 20% to that mistake, so nudge its weights downward accordingly; hidden neuron #4 contributed −5%, so bump it up,”* and so on.
 
-Run this blame-and-tweak loop over thousands of examples, and the weights settle into values that slash the overall error. Back-prop is often caricatured as heavy calculus, but at heart it is a glorified chain rule mixed with bookkeeping—a way to send the "fix the leak" message to the precise pipes responsible.
+Run this blame-and-tweak loop over thousands of examples, and the weights settle into values that slash the overall error. Backprop is often caricatured as heavy calculus, but at heart it is a glorified chain rule mixed with bookkeeping—a way to send the "fix the leak" message to the precise pipes responsible.
 
-#### Helping the network with our prior hunches
+#### (Still) helping the network with our prior hunches
 
 Sometimes we do have a hint about how the data is structured:
 
