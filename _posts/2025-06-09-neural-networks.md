@@ -42,7 +42,7 @@ Simple artificial "neurons" carry out two tricks:
 1. **Add**. Multiply each incoming number by a weight and sum them up.
 2. **Squash**. Pass that sum through a gate called an activation function. The most-used gate is ReLU (Rectified Linear Unit): *If the sum is positive, keep it; else zero it*.
 
-That simple gate is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting. kink
+That simple gate is deceptively powerful. Chain together a handful of neurons in a **layer**, feed the outputs of one layer into another, and the network can bend straight lines into gentle S-curves, jagged cliffs, or anything in between. No matter how twisty the underlying relationship, enough neurons can approximate it. This universal-approximation property is why neural networks have become the Swiss Army knife of function fitting.
 
 A nice symmetry pops out here: if you *remove* every gate—replace them with identity functions—a single-layer network collapses right back to linear regression. So neural nets are not mystical departures from classical stats; they are linear models with an unlimited supply of bends. How we make those bends obey our needs?
 
@@ -66,7 +66,7 @@ By baking the hint into the architecture, we save the model from relearning obvi
 
 #### Transformers and the "predict-the-next-token" game
 
-Taking our hints to the frontier, the rock-star architecture of the past few years is the **Transformer**. It discards convolutions and recurrence in favour of self-attention: every word in a sentence can look at every other word in one shot and decide how much it cares - *discover the connections you needs*. Training boils down to the laziest game in AI: "given the text so far, guess the next chunk." Feed the system the open web—Wikipedia, Reddit, arXiv, cooking blogs—and the network must absorb grammar, facts, styles, and a surprising slice of reasoning simply to stay good at the game.
+Taking our hints to the frontier, the rock-star architecture of the past few years is the **Transformer**. It discards convolutions and recurrence in favour of self-attention: every word in a sentence can look at every other word in one shot and decide how much it cares - *discover the connections you need*. Training boils down to the laziest game in AI: "given the text so far, guess the next chunk." Feed the system the open web—Wikipedia, Reddit, arXiv, cooking blogs—and the network must absorb grammar, facts, styles, and a surprising slice of reasoning simply to stay good at the game.
 
 Scale that recipe and you get today’s ultra-expressive large language models. ChatGPT, launched near the end of 2022, broke every growth chart, crossing a hundred million users faster than TikTok or Instagram. For the public, it was a jolting reminder that neural nets are no longer lab curiosities; they are turning into everyday companions.
 
@@ -100,7 +100,7 @@ Whether that brain-alignment research pans out or not, the order of operations s
 
 - Hand-written rules crumble in a messy world.
 - Linear regression writes its own tiny rule—but only straight lines.
-- Neurons plus kinks give us curves on demand; back-prop teaches them.
+- Neurons plus kinks give us curves on demand; back-prop shapes them.
 - Clever architectures bake in domain hints (CNNs, RNNs, Transformers).
 - More flexibility → less interpretability, so we audit behaviour and dig for circuits.
 - From medical imaging to chatbots, neural nets are poised to shape daily life.
