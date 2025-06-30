@@ -21,15 +21,15 @@ That is the moment you start craving a different kind of software—one that **a
 
 #### From hand-written rules to learned lines
 
-The gentlest form of learning is **linear regression**. Give the computer a scatter of points—say, month of the year on the x-axis and the supermarket price of strawberries on the y-axis—and ask it to draw the straight line that best threads through them. The slope and intercept become a tiny "program" the model has written for itself:
+The gentlest form of learning is **linear regression**. Give the computer a scatter of points—say, kilowatt-hours used on the x-axis and the monthly electricity bill on the y-axis—and ask it to draw the straight line that best threads through them. The slope and intercept become a tiny “program” the model has written for itself:
 
 ```
-price ≈ 4.2 €  –  0.15 € × month
+bill ≈ 5.0 €  +  0.30 € × kWh
 ```
 
-That humble line already beats a rule list because you never typed the numbers; the algorithm inferred them. Grocers can now order crates a month ahead without eyeballing every invoice.
+That humble line already beats a rule list because you never typed the numbers; the algorithm inferred them. Homeowners can now estimate next month’s charge without poring over every tariff sheet.
 
-But strawberries behave politely. Mangos, avocados, petrol, stock prices, and teenage growth spurts do not. Their curves dip, spike, or plateau in ways a straight line can’t follow. We could bolt on manual fixes—split the year into seasons, add a polynomial, toss in a “Christmas surge” term—but each bolt is another handwritten assumption. Eventually the patchwork collapses under its own specificity.
+But electricity costs behave politely—on a flat-rate plan, anyway. Time-of-use schedules, spot-price energy markets, petrol, stock prices, and teenage growth spurts do not. Their curves dip, spike, or plateau in ways a straight line can’t follow. We could bolt on manual fixes—split the day into peak/off-peak, add a polynomial, toss in a “heat-wave surge” term—but each bolt is another handwritten assumption. Eventually the patchwork collapses under its own specificity.
 
 We need an engine that can *sculpt* any curve the data whispers, by itself.
 
