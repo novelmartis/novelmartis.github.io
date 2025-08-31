@@ -169,7 +169,7 @@ title: Projects
 <!-- (Project with Zejin, Tim, Radek) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Devo-inspired shape bias in ANNs</h3>
+  <h3 class="p_post_h">Developmentally-inspired shape bias in artificial neural networks</h3>
   <img class="p_post" src="{{site.url}}/assets/dvd_b.png" height="200">
   <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Inspired by the <a href="https://www.sciencedirect.com/science/article/pii/S0273229724000017">Adaptive Initial Degradation</a> hypothesis, we trained ANNs with a coarse-to-fine image diet and found that their classification behavior becomes highly shape-biased! Additionally, this setup confers distortion and adversarial robustness.<br>
