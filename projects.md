@@ -36,17 +36,6 @@ title: Projects
   <b>Comments:</b> <a href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">CCN paper in brief</a>, <a href = "https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf"> new analyses @ CCN'24 </a>
 </div>
 
-<!-- (Project with Gen and Peelen) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
-  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
-  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
-  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. Increased search efficiency among co-occurring distractors is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
-  <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
-  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
-</div>
-
 </details>
 
 <details>
@@ -161,12 +150,12 @@ title: Projects
   Visual Representations
 </summary>
 
-<!-- (Project with Zejin, Tim, Radek) -->
+<!-- (Project with Zejin, Daniel, Tim) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Shape/texture bias in brains and machines</h3>
-  <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Building off <a href="https://openreview.net/forum?id=Bygh9j09KX">Geirhos et al. 2018</a>, where CNNs were shown to be texture-biased as compared to humans, we redefine the shape bias metric and assess the influence of recurrence and development on the shape bias in RNNs, humans, and macaques.<br>
+  <h3 class="p_post_h">Shape/texture coding in macaque visual cortex</h3>
+  <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao">Zejin Lu</a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Many studies suggest that the visual ventral stream's responses are mostly driven by texture information. Mostly this is done by distorting the shape elements and assessing the response. Instead, we pit shape against texture (cue-conflict images) and assess which factor drives the response.<br>
 </div>
 
 <!-- (Project with Adrien, Tim) -->
@@ -175,6 +164,16 @@ title: Projects
   <h3 class="p_post_h">Relational representations via glimpse prediction</h3>
   <b>With:</b> Linda Ventura, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next glimpse towards generating scene representations that bear relational information about its constituents.<br>
+</div>
+
+<!-- (Project with Zejin, Tim, Radek) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Devo-inspired shape bias in ANNs</h3>
+  <img class="p_post" src="{{site.url}}/assets/dvd_b.png" height="200">
+  <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by the <a href="https://www.sciencedirect.com/science/article/pii/S0273229724000017">Adaptive Initial Degradation</a> hypothesis, we trained ANNs with a coarse-to-fine image diet and found that their classification behavior becomes highly shape-biased!<br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2507.03168">Preprint</a>
 </div>
 
 <!-- (Project with Daniel, Tim, and Peter) -->
@@ -201,7 +200,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem's masters thesis. Paper in prep.<br><br>
+  <b>Comments:</b> Jochem's masters thesis. Paper submitted.<br><br>
 </div>
 
 <!-- (Project with Lu-Chun and Peelen) -->
@@ -213,6 +212,17 @@ title: Projects
   <b>Summary:</b> The association between the neural processing of multi-object displays and the representations of those objects presented in isolation is task-dependent: same/different judgement relates to earlier, and object search to later stages in MEG/fMRI signals.<br>
   <b>Publication:</b> <a href="https://doi.org/10.1523/JNEUROSCI.1107-23.2024">JNeurosci'24 paper</a><br>
   <b>Comments:</b> <a href="https://x.com/LuChunYeh/status/1771482781337387299?s=20">JNeurosci paper in brief</a>
+</div>
+
+<!-- (Project with Gen and Peelen) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Statistical learning of distractor co-occurrences facilitates visual search</h3>
+  <img class="p_post" src="{{site.url}}/assets/obj_grp.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
+  <b>Summary:</b> Efficient visual search relies on the co-occurrence statistics of distractor shapes. Increased search efficiency among co-occurring distractors is probably driven by faster and/or more accurate rejection of a distractor's partner as a possible target.<br>
+  <b>Publication:</b> <a href = "https://doi.org/10.1167/jov.22.10.2">JOV'22 paper</a><br>
+  <b>Comments:</b> <a href = "https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">JOV paper in brief</a>
 </div>
 
 <!-- (Project with Peelen) -->
