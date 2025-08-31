@@ -155,7 +155,7 @@ title: Projects
 <div class="p_post">
   <h3 class="p_post_h">Shape/texture coding in macaque visual cortex</h3>
   <b>With:</b> <a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao">Zejin Lu</a>, <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao">Daniel Anthes</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Many studies suggest that the visual ventral stream's responses are mostly driven by texture information. Mostly this is done by distorting the shape elements and assessing the response. Instead, we pit shape against texture (cue-conflict images) and assess which factor drives the response.<br>
+  <b>Summary:</b> Many studies suggest that the ventral visual stream's responses are mostly driven by texture information. Mostly this is done by distorting the shape elements and assessing the response. Instead, we pit shape against texture (cue-conflict images) and assess which factor drives the response.<br>
 </div>
 
 <!-- (Project with Adrien, Tim) -->
@@ -166,14 +166,13 @@ title: Projects
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next glimpse towards generating scene representations that bear relational information about its constituents.<br>
 </div>
 
-<!-- (Project with Zejin, Tim, Radek) -->
+<!-- (Project with Adrien, et al.) -->
 
 <div class="p_post">
-  <h3 class="p_post_h">Developmentally-inspired shape bias in artificial neural networks</h3>
-  <img class="p_post" src="{{site.url}}/assets/dvd_b.png" height="200">
-  <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
-  <b>Summary:</b> Inspired by the <a href="https://www.sciencedirect.com/science/article/pii/S0273229724000017">Adaptive Initial Degradation</a> hypothesis, we trained ANNs with a coarse-to-fine image diet and found that their classification behavior becomes highly shape-biased! Additionally, this setup confers distortion and adversarial robustness.<br>
-  <b>Comments:</b> <a href="https://arxiv.org/abs/2507.03168">Preprint</a><br><br>
+  <h3 class="p_post_h">Glimpse prediction for human-like scene representation</h3>
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> During eye movements, learning to predict the contents of the next glimpse, given the saccadic efference copy, coaxes a neural network to encode the co-occurrence and spatial arrangement of parts of natural scenes in a code that aligns with representations of natural scene images in the human ventral visual cortex.<br>
+  <b>Comments:</b> <a href="https://2025.ccneuro.org/poster/?id=InzqynMp4w">Preliminary results</a> were presented at CCN'25
 </div>
 
 <!-- (Project with Daniel, Tim, and Peter) -->
@@ -193,6 +192,16 @@ title: Projects
   <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
 </div>
 
+<!-- (Project with Zejin, Tim, Radek) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Developmentally-inspired shape bias in artificial neural networks</h3>
+  <img class="p_post" src="{{site.url}}/assets/dvd_b.png" height="200">
+  <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
+  <b>Summary:</b> Inspired by the <a href="https://www.sciencedirect.com/science/article/pii/S0273229724000017">Adaptive Initial Degradation</a> hypothesis, we trained ANNs with a continously-graded coarse-to-fine image diet and found that their classification behavior becomes highly shape-biased! Additionally, this setup confers distortion and adversarial robustness.<br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2507.03168">Preprint</a>, under review.<br><br>
+</div>
+
 <!-- (Project with Jochem, Gen, and Peelen) -->
 
 <div class="p_post">
@@ -200,7 +209,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/letter_illusion.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/jochem-koopmans-051571236"><b><u>Jochem Koopmans</u></b></a>, <a href="https://scholar.google.com/citations?user=2ToC6n4AAAAJ&hl=en">Genevieve Quek</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a><br>
   <b>Summary:</b> In a Sperling-like task where the letters are mostly upright, there is a general tendency to report occasionally-present and absent inverted letters as upright to the same extent. Previously reported expectation-driven illusions might be post-perceptual.<br>
-  <b>Comments:</b> Jochem's masters thesis. Paper submitted.<br><br>
+  <b>Comments:</b> Jochem's masters thesis. Paper under review.<br><br>
 </div>
 
 <!-- (Project with Lu-Chun and Peelen) -->
