@@ -183,15 +183,6 @@ title: Projects
   <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
 </div>
 
-<!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Brain reading with a Transformer</h3>
-  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> Using fMRI responses to natural scenes to condition the sentence generation in a Transformer, we study the neural underpinnings of scene semantics (objects and their relationships) encoded in natural language.<br>
-  <b>Comments:</b> <a href="https://2024.ccneuro.org/pdf/526_Paper_authored_Cortext_Bosch_CCN2024.pdf">Preliminary results</a> were presented at CCN'24
-</div>
-
 <!-- (Project with Zejin, Tim, Radek) -->
 
 <div class="p_post">
@@ -251,6 +242,15 @@ title: Projects
   <summary class="p_year">
   Engineering Computational Systems
 </summary>
+
+<!-- (Project with Victoria, Daniel, Tim, and Peter, etc.) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Brain reading with a Transformer</h3>
+  <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> fMRI responses to natural scenes condition the word generation in a Transformer, giving us access to the brain data in language space. Semantic properties such as object classes and numerosity can be read out flexibly.<br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2509.23941">Preprint</a>, under review.<br><br>
+</div>
 
 <!-- (Project with Varad, RD) -->
 
