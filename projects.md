@@ -190,7 +190,7 @@ title: Projects
   <img class="p_post" src="{{site.url}}/assets/dvd_b.png" height="200">
   <b>With:</b> <b><a href="https://scholar.google.nl/citations?user=MnURMg0AAAAJ&hl=en&oi=ao"><u>Zejin Lu</u></a></b>, <a href="https://scholar.google.nl/citations?user=XZtcvyEAAAAJ">Radoslaw Cichy</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Inspired by the <a href="https://www.sciencedirect.com/science/article/pii/S0273229724000017">Adaptive Initial Degradation</a> hypothesis, we trained ANNs with a graded coarse-to-fine image diet and found that their classification behavior becomes highly shape-biased! This setup also confers distortion and adversarial robustness.<br>
-  <b>Comments:</b> <a href="https://arxiv.org/abs/2507.03168">Preprint</a>, under review.<br><br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2507.03168">Preprint</a>, under review at NMI.<br><br>
 </div>
 
 <!-- (Project with Jochem, Gen, and Peelen) -->
