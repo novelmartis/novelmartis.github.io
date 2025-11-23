@@ -158,21 +158,12 @@ title: Projects
   <b>Summary:</b> Many studies suggest that the ventral visual stream's responses are mostly driven by texture information. Mostly this is done by distorting the shape elements and assessing the response. Instead, we pit shape against texture (cue-conflict images) and assess which factor drives the response.<br>
 </div>
 
-<!-- (Project with Adrien, Tim) -->
+<!-- (Project with Linda, Tim) -->
 
 <div class="p_post">
   <h3 class="p_post_h">Relational representations via glimpse prediction</h3>
   <b>With:</b> Linda Ventura, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> Inspired by <a href="https://doi.org/10.1016/j.pneurobio.2019.101717">Summerfield et al. 2020</a>, research on RF remapping, and predictive vision, we evaluate the usefulness of predicting the content of the next glimpse towards generating scene representations that bear relational information about its constituents.<br>
-</div>
-
-<!-- (Project with Adrien, et al.) -->
-
-<div class="p_post">
-  <h3 class="p_post_h">Glimpse prediction for human-like scene representation</h3>
-  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> During eye movements, learning to predict the contents of the next glimpse, given the saccadic efference copy, coaxes a neural network to encode the co-occurrence and spatial arrangement of parts of natural scenes in a code that aligns with representations of natural scene images in the human ventral visual cortex.<br>
-  <b>Comments:</b> <a href="https://2025.ccneuro.org/poster/?id=InzqynMp4w">Preliminary results</a> were presented at CCN'25
 </div>
 
 <!-- (Project with Daniel, Tim, and Peter) -->
@@ -181,6 +172,16 @@ title: Projects
   <h3 class="p_post_h">Representational drift in macaque visual cortex</h3>
   <b>With:</b> <a href="https://scholar.google.com/citations?user=YPdEhboAAAAJ&hl=en&oi=ao"><b><u>Daniel Anthes</u></b></a>, <a href="https://scholar.google.nl/citations?user=Ieubd0EAAAAJ&hl=en&oi=ao">Peter König</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a><br>
   <b>Summary:</b> Employing tools developed during our investigations into continual learning, we study if representational drift occurs in macaque visual cortex and how that multi-area system deals with changing representations.<br>
+</div>
+
+<!-- (Project with Adrien, et al.) -->
+
+<div class="p_post">
+  <h3 class="p_post_h">Glimpse prediction for human-like scene representation</h3>
+  <img class="p_post" src="{{site.url}}/assets/gpn.png" height="200">
+  <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
+  <b>Summary:</b> During eye movements, learning to predict the contents of the next glimpse, given the saccadic efference copy, coaxes a neural network to encode the co-occurrence and spatial arrangement of parts of natural scenes in a code that aligns with representations of natural scene images in the human visual cortex.<br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2511.12715">Preprint</a><br><br>
 </div>
 
 <!-- (Project with Zejin, Tim, Radek) -->
@@ -247,9 +248,10 @@ title: Projects
 
 <div class="p_post">
   <h3 class="p_post_h">Brain reading with a Transformer</h3>
+  <img class="p_post" src="{{site.url}}/assets/cortext.png" height="200">
   <b>With:</b> <a href="https://www.linkedin.com/in/victoria-bosch/?originalSubdomain=nl"><b><u>Victoria Bosch</u></b></a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
   <b>Summary:</b> fMRI responses to natural scenes condition the word generation in a Transformer, giving us access to the brain data in language space. Semantic properties such as object classes and numerosity can be read out flexibly.<br>
-  <b>Comments:</b> <a href="https://arxiv.org/abs/2509.23941">Preprint</a>, under review.<br><br>
+  <b>Comments:</b> <a href="https://arxiv.org/abs/2509.23941">Preprint</a><br><br>
 </div>
 
 <!-- (Project with Varad, RD) -->
