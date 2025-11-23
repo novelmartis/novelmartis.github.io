@@ -180,7 +180,7 @@ title: Projects
   <h3 class="p_post_h">Glimpse prediction for human-like scene representation</h3>
   <img class="p_post" src="{{site.url}}/assets/gpn.png" height="200">
   <b>With:</b> <a href="https://scholar.google.ch/citations?user=YA6DPIcAAAAJ&hl=en">Adrien Doerig</a>, <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>, et al.<br>
-  <b>Summary:</b> During eye movements, learning to predict the contents of the next glimpse, given the saccadic efference copy, coaxes a neural network to encode the co-occurrence and spatial arrangement of parts of natural scenes in a code that aligns with representations of natural scene images in the human visual cortex.<br>
+  <b>Summary:</b> During eye movements, predicting the next glimpse features, given the saccade, coaxes a neural network to encode the co-occurrence and spatial arrangement of parts of natural scenes in a visual-cortex-aligned code.<br>
   <b>Comments:</b> <a href="https://arxiv.org/abs/2511.12715">Preprint</a><br><br>
 </div>
 
