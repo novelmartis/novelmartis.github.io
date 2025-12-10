@@ -7,6 +7,9 @@ title: Misc.
   Teaching material
 </p>
 
+- [Hands-on NeuroAI (2025)](https://github.com/novelmartis/Hands-on-NeuroAI)
+  - Bachelors/Masters 6-session advanced, hackathon-style, block course at Osnabruck University
+
 - [Topics in Cognitive Neuroscience (2023)](https://doi.org/10.6084/m9.figshare.23537094.v1)
   - Bachelors/Masters 6-session introductory block course at Osnabruck University
 
