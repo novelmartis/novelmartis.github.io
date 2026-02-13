@@ -10,10 +10,8 @@ I am a cognitive computational neuroscientist, aiming to model resource-constrai
 
 #### Current position:
 
-* Postdoctoral researcher in Machine Learning.
-    + At the [Institute of Cognitive Science](https://www.ikw.uni-osnabrueck.de/en/home.html), Osnabrück University.
-    + Advised by [Tim Kietzmann](https://www.kietzmannlab.org/lab/).
-    + Institutional email address: [sthorat@uos.de](mailto:sthorat@uos.de)
+* Postdoctoral researcher in Cognitive Neuroscience
+    + (upcoming) MARCS institute, Sydney.
 * Research interests:
     + Computational/normative models of visual relations.
     + Image processing with recurrent neural networks.
@@ -23,6 +21,7 @@ I am a cognitive computational neuroscientist, aiming to model resource-constrai
 
 #### Previous education/experience:
 
+* Postdoc in Machine Learning at the [Institute of Cognitive Science](https://www.ikw.uni-osnabrueck.de/en/home.html), Osnabrück University.
 * PhD in Cognitive Neuroscience ([thesis](https://doi.org/10.6084/m9.figshare.21214391.v1)) from the [Donders Institute for Brain, Cognition and Behaviour](https://www.ru.nl/donders/), Radboud University.
 * MSc in Cognitive Neuroscience ([thesis](https://doi.org/10.6084/m9.figshare.5919154.v1)) from [CIMeC](https://web.unitn.it/en/cimec "Centre for Mind/Brain Sciences"), University of Trento.
 * BTech in Engineering Physics ([thesis](https://doi.org/10.6084/m9.figshare.1582657.v2)) from [IIT Bombay](http://iitb.ac.in). <br>
