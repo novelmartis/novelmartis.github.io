@@ -1,28 +1,32 @@
-# Dependencies
+title: "Sushrut Thorat"
+description: "Computational neuroscience × machine learning · active vision · brain-aligned representations"
+url: "https://sushrutthorat.com"
+permalink: pretty
+markdown: kramdown
 
-highlighter:      rouge
+collections:
+  writing:
+    output: true
+    permalink: /writing/:path/
 
-# Permalinks
-permalink:        pretty
+defaults:
+  - scope:
+      path: ""
+      type: writing
+    values:
+      layout: page
+      published: true
 
-# Setup
-title:            martis.
-tagline:          ’Tis Sushrut Thorat.
-description:      Sushrut Thorat's website.
-url:              https://sushrutthorat.com
-baseurl:
-title_image:       https://sushrutthorat.com/assets/goku_chatgpt_full.png
+include:
+  - favicon.ico
+  - favicon-16x16.png
+  - favicon-32x32.png
+  - apple-touch-icon.png
+  - apple-touch-icon-precomposed.png
 
-author:
-  name:           ‘Sushrut Thorat’
-  url:            https://sushrutthorat.com
-
-plugins: [jekyll-paginate, jekyll-gist, jekyll-archives, jemoji, jekyll-seo-tag]
-paginate:         10
-paginate_path: "page:num"
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/novelmartis
+exclude:
+  - tools
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

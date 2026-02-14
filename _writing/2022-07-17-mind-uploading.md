@@ -1,0 +1,48 @@
+---
+title: "A few thoughts on Mind Uploading"
+date: 2022-07-17
+permalink: /writing/mind-uploading/
+summary: "A skeptical-but-curious take on what it would mean to ‘upload’ a mind: identity, continuity, and what counts as the same person."
+---
+
+Here are some rough ideas about mind uploading building upon an older [presentation][prez] of mine on the topic. The image displayed below was generated using [DALL.E 2][dalle].
+
+<hr>
+
+<figure class="figure hero">
+  <img src="{{ site.baseurl }}/assets/dalle_img_mu.png" alt="Illustration">
+  <figcaption>It's time to think on how to (literally) expand our minds using technology.</figcaption>
+</figure>
+
+Existing independent of the biological bodies and brains that are a part of us could bring benefits long considered in science fiction: immortality, the ability to learn and experience things faster (or slower), and an unprecedented level of control of ourselves and our environments. However, mind uploading, the common moniker for transferring identities onto artificial substrates, continues to be one of the hardest issues to reason about. This is due to our limited understanding of what minds, identities, and their dependencies on the biological substrates (the brain and the body) are. Additionally, we are unsure if there are any other substrates (e.g. silicon-based) capable of hosting minds and identities. In this article, I outline my current thoughts on this issue.
+
+What constitutes a successful mind upload? The resulting entity needs to experience, think, and behave in the world as you would. So that brings us to that which characterizes your ever-changing experiences, thoughts, and behavior in the world: your identity. Concepts qualifying identity, such as personality have been used to predict what kind of thoughts, behaviors, and experiences a person would have in a given situation. However, identity also includes other elements such as your memory and body ownership. For a complete mind upload, it seems all these elements need to be present in the resulting entity, and that seems like a paralyzing enterprise. However, some relief can be found in the knowledge that neither is identity static nor are all its elements perceived to be equally important, allowing mind uploading some room to wiggle.
+
+#### Identity approximation
+
+In his book, <i>A taxonomy and metaphysics of mind uploading</i>, Keith Wiley argues that a mind is a sequence of mind-states. A mind-state represents the totality of mental phenomena at a moment in time - experiences, memory, and cognitive states. A mind is a trajectory in such a mind-state space. Not all mental phenomena/components evolve at the same rate: experiences, perception, and behavior vary quickly, and personality, memory, and learned/innate cognitive transformations (e.g. visual object recognition) vary slowly. These slow-varying components are the more stable attributes of a mind's identity and characterize the long-term trajectory of a mind better than the fast-varying components.
+
+It so turns out that people judge these slow varying components to be more important to their identities too. Changing a random experience you have had in your life presumably won't influence your current identity unless it affects some slow varying component like your personality. All the slow-varying components aren't equally important either. Changing a random memory presumably isn't as impactful to your identity as changing any aspect of your moral compass, unless that memory directly leads to an aspect of your moral compass. In their [research][nina], Nina Strohminger and colleagues asked participants questions to determine how perturbing the components of human identity was associated with a perceived change in identity. Participants were asked how much a change in a particular aspect (loss of desire, loss of memory, loss of moral conscience, etc.) affected a person's identity, in various scenarios. Moral traits were found to be most important to personal identity than any other part of the mind. Modest importance was assigned to personality, memories, and desires, and to a lesser extent, lower-level cognition and perceptual faculties were considered to be part of the self.
+
+Primarily, these considerations suggest that the components of an identity aren't all equally important. Although some components such as morality are more important in qualifying an identity, we can't just ignore other components such as memory or perceptual faculties. However, it seems that towards achieving identity approximation/transfer we can sacrifice some components easier than others. Consequently, we don't have to get paralyzed by the requirement of replicating every aspect of an identity to approximate the identity sufficiently. However what hope do we have that useful approximations of multifaceted identities can indeed be constructed and deployed on another substrate to generate thoughts, experiences, and behavior? For an answer, we turn inwards.
+
+#### Identity emulation
+
+We are in the business of building [theories of the minds][tom] around us, approximating identities. This helps us predict how people will behave and think, which is a core aspect of social behavior. The depth of a relationship between two people is arguably tied to the extent of the theories of each other's minds. An intimate relationship lasting decades arguably makes you understand each other to an extent where you could <i>assume</i> the role of the other person in a conversation or situation. This <i>assuming the role of another person</i> isn't just limited to behavior. You can actually feel what the other person feels - an aspect underlying empathy. In addition to simulating other people in your head, you can emulate them. This emulation is taken to the extreme in acting. A splendid performance (think Heath Ledger as the Joker in The Dark Knight) usually involves the actor studying the character to its limits and emulating it to the extent that we say they <i>become</i> the character. It seems we can bootstrap the elements of an identity - a person's moral compass, memories, etc. - onto our cognitive substrate in the sense that the components of that identity can approximately dictate the functioning of our perceptual and cognitive systems to produce behavior and thought corresponding to that identity. If we can do it, it might be possible to recreate this ability in artificial systems.
+
+To bootstrap an identity onto a substrate, we need to figure out both how to approximate an identity and what kind of artificial substrates allow for emulation of that identity. Preserving identities independent of substrates is something we have been doing for a long time in the form of our memories of people, and writing biographies. One can access their memories or read a biography to understand an identity to emulate it. As discussed earlier, this is the case for great acting - emulating the identities of other people or fictional characters. Biographies are a good example of documenting identities outside cognitive substrates. Although our memories of people or details in biographies might not be sufficient for emulation, they are good starting points for approximating identities. How the information from such memories or biographies can actually be used to instantiate an approximation of the identity onto a substrate is unclear. Additionally, although identity emulation by humans serves as an illuminating example, the nature of mind <i>uploading</i> is different. We are not interested in a superintelligent AI <i>pretending</i> to be a person. We want the AI to <i>be</i> that person, and grow through further experiences. How we could build such a continuously functioning and learning AI is an open problem.
+
+#### Substrate requirements
+
+Being able to experience and behave richly in the world are crucial abilities required in a substrate onto which we would want to bootstrap an identity. What existing artificial substrates have these abilities? Although research in artificial intelligence has come [a long way][dlrev], systems capable of behaviors as complex and flexible as those demonstrated by humans aren’t here yet. Agents trained to play games involving high-level decision-making - AlphaGo for Go or OpenAI Five for DOTA 2 - are arguably amongst the systems with the best behavioral capabilities. We have to overcome numerous challenges - long-term memory, continual multitask learning, efficient robotics, etc. - before artificial agents could behave like humans in the real world.
+
+#### The long road ahead
+
+In humanity's long-term project of identity preservation via stories about people - written or spoken - the next step might be the possibility of animating those identities such that we can interact with them. The first step is the construction of artificial agents with cognitive capabilities rivaling ours. Then we will have to figure out how to <i>[style-transfer][bethge]</i> an identity onto those substrates. Until then the most pressing issue is how to best preserve an identity until such bootstrapping onto another substrate is possible. Shall we write biographies for everyone? What information is critical? Can this be done on a mass scale using the abundance of information on the internet about most people? Many questions abound…
+
+[dalle]: https://openai.com/dall-e-2/
+[prez]: https://doi.org/10.6084/m9.figshare.8868782.v1
+[nina]: https://doi.org/10.1016/j.cognition.2013.12.005
+[tom]: https://doi.org/10.1016/j.cub.2005.08.041
+[dlrev]: https://dl.acm.org/doi/10.1145/3448250
+[bethge]: https://arxiv.org/abs/1508.06576

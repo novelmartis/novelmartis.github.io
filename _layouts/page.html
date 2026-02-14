@@ -1,19 +1,6 @@
 ---
 layout: default
 ---
-
-<script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML">
-</script>
-
-{% if page.title != "About" %}
-  <div class="page">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
-  </div>
-{% else %}
-  <div class="page">
-    {{ content }}
-  </div>
-{% endif %}
-
+<main class="page">
+  {{ content }}
+</main>

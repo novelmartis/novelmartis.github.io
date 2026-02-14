@@ -1,0 +1,506 @@
+:root{
+  --bg: Canvas;
+  --fg: CanvasText;
+
+  --muted: color-mix(in oklab, var(--fg) 62%, transparent);
+  --muted2: color-mix(in oklab, var(--fg) 40%, transparent);
+  --line: color-mix(in oklab, var(--fg) 10%, transparent);
+
+  --card: color-mix(in oklab, var(--fg) 4%, transparent);
+  --card2: color-mix(in oklab, var(--fg) 6%, transparent);
+
+  --shadow: 0 10px 30px color-mix(in oklab, var(--fg) 10%, transparent);
+  --shadow2: 0 6px 18px color-mix(in oklab, var(--fg) 10%, transparent);
+
+  --link: color-mix(in oklab, var(--fg) 86%, dodgerblue);
+  --accent: color-mix(in oklab, dodgerblue 55%, var(--fg));
+  --max: 980px;
+
+  --r: 18px;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font:16px/1.65 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background:var(--bg);
+  color:var(--fg);
+  letter-spacing:-0.01em;
+}
+
+a{color:var(--link); text-decoration:none}
+a:hover{text-decoration:underline}
+
+.wrap{max-width:var(--max); margin:0 auto; padding:26px 18px 56px;}
+.page{padding:20px 2px 0;}
+
+.nav{
+  position:sticky;
+  top:14px;
+  z-index:20;
+
+  display:flex; align-items:center; justify-content:space-between;
+  gap:14px; padding:12px 14px;
+  border:1px solid var(--line);
+  border-radius:999px;
+
+  background:color-mix(in oklab, var(--bg) 84%, transparent);
+  backdrop-filter:saturate(1.1) blur(12px);
+  -webkit-backdrop-filter:saturate(1.1) blur(12px);
+
+  box-shadow: var(--shadow2);
+}
+.brand{
+  font-weight:760;
+  letter-spacing:-0.02em;
+  margin-left: 6px;
+}
+.navlinks{display:flex; gap:12px; flex-wrap:wrap}
+.navlinks a{
+  padding:6px 10px;
+  border-radius:999px;
+  color:color-mix(in oklab, var(--fg) 86%, transparent);
+}
+.navlinks a:hover{
+  background:color-mix(in oklab, var(--fg) 6%, transparent);
+  text-decoration:none;
+}
+
+.muted{color:var(--muted)}
+.muted2{color:var(--muted2)}
+.hr{border:0; border-top:1px solid var(--line); margin:22px 0;}
+
+.card{
+  padding:16px 16px;
+  border:1px solid var(--line);
+  border-radius:var(--r);
+  background:linear-gradient(180deg, var(--card2), var(--card));
+  box-shadow: var(--shadow2);
+}
+
+.cvhero{
+  display:grid;
+  grid-template-columns: 170px 1fr;
+  gap:18px;
+  align-items:start;
+
+  padding:18px;
+  border:1px solid var(--line);
+  border-radius:calc(var(--r) + 6px);
+  background:
+    radial-gradient(700px 240px at 10% 10%, color-mix(in oklab, var(--accent) 14%, transparent), transparent 60%),
+    linear-gradient(180deg, var(--card2), var(--card));
+  box-shadow: var(--shadow);
+}
+.cvhero img{
+  width:170px; height:170px; object-fit:cover;
+  border-radius: 26px;
+  border:1px solid var(--line);
+  box-shadow: 0 10px 30px color-mix(in oklab, var(--fg) 12%, transparent);
+}
+
+.daterange{
+  white-space:nowrap;
+  font-size:13px;
+  color: var(--muted);
+  padding:2px 8px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background: color-mix(in oklab, var(--bg) 78%, transparent);
+}
+
+.h1{
+  font-size:44px;
+  line-height:1.05;
+  margin:0 0 8px;
+  letter-spacing:-0.03em;
+}
+.subtitle{
+  margin:0;
+  color:var(--muted);
+  max-width:72ch;
+  font-size:16.5px;
+}
+
+.badges{
+  display:flex; flex-wrap:wrap; gap:8px;
+  margin-top:10px;
+}
+.badge{
+  display:inline-flex; align-items:center;
+  padding:4px 10px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:color-mix(in oklab, var(--bg) 70%, transparent);
+  font-size:13px;
+  color:color-mix(in oklab, var(--fg) 82%, transparent);
+}
+
+.linkrow{
+  display:flex; flex-wrap:wrap; gap:10px;
+  margin-top:14px;
+}
+.btn{
+  display:inline-flex; align-items:center; gap:8px;
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:color-mix(in oklab, var(--bg) 78%, transparent);
+  font-size:14px;
+  cursor:pointer;
+  box-shadow: 0 6px 18px color-mix(in oklab, var(--fg) 8%, transparent);
+}
+.btn:hover{
+  background:color-mix(in oklab, var(--fg) 7%, transparent);
+  text-decoration:none;
+}
+.btn.primary{
+  border-color:color-mix(in oklab, var(--accent) 50%, var(--line));
+  background:color-mix(in oklab, var(--accent) 14%, var(--bg));
+}
+
+.grid2{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap:14px;
+}
+
+.kicker{
+  margin:0 0 10px;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:0.12em;
+  color:var(--muted2);
+}
+
+.list{margin:0; padding-left:18px}
+.list li{margin:8px 0}
+
+.footer{
+  margin-top:40px;
+  padding-top:16px;
+  border-top:1px solid var(--line);
+}
+
+/* Responsive */
+@media (max-width: 740px){
+  .cvhero{grid-template-columns: 1fr; }
+  .cvhero img{width:120px; height:120px;}
+  .h1{font-size:36px;}
+  .nav{top:10px; border-radius:16px;}
+}
+
+/* Print-to-PDF */
+@media print{
+  .nav, .footer, .noprint { display:none !important; }
+  body{font-size:11pt;}
+  .wrap{max-width:none; padding:0;}
+  .cvhero{border:none; padding:0; box-shadow:none; background:transparent;}
+  .card{border:none; box-shadow:none; background:transparent; padding:0;}
+  a{color:black; text-decoration:none;}
+}
+
+.printonly{ display:none; }
+@media print{
+  .printonly{ display:inline; }
+}
+
+/* =========================
+   Work (horizontal cards)
+   REPLACE your existing Work block with this whole block
+   ========================= */
+
+/* Group containers (visible, but not heavy) */
+details.projgroup{
+  margin: 14px 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+
+  background: color-mix(in oklab, var(--card) 60%, transparent);
+  box-shadow: var(--shadow1);
+
+  padding: 10px 12px;          /* fixes “hugging the sides” */
+}
+
+details.projgroup > summary{
+  cursor: pointer;
+  list-style: none;
+  padding: 10px 6px 12px;      /* breathing room */
+  margin: 0 0 10px;
+
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 14px;
+
+  font-weight: 780;
+  letter-spacing: -0.015em;
+
+  border-bottom: 1px solid color-mix(in oklab, var(--line) 70%, transparent);
+}
+
+details.projgroup > summary::-webkit-details-marker{ display:none; }
+
+.projmeta{
+  color: var(--muted);
+  font-weight: 520;
+  font-size: 14px;
+  letter-spacing: -0.005em;
+  flex: 0 0 auto;
+}
+
+/* List of projects inside a group */
+.projlist{
+  margin-top: 10px;
+  display:flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+/* Horizontal project card */
+.pcard{
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--card);
+  box-shadow: var(--shadow1);
+  padding: 14px;
+  position: relative;
+}
+
+/* Subtle left spine for separation */
+.pcard::before{
+  content:"";
+  position:absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--accent) 55%, transparent);
+  opacity: 0.35;
+}
+
+/* Header inside card */
+.phead{
+  display:flex;
+  gap: 10px;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.ptitle{
+  font-weight: 820;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.pkicker{
+  color: var(--muted);
+  font-size: 13px;
+  margin: 0 0 6px;
+}
+
+/* Media row: thumb left, text right */
+.pbody{
+  display:grid;
+  grid-template-columns: 140px 1fr;  /* tweak to 150/160 if you want */
+  gap: 18px;
+  align-items: start;
+  margin-top: 10px;
+}
+
+/* For items without an image */
+.pbody.noimg{
+  grid-template-columns: 1fr;
+}
+
+.pthumb{
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  height: auto;
+
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: color-mix(in oklab, var(--bg) 90%, var(--card));
+  box-shadow: var(--shadow1);
+
+  object-fit: contain;         /* avoids blurry upscaling/cropping */
+  object-position: center;
+  padding: 10px;
+}
+
+/* Text */
+.pmeta{
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0;
+}
+
+.pdesc{
+  margin: 8px 0 0;
+}
+
+/* Links */
+.plinks{
+  margin-top: 10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap: 8px;
+}
+
+/* Mobile layout */
+@media (max-width: 620px){
+  .pbody{
+    grid-template-columns: 1fr;
+  }
+  .pthumb{
+    width: 100%;
+    height: 170px;
+    aspect-ratio: auto;
+    padding: 10px;
+  }
+}
+
+/* Work: expand/collapse pushed to the right side */
+.work-controls{
+  position: fixed;
+  left: 18px;
+  top: calc(var(--nav-h) + 18px);  /* sits just under nav */
+  z-index: 60;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid color-mix(in oklab, var(--line) 80%, transparent);
+  background: color-mix(in oklab, var(--card) 75%, transparent);
+  box-shadow: var(--shadow2);
+  backdrop-filter: blur(10px);
+}
+
+.work-controls .btn{
+  white-space: nowrap;
+}
+
+/* Don’t let it cover content on small screens */
+@media (max-width: 900px){
+  .work-controls{
+    right: 12px;
+    top: auto;
+    bottom: 12px;
+    flex-direction: row;
+  }
+}
+
+.figure{
+  margin: 16px 0 22px;
+}
+.figure img{
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow1);
+  display: block;
+}
+.figure figcaption{
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.figure.hero{
+  max-width: 720px;     /* key: caps the size */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make hyperlinks visible but still minimal */
+a{
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+  text-decoration-color: color-mix(in oklab, var(--accent) 40%, var(--muted));
+}
+
+a:hover{
+  text-decoration-style: solid;
+  text-decoration-color: color-mix(in oklab, var(--accent) 85%, var(--muted));
+}
+
+.btn, .btn a, nav a, .nav a, .navlinks a{
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: color-mix(in oklab, var(--accent) 65%, var(--fg));
+}
+
+/* ===== Code blocks: calm + readable ===== */
+pre, .highlight pre{
+  background: color-mix(in oklab, var(--bg) 75%, var(--card));
+  border: 1px solid color-mix(in oklab, var(--line) 85%, transparent);
+  border-radius: 14px;
+  padding: 14px 16px;
+  box-shadow: var(--shadow1);
+  line-height: 1.55;
+  font-size: 0.92em;
+
+  /* no horizontal scroll */
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: hidden;
+}
+
+/* remove extra wrappers spacing */
+.highlight{ margin: 16px 0; }
+.highlight pre{ margin: 0; }
+
+/* inline code */
+p code, li code{
+  background: color-mix(in oklab, var(--card) 70%, transparent);
+  border: 1px solid color-mix(in oklab, var(--line) 80%, transparent);
+  border-radius: 8px;
+  padding: 0.1em 0.35em;
+}
+
+.datepill{
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  color: var(--muted);
+  border: 1px solid color-mix(in oklab, var(--line) 75%, transparent);
+  background: color-mix(in oklab, var(--card) 70%, transparent);
+  white-space: nowrap;
+}
+
+.iconbtn{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+}
+
+.iconbtn svg,
+.contactline svg{
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+  fill: currentColor;
+  opacity: 0.9;
+}
+
+.contactline{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  color: var(--muted);
+  padding: 8px 10px; /* visually align with btn height */
+  border: 1px solid color-mix(in oklab, var(--line) 70%, transparent);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--card) 55%, transparent);
+}
