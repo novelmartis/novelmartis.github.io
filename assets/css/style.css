@@ -407,7 +407,7 @@ details.projgroup > summary::-webkit-details-marker{ display:none; }
 /* Work: expand/collapse pushed to the right side */
 .work-controls{
   position: fixed;
-  left: 18px;
+  right: 0px;
   top: calc(var(--nav-h) + 18px);  /* sits just under nav */
   z-index: 60;
 
