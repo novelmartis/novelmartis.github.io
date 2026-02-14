@@ -61,10 +61,24 @@ a:hover{text-decoration:underline}
   padding:6px 10px;
   border-radius:999px;
   color:color-mix(in oklab, var(--fg) 86%, transparent);
+
+  /* gentle “bubble” look (helps when links wrap on mobile) */
+  border: 1px solid color-mix(in oklab, var(--line) 80%, transparent);
+  background: color-mix(in oklab, var(--bg) 86%, transparent);
+  box-shadow: 0 4px 12px color-mix(in oklab, var(--fg) 6%, transparent);
+  text-decoration: none;
 }
 .navlinks a:hover{
-  background:color-mix(in oklab, var(--fg) 6%, transparent);
+  background:color-mix(in oklab, var(--fg) 7%, transparent);
+  box-shadow: 0 6px 16px color-mix(in oklab, var(--fg) 8%, transparent);
   text-decoration:none;
+}
+
+/* Active page pill (set aria-current="page" or add class="active" on the current link) */
+.navlinks a.active,
+.navlinks a[aria-current="page"]{
+  border-color: color-mix(in oklab, var(--accent) 45%, var(--line));
+  background: color-mix(in oklab, var(--accent) 12%, var(--bg));
 }
 
 .muted{color:var(--muted)}
@@ -487,8 +501,8 @@ p code, li code{
 /* Icons: prevent SVG viewport clipping */
 .iconbtn svg,
 .contactline svg{
-  width: 28px;
-  height: 28px;
+  width: 22px;
+  height: 22px;
   flex: 0 0 auto;
   fill: currentColor;
   opacity: 0.9;

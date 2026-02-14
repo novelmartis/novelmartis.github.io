@@ -24,3 +24,11 @@ Gemfile.lock
 # Bundler artifacts
 .bundle/
 .bundle/*
+
+# Bundler artifacts
+.bundle/
+.bundle/*
+
+# Bundler (docker / CI)
+.bundle-docker/
+.bundle-docker/*
