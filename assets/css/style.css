@@ -546,3 +546,22 @@ p code, li code{
   border-radius: 999px;
   background: color-mix(in oklab, var(--card) 55%, transparent);
 }
+
+/* Compact list cards (for Teaching/Writing-like lists) */
+.pcard.compact{
+  padding: 10px 12px;
+}
+
+.pcard.compact .phead{
+  margin-bottom: 6px;
+}
+
+.pcard.compact .pdesc{
+  margin-top: 4px;
+}
+
+.pcard.compact .plinks{
+  margin-top: 8px;
+}
+
+.teachlist .projlist{ gap: 10px; }
