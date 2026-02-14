@@ -17,3 +17,6 @@ Gemfile.lock
 
 # Logs
 *.log
+
+# Bundler
+.bundle/
