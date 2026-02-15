@@ -565,3 +565,24 @@ p code, li code{
 }
 
 .teachlist .projlist{ gap: 10px; }
+
+.cvbar{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 10px 0 14px;
+}
+
+.cvframe{
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--card);
+  box-shadow: var(--shadow1);
+  overflow: hidden;
+}
+
+.cvframe object{
+  width: 100%;
+  height: min(82vh, 980px);
+  display: block;
+}
