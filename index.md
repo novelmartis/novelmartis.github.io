@@ -76,12 +76,12 @@ permalink: /
   <p class="kicker">Highlights</p>
   <ul class="list">
     <li>
-      <b>Glimpse Prediction Networks (GPN)</b> — action-conditioned prediction during eye movements yields
+      <b>Glimpse Prediction Networks (GPN)</b> — saccade-conditioned next-glimpse prediction during eye movements yields
       scene representations aligned with human visual cortex.
       <span class="muted">(<a href="https://arxiv.org/abs/2511.12715" target="_blank" rel="noreferrer">arXiv</a>, 2025; under review at <i>Science Advances</i>)</span>
     </li>
     <li>
-      <b>Developmental visual diet (DVD) for robust vision</b> — human-like coarse-to-fine training yields
+      <b>Developmental visual diet (DVD) for robust vision</b> — human-like coarse-to-fine visual diet yields
       more robust, shape-based AI vision.
       <span class="muted">(<a href="https://arxiv.org/abs/2507.03168" target="_blank" rel="noreferrer">arXiv</a>, 2025; in press at <i>Nature Machine Intelligence</i>)</span>
     </li>
