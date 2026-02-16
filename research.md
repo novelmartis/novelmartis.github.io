@@ -79,7 +79,7 @@ I build learning systems shaped by biological constraints—developmental curric
   </div>
 </details>
 
-<details class="projgroup">
+<details class="projgroup" open>
   <summary>
     <span>Active perception and world modeling</span>
     <span class="projmeta">sampling + prediction + control</span>
