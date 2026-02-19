@@ -94,10 +94,6 @@ permalink: /
       <span class="muted">(<a href="https://elifesciences.org/articles/47142" target="_blank" rel="noreferrer">eLife</a>, 2019)</span>
     </li>
   </ul>
-
-  <p class="muted" style="margin:10px 0 0;">
-    More: <a href="/work/">projects, code, and writeups</a><span class="printonly"> (sushrutthorat.com/work)</span>.
-  </p>
 </div>
 
 <hr class="hr">
