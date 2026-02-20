@@ -574,6 +574,7 @@ p code, li code{
 
 .cvbar{
   display:flex;
+  justify-content: flex-end;
   gap: 10px;
   flex-wrap: wrap;
   margin: 10px 0 14px;
