@@ -46,7 +46,7 @@ I build learning systems shaped by biological constraints—developmental curric
   <summary>
     <span class="sumtitle">
       <span>Active perception and world modeling</span>
-      <span class="daterange">1 flagship</span>
+      <!-- <span class="daterange">1 flagship</span> -->
     </span>
     <span class="projmeta">sampling + prediction + control</span>
   </summary>
@@ -96,7 +96,7 @@ I build learning systems shaped by biological constraints—developmental curric
             Predicting the next glimpse features (given the saccade) coaxes a network to encode co-occurrence and spatial arrangement in a visual-cortex-aligned scene representation.
           </p>
           <div class="plinks">
-            <span class="btn primary btn-disabled" aria-label="Flagship">🚩Flagship</span>
+            <span class="btn primary btn-disabled" aria-label="Flagship">⭐</span>
             <span class="btn primary btn-disabled" aria-label="Ongoing">Ongoing</span>
             <a class="btn primary" href="https://arxiv.org/abs/2511.12715">Preprint 2025</a>
             <a class="btn" href="https://bsky.app/profile/sushrutthorat.bsky.social/post/3m5vqsdfug22t">BSky thread</a>
@@ -122,7 +122,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>
           </p>
           <p class="pdesc">
-            In cluttered object tracking with RL, an agent learns an explicit encoding of attentional state (an “attention schema”), most useful when attention cannot be inferred from the stimulus. <i>Natural setting?</i>
+            In cluttered object tracking with RL, an agent learns an explicit encoding of attentional state (an “attention schema”), most useful when attention cannot be inferred from the stimulus. 
+            <!-- <i>Natural setting?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://escholarship.org/uc/item/1516x0js">CogSci 2024</a>
@@ -140,7 +141,7 @@ I build learning systems shaped by biological constraints—developmental curric
   <summary>
     <span class="sumtitle">
       <span>Feedback and recurrent computation</span>
-      <span class="daterange">1 flagship</span>
+      <!-- <span class="daterange">1 flagship</span> -->
     </span>
     <span class="projmeta">time, inference, correction</span>
   </summary>
@@ -163,7 +164,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>
           </p>
           <p class="pdesc">
-            The feedforward sweep instantiates a representational arrangement that dovetails with a recurrence-induced “equal movement” prior, enabling corrected classifications. <i>Scaling? Feature highways?</i>
+            The feedforward sweep instantiates a representational arrangement that dovetails with a recurrence-induced “equal movement” prior, enabling corrected classifications. 
+            <!-- <i>Scaling? Feature highways?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://arxiv.org/abs/2308.12435">CCN 2023</a>
@@ -189,10 +191,11 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>
           </p>
           <p class="pdesc">
-            Recurrent flow carries category-orthogonal feature information (e.g., location) used iteratively to constrain subsequent category inference. <i>Scaling? Natural images?</i>
+            Recurrent flow carries category-orthogonal feature information (e.g., location) used iteratively to constrain subsequent category inference. 
+            <!-- <i>Scaling? Natural images?</i> -->
           </p>
           <div class="plinks">
-            <span class="btn primary btn-disabled" aria-label="Flagship">🚩Flagship</span>
+            <span class="btn primary btn-disabled" aria-label="Flagship">⭐</span>
             <a class="btn primary" href="https://arxiv.org/abs/2111.07898">SVRHM@NeurIPS 2021</a>
             <a class="btn" href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">X Thread</a>
           </div>
@@ -208,7 +211,7 @@ I build learning systems shaped by biological constraints—developmental curric
   <summary>
     <span class="sumtitle">
       <span>Characterizing perception</span>
-      <span class="daterange">1 flagship</span>
+      <!-- <span class="daterange">1 flagship</span> -->
     </span>
     <span class="projmeta">representational structure, priors, and report</span>
   </summary>
@@ -232,10 +235,11 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            Animacy organization is not fully driven by visual-feature differences; it also depends on inferred factors like agency quantified behaviorally. <i>Timecourse?</i>
+            Animacy organization is not fully driven by visual-feature differences; it also depends on inferred factors like agency quantified behaviorally. 
+            <!-- <i>Timecourse?</i> -->
           </p>
           <div class="plinks">
-            <span class="btn primary btn-disabled" aria-label="Flagship">🚩Flagship</span>
+            <span class="btn primary btn-disabled" aria-label="Flagship">⭐</span>
             <a class="btn primary" href="https://doi.org/10.7554/eLife.47142">eLife 2019</a>
             <a class="btn" href="https://doi.org/10.6084/m9.figshare.5919154.v1">MSc thesis</a>
           </div>
@@ -365,7 +369,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>
           </p>
           <p class="pdesc">
-            Readout misalignment due to learning-induced drift is a core continual-learning problem. Constraining drift to the readout null-space helps networks stay both stable and plastic. <i>Neural evidence?</i>
+            Readout misalignment due to learning-induced drift is a core continual-learning problem. Constraining drift to the readout null-space helps networks stay both stable and plastic. 
+            <!-- <i>Neural evidence?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://arxiv.org/abs/2310.04741">CoLLAs 2024</a>
@@ -406,7 +411,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=JXcWFkgAAAAJ&hl=en">Tim Kietzmann</a>
           </p>
           <p class="pdesc">
-            Attentional routing can push task-relevant information through the network as effectively as “direct access,” challenging the necessity of direct access for explaining behavior. <i>Neural alignment?</i>
+            Attentional routing can push task-relevant information through the network as effectively as “direct access,” challenging the necessity of direct access for explaining behavior. 
+            <!-- <i>Neural alignment?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://2024.ccneuro.org/pdf/98_Paper_authored_submission_non_anonymous.pdf">CCN 2024</a>
@@ -431,7 +437,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            The relation of multi-object display processing to isolated-object representations is task-dependent: same/different relates to earlier; object search, to later representations in MEG/fMRI. <i>Mechanisms?</i>
+            The relation of multi-object display processing to isolated-object representations is task-dependent: same/different relates to earlier; object search, to later representations in MEG/fMRI. 
+            <!-- <i>Mechanisms?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1523/JNEUROSCI.1107-23.2024">JNeurosci 2024</a>
@@ -456,7 +463,8 @@ I build learning systems shaped by biological constraints—developmental curric
             With: <a href="https://scholar.google.nl/citations?hl=en&user=D0z0dcgAAAAJ"><b><u>Surya Gayet</u></b></a>, <a href="https://www.linkedin.com/in/elisa-battistoni-21597980/">Elisa Battistoni</a>, <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            Search templates encode identity and size; size is inferred from location in scenes, and is entangled with identity in the template. <i>Computational model?</i>
+            Search templates encode identity and size; size is inferred from location in scenes, and is entangled with identity in the template. 
+            <!-- <i>Computational model?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://psycnet.apa.org/doi/10.1037/xhp0001172">JEP:HPP 2024</a>
@@ -482,7 +490,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            Increased search efficiency amongst co-occurring distractors likely reflects faster/more accurate rejection of a distractor’s partner as a possible target. <i>Mechanisms?</i>
+            Increased search efficiency amongst co-occurring distractors likely reflects faster/more accurate rejection of a distractor’s partner as a possible target. 
+            <!-- <i>Mechanisms?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1167/jov.22.10.2">JOV 2022</a>
@@ -507,7 +516,8 @@ I build learning systems shaped by biological constraints—developmental curric
             With: <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            Feature-based attention modulates fMRI representations of body silhouettes presented in task-irrelevant locations in high-level visual cortex. <i>Higher-power expt. for other objects?</i>
+            Feature-based attention modulates fMRI representations of body silhouettes presented in task-irrelevant locations in high-level visual cortex. 
+            <!-- <i>Higher-power expt. for other objects?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1016/j.neuroimage.2022.119207">NeuroImage 2022</a>
@@ -535,7 +545,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.nl/citations?user=IX0uaEQAAAAJ&hl=en&oi=ao">Marius Peelen</a>
           </p>
           <p class="pdesc">
-            Early bias/gain modulation alleviates later capacity limits; optimized modulations look like tapping a superposition of networks rather than classic feature-similarity gain. <i>Capacity of ventral stream?</i>
+            Early bias/gain modulation alleviates later capacity limits; optimized modulations look like tapping a superposition of networks rather than classic feature-similarity gain. 
+            <!-- <i>Capacity of ventral stream?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="{{ site.baseurl }}/ccn18/">CCN 2018</a>
@@ -623,7 +634,8 @@ I build learning systems shaped by biological constraints—developmental curric
             With: <a href="https://www.linkedin.com/in/vardos/">Varad Choudhari</a>
           </p>
           <p class="pdesc">
-            Reverse dictionary via n-hop reverse search on a definition graph. Matched then-SOTA on ~3k lexicon; didn't scale well to ~80k. <i>ANN-like non-linear mixing essential?</i>
+            Reverse dictionary via n-hop reverse search on a definition graph. Matched then-SOTA on ~3k lexicon; didn't scale well to ~80k. 
+            <!-- <i>ANN-like non-linear mixing essential?</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://arxiv.org/abs/1606.00025">COLING 2016</a>
@@ -649,7 +661,8 @@ I build learning systems shaped by biological constraints—developmental curric
             <a href="https://scholar.google.com/citations?user=QDEeC8EAAAAJ&hl=en">Bipin Rajendran</a>
           </p>
           <p class="pdesc">
-            Engineered SNN modules for polynomial transformations on spike trains. Temporal lag hinders SNN-translation of symbolic forward model for velocity–waypoint navigation. <i>Need metastable SNNs.</i>
+            Engineered SNN modules for polynomial transformations on spike trains. Temporal lag hinders SNN-translation of symbolic forward model for velocity–waypoint navigation. 
+            <!-- <i>Need metastable SNNs.</i> -->
           </p>
           <div class="plinks">
             <a class="btn primary" href="{{ site.baseurl }}/assets/15_ijcnn.pdf">IJCNN 2015</a>
