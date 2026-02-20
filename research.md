@@ -549,7 +549,7 @@ I build learning systems shaped by biological constraints—developmental curric
             <!-- <i>Capacity of ventral stream?</i> -->
           </p>
           <div class="plinks">
-            <a class="btn primary" href="{{ site.baseurl }}/ccn18/">CCN 2018</a>
+            <a class="btn primary" href="https://arxiv.org/abs/1903.10446">CCN 2018</a>
             <a class="btn primary" href="https://arxiv.org/abs/1907.12309">CCN 2019</a>
           </div>
         </div>

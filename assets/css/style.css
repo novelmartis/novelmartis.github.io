@@ -414,7 +414,7 @@ details.projgroup > summary::-webkit-details-marker{ display:none; }
 .work-controls{
   position: fixed;
   right: 0px;
-  top: calc(var(--nav-h) + 18px);  /* sits just under nav */
+  top: calc(var(--nav-h, 56px) + 18px);  /* sits just under nav */
   z-index: 60;
 
   display: flex;
