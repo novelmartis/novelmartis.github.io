@@ -30,3 +30,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - .vendor

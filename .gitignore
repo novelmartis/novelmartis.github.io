@@ -5,9 +5,10 @@ _site/
 .jekyll-metadata
 
 # Bundler / Ruby
-.vendor/
 .bundle/
-Gemfile.lock
+.bundle-docker/
+.vendor/
+vendor/
 
 # OS/editor junk
 .DS_Store
@@ -17,18 +18,3 @@ Gemfile.lock
 
 # Logs
 *.log
-
-# Bundler
-.bundle/
-
-# Bundler artifacts
-.bundle/
-.bundle/*
-
-# Bundler artifacts
-.bundle/
-.bundle/*
-
-# Bundler (docker / CI)
-.bundle-docker/
-.bundle-docker/*

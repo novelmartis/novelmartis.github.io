@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="cvhero">
-  <img src="/assets/portrait_main.png" alt="Portrait of Sushrut Thorat">
+  <img src="{{ '/assets/portrait_main.png' | relative_url }}" alt="Portrait of Sushrut Thorat">
   <div>
     <h1 class="h1">Dr. Sushrut Thorat</h1>
 
