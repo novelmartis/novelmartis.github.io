@@ -9,6 +9,11 @@ _site/
 .bundle-docker/
 .vendor/
 vendor/
+Gemfile
+Gemfile.lock
+Gemfile.docker
+Gemfile.docker.lock
+dev.sh
 
 # OS/editor junk
 .DS_Store
