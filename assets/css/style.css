@@ -428,6 +428,7 @@ details.projgroup > summary::-webkit-details-marker{ display:none; }
   .ptitle, .pmeta, .pdesc{ overflow-wrap:anywhere; }
 
   .pbody{ grid-template-columns: 1fr; }
+  .pbody.pbody-preview{ grid-template-columns: 1fr; }
   .pthumb{
     width: 100%;
     height: 170px;
