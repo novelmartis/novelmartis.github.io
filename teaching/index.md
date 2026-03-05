@@ -125,7 +125,7 @@ Course material and a few selected presentations/posts.
     <div class="pcard compact">
       <div class="phead">
         <div class="ptitle">
-          <a href="https://doi.org/10.6084/m9.figshare.22698157.v1">Neural networks as scientific instruments</a>
+          <a href="https://doi.org/10.6084/m9.figshare.31451599.v2">Neural networks as scientific instruments</a>
           <span class="muted"> · </span>
           <a class="muted" href="https://doi.org/10.6084/m9.figshare.31451599.v2">Slides</a>
         </div>
