@@ -47,6 +47,13 @@ permalink: /
         <span class="daterange">2022–2026</span>
       </li>
 
+      <li style="display:flex; gap:12px; align-items:baseline; justify-content:space-between; margin:10px 0;">
+        <div>
+          <b>Postdoc (Cognitive Neuroscience)</b> — MARCS Institute, Western Sydney University
+        </div>
+        <span class="daterange">2026 (incoming)</span>
+      </li>
+
     </ul>
   </div>
 
