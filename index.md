@@ -25,11 +25,6 @@ permalink: /
         GitHub
       </a>
 
-      <a class="btn iconbtn" href="https://bsky.app/profile/sushrutthorat.bsky.social" target="_blank" rel="noreferrer">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.3 3.2c2 1.5 4.1 4.6 4.7 5.9.6-1.3 2.7-4.4 4.7-5.9 1.4-1.1 3.7-2 3.7.7 0 .5-.3 4.2-.5 4.8-.7 2.2-3.2 2.7-5.4 2.3 3.8.6 4.7 2.7 2.7 4.8-3.7 3.9-5.4-1-5.8-2.2-.1-.3-.2-.4-.2-.3 0-.1-.1 0-.2.3-.4 1.2-2.1 6.1-5.8 2.2-2-2.1-1.1-4.2 2.7-4.8-2.2.4-4.7-.1-5.4-2.3-.2-.6-.5-4.3-.5-4.8 0-2.7 2.3-1.8 3.7-.7Z"/></svg>
-        Bluesky
-      </a>
-
       <span class="contactline" aria-label="Email">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"/></svg>
         <span>sthorat@uos.de</span>
@@ -52,12 +47,6 @@ permalink: /
         <span class="daterange">2022–2026</span>
       </li>
 
-      <li style="display:flex; gap:12px; align-items:baseline; justify-content:space-between; margin:10px 0;">
-        <div>
-          <b>Postdoc (Cognitive Neuroscience)</b> — MARCS Institute, Western Sydney University
-        </div>
-        <span class="daterange">2026 (incoming)</span>
-      </li>
     </ul>
   </div>
 
