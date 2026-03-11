@@ -99,7 +99,7 @@ I build learning systems shaped by biological constraints—developmental curric
             <span class="btn primary btn-disabled" aria-label="Flagship">⭐</span>
             <span class="btn primary btn-disabled" aria-label="Ongoing">Ongoing</span>
             <a class="btn primary" href="https://arxiv.org/abs/2511.12715">Preprint 2025</a>
-            <a class="btn" href="https://bsky.app/profile/sushrutthorat.bsky.social/post/3m5vqsdfug22t">BSky thread</a>
+            <!-- <a class="btn" href="https://bsky.app/profile/sushrutthorat.bsky.social/post/3m5vqsdfug22t">BSky thread</a> -->
           </div>
         </div>
       </div>
@@ -127,7 +127,7 @@ I build learning systems shaped by biological constraints—developmental curric
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://escholarship.org/uc/item/1516x0js">CogSci 2024</a>
-            <a class="btn" href="https://x.com/lolotta6/status/1815370164600246348">X thread</a>
+            <!-- <a class="btn" href="https://x.com/lolotta6/status/1815370164600246348">X thread</a> -->
           </div>
         </div>
       </div>
@@ -169,7 +169,7 @@ I build learning systems shaped by biological constraints—developmental curric
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://arxiv.org/abs/2308.12435">CCN 2023</a>
-            <a class="btn" href="https://x.com/martisamuser/status/1712812776790311293?s=20">X Thread</a>
+            <!-- <a class="btn" href="https://x.com/martisamuser/status/1712812776790311293?s=20">X Thread</a> -->
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@ I build learning systems shaped by biological constraints—developmental curric
           <div class="plinks">
             <span class="btn primary btn-disabled" aria-label="Flagship">⭐</span>
             <a class="btn primary" href="https://arxiv.org/abs/2111.07898">SVRHM@NeurIPS 2021</a>
-            <a class="btn" href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">X Thread</a>
+            <!-- <a class="btn" href="https://twitter.com/martisamuser/status/1460631750640422912?s=20">X Thread</a> -->
           </div>
         </div>
       </div>
@@ -307,7 +307,7 @@ I build learning systems shaped by biological constraints—developmental curric
           <div class="plinks">
             <span class="btn primary btn-disabled" aria-label="Ongoing">Ongoing</span>
             <a class="btn primary" href="https://arxiv.org/abs/2507.03168">Preprint 2025</a>
-            <a class="btn" href="https://bsky.app/profile/timkietzmann.bsky.social/post/3lthef4bxu22c">BSky thread</a>
+            <!-- <a class="btn" href="https://bsky.app/profile/timkietzmann.bsky.social/post/3lthef4bxu22c">BSky thread</a> -->
           </div>
         </div>
       </div>
@@ -375,7 +375,7 @@ I build learning systems shaped by biological constraints—developmental curric
           <div class="plinks">
             <a class="btn primary" href="https://arxiv.org/abs/2310.04741">CoLLAs 2024</a>
             <a class="btn" href="https://2023.ccneuro.org/proceedings/0000748.pdf">CCN 2023</a>
-            <a class="btn" href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">X Thread</a>
+            <!-- <a class="btn" href="https://x.com/AnthesDaniel/status/1717913109795410403?s=20">X Thread</a> -->
             <a class="btn" href="https://2024.ccneuro.org/pdf/567_Paper_authored_CCN2024-authored.pdf">CCN 2024</a>
           </div>
         </div>
@@ -442,7 +442,7 @@ I build learning systems shaped by biological constraints—developmental curric
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1523/JNEUROSCI.1107-23.2024">JNeurosci 2024</a>
-            <a class="btn" href="https://x.com/LuChunYeh/status/1771482781337387299?s=20">X Thread</a>
+            <!-- <a class="btn" href="https://x.com/LuChunYeh/status/1771482781337387299?s=20">X Thread</a> -->
           </div>
         </div>
       </div>
@@ -468,7 +468,7 @@ I build learning systems shaped by biological constraints—developmental curric
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://psycnet.apa.org/doi/10.1037/xhp0001172">JEP:HPP 2024</a>
-            <a class="btn" href="https://x.com/SuryaGayet/status/1763881177415364740?s=20">X Thread</a>
+            <!-- <a class="btn" href="https://x.com/SuryaGayet/status/1763881177415364740?s=20">X Thread</a> -->
           </div>
         </div>
       </div>
@@ -495,7 +495,7 @@ I build learning systems shaped by biological constraints—developmental curric
           </p>
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1167/jov.22.10.2">JOV 2022</a>
-            <a class="btn" href="https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">X Thread</a>
+            <!-- <a class="btn" href="https://twitter.com/martisamuser/status/1518515944813101056?s=20&t=pACvyE-jT4DJB8SSwCdhaw">X Thread</a> -->
           </div>
         </div>
       </div>
@@ -522,7 +522,7 @@ I build learning systems shaped by biological constraints—developmental curric
           <div class="plinks">
             <a class="btn primary" href="https://doi.org/10.1016/j.neuroimage.2022.119207">NeuroImage 2022</a>
             <a class="btn" href="https://doi.org/10.17605/OSF.IO/HJ5VC">Code + Data</a>
-            <a class="btn" href="https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">X Thread</a>
+            <!-- <a class="btn" href="https://twitter.com/martisamuser/status/1516689822374854658?s=20&t=y4kGCWUn68jnxha1U0ZqUA">X Thread</a> -->
           </div>
         </div>
       </div>
