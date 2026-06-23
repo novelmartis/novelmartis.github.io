@@ -317,6 +317,13 @@
       transform:translateY(-1px);
     }
 
+    .form-status{
+      margin:8px 0 0;
+      font-size:13px;
+      color:var(--muted);
+      min-height:1.2em;
+    }
+
     @media (max-width: 920px){
       .hero{grid-template-columns:1fr}
 
@@ -399,7 +406,8 @@
         <div class="section-label" id="contact-title">Contact</div>
         <div class="section-body contact-grid">
           <p class="contact-copy">For collaborations, questions, or CV requests.</p>
-          <form id="contact-form">
+          <form id="contact-form" action="https://formspree.io/f/xbdvlbbb" method="POST">
+            <input type="hidden" name="_subject" value="Website contact">
             <label>
               Name
               <input name="name" autocomplete="name">
@@ -418,6 +426,7 @@
             </label>
             <button type="submit">Submit</button>
           </form>
+          <p class="form-status" id="form-status" aria-live="polite"></p>
         </div>
       </section>
     </div>
@@ -440,18 +449,23 @@
 
     document.getElementById("contact-form").addEventListener("submit", (event) => {
       event.preventDefault();
-      const form = new FormData(event.currentTarget);
-      const wantsCv = form.get("cv") ? "Yes" : "No";
-      const body = [
-        `Name: ${form.get("name") || ""}`,
-        `Email: ${form.get("email") || ""}`,
-        `CV requested: ${wantsCv}`,
-        "",
-        form.get("message") || ""
-      ].join("\n");
+      const form = event.currentTarget;
+      const status = document.getElementById("form-status");
+      const data = new FormData(form);
+      data.set("cv", data.get("cv") ? "Yes" : "No");
+      status.textContent = "Sending...";
 
-      const subject = wantsCv ? "Contact + CV request" : "Contact from website";
-      window.location.href = `mailto:sushrut.thorat94@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      fetch(form.action, {
+        method: form.method,
+        body: data,
+        headers: { Accept: "application/json" }
+      }).then((response) => {
+        if (!response.ok) throw new Error("submit_failed");
+        form.reset();
+        status.textContent = "Message sent.";
+      }).catch(() => {
+        status.textContent = "Something went wrong. Please try again.";
+      });
     });
   </script>
 </body>
