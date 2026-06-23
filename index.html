@@ -1,0 +1,458 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sushrut Thorat</title>
+  <style>
+    :root{
+      --paper:#f7f0e7;
+      --ink:#181412;
+      --muted:#60564f;
+      --soft:#8e7f73;
+      --accent:#0f6760;
+      --accent-2:#b4523d;
+      --hair:rgba(24,20,18,.16);
+      --wash:rgba(255,255,255,.38);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      color:var(--ink);
+      font:16px/1.55 "Avenir Next","Segoe UI",system-ui,sans-serif;
+      background:
+        radial-gradient(circle at 12% 14%, rgba(15,103,96,.14), transparent 26%),
+        radial-gradient(circle at 84% 22%, rgba(180,82,61,.12), transparent 22%),
+        radial-gradient(circle at 72% 78%, rgba(15,103,96,.08), transparent 20%),
+        linear-gradient(180deg, #fcf8f3 0%, var(--paper) 52%, #f3ebdf 100%);
+    }
+
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      background:
+        linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px)),
+        linear-gradient(180deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px));
+      background-size:32px 32px;
+      mask-image:linear-gradient(180deg, rgba(0,0,0,.32), transparent 75%);
+    }
+
+    a{color:inherit}
+
+    .page{
+      width:min(1160px, calc(100vw - 40px));
+      margin:0 auto;
+      padding:32px 0 48px;
+      position:relative;
+    }
+
+    .frame{
+      position:relative;
+      padding:clamp(32px, 6vw, 72px) 0;
+    }
+
+    .frame::before,
+    .frame::after{
+      content:"";
+      position:absolute;
+      left:0;
+      right:0;
+      height:1px;
+      background:linear-gradient(90deg, transparent, var(--hair) 18%, var(--hair) 82%, transparent);
+    }
+
+    .frame::before{top:0}
+    .frame::after{bottom:0}
+
+    .hero{
+      display:grid;
+      grid-template-columns:minmax(0, 1.25fr) minmax(220px, .75fr);
+      gap:48px;
+      align-items:start;
+    }
+
+    .hero-copy{
+      max-width:780px;
+      position:relative;
+    }
+
+    h1{
+      margin:0;
+      font:clamp(64px, 13vw, 148px)/.88 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+      letter-spacing:0;
+      max-width:8ch;
+    }
+
+    .hero-mark{
+      display:grid;
+      justify-items:end;
+      gap:28px;
+      padding-top:10px;
+    }
+
+    .glyph{
+      width:min(24vw, 250px);
+      aspect-ratio:1 / 1.15;
+      position:relative;
+      opacity:.92;
+    }
+
+    .glyph::before,
+    .glyph::after,
+    .glyph span{
+      content:"";
+      position:absolute;
+      border-radius:999px;
+      mix-blend-mode:multiply;
+    }
+
+    .glyph::before{
+      inset:6% 28% 34% 8%;
+      border:1.5px solid rgba(15,103,96,.36);
+      background:rgba(255,255,255,.24);
+      transform:rotate(-19deg);
+      backdrop-filter:blur(4px);
+    }
+
+    .glyph::after{
+      inset:34% 8% 6% 28%;
+      border:1.5px solid rgba(180,82,61,.34);
+      background:rgba(255,255,255,.16);
+      transform:rotate(14deg);
+    }
+
+    .glyph span{
+      inset:24% 18%;
+      border:1px solid rgba(24,20,18,.18);
+      transform:rotate(45deg);
+      background:linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,.04));
+    }
+
+    .meta{
+      max-width:230px;
+      font-size:13px;
+      line-height:1.5;
+      color:var(--muted);
+      text-align:right;
+    }
+
+    .flow{
+      display:grid;
+      grid-template-columns:minmax(180px, .38fr) minmax(0, 1fr);
+      gap:18px 40px;
+      align-items:start;
+      margin-top:56px;
+    }
+
+    .section-label{
+      font-size:12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--soft);
+      padding-top:4px;
+    }
+
+    .section-body{
+      min-width:0;
+    }
+
+    .education-list{
+      display:grid;
+      gap:10px;
+      margin:0;
+      padding:0;
+      list-style:none;
+      font-size:clamp(21px, 2vw, 28px);
+      line-height:1.35;
+      font-family:"Iowan Old Style","Palatino Linotype",Georgia,serif;
+    }
+
+    .education-list li{
+      padding-bottom:10px;
+      border-bottom:1px solid rgba(24,20,18,.12);
+    }
+
+    .degree{
+      display:block;
+    }
+
+    .school{
+      display:block;
+      font-size:.66em;
+      line-height:1.35;
+      color:var(--muted);
+      font-family:"Avenir Next","Segoe UI",system-ui,sans-serif;
+      margin-top:3px;
+    }
+
+    .focus-wrap{
+      position:relative;
+      padding-left:clamp(16px, 3vw, 36px);
+    }
+
+    .focus-wrap::before{
+      content:"";
+      position:absolute;
+      left:0;
+      top:8px;
+      bottom:8px;
+      width:1px;
+      background:linear-gradient(180deg, transparent, var(--hair) 12%, var(--hair) 88%, transparent);
+    }
+
+    .focus-summary{
+      margin:0;
+      max-width:20ch;
+      font:clamp(28px, 4.2vw, 56px)/1.06 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+      text-wrap:balance;
+    }
+
+    .focus-meta{
+      margin:16px 0 0;
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    .contact-grid{
+      display:block;
+    }
+
+    .contact-copy{
+      margin:0;
+      max-width:24rem;
+      font-size:clamp(18px, 1.9vw, 22px);
+      line-height:1.5;
+      color:rgba(24,20,18,.82);
+    }
+
+    form{
+      display:grid;
+      grid-template-columns:repeat(2, minmax(0, 1fr));
+      gap:16px 18px;
+      margin-top:24px;
+    }
+
+    label{
+      display:grid;
+      gap:8px;
+      min-width:0;
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--soft);
+    }
+
+    .wide{grid-column:1 / -1}
+
+    input, textarea, button{
+      font:inherit;
+      color:var(--ink);
+    }
+
+    input, textarea{
+      width:100%;
+      border:0;
+      border-bottom:1px solid rgba(24,20,18,.24);
+      border-radius:0;
+      background:transparent;
+      padding:0 0 12px;
+      outline:none;
+      box-shadow:none;
+    }
+
+    input:focus, textarea:focus{
+      border-bottom-color:var(--accent);
+    }
+
+    textarea{
+      resize:vertical;
+      min-height:112px;
+      padding-top:2px;
+    }
+
+    .check{
+      display:flex;
+      gap:12px;
+      align-items:center;
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--soft);
+      padding-top:6px;
+    }
+
+    .check input{
+      width:16px;
+      height:16px;
+      accent-color:var(--accent);
+      margin:0;
+    }
+
+    button{
+      justify-self:start;
+      margin-top:4px;
+      border:1px solid rgba(24,20,18,.18);
+      padding:13px 20px 12px;
+      background:rgba(255,255,255,.3);
+      border-radius:2px;
+      cursor:pointer;
+      font-size:13px;
+      line-height:1;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--ink);
+      box-shadow:0 8px 18px rgba(24,20,18,.04);
+      transition:background .18s ease, transform .18s ease, border-color .18s ease, box-shadow .18s ease;
+    }
+
+    button:hover{
+      background:rgba(255,255,255,.54);
+      border-color:rgba(24,20,18,.3);
+      box-shadow:0 12px 22px rgba(24,20,18,.07);
+      transform:translateY(-1px);
+    }
+
+    @media (max-width: 920px){
+      .hero{grid-template-columns:1fr}
+
+      .hero-mark{
+        justify-items:start;
+      }
+
+      .meta{
+        text-align:left;
+      }
+    }
+
+    @media (max-width: 760px){
+      .page{
+        width:min(100vw - 24px, 1160px);
+      }
+
+      .flow{
+        grid-template-columns:1fr;
+        gap:10px;
+      }
+
+      .focus-wrap{
+        padding-left:0;
+      }
+
+      .focus-wrap::before{
+        display:none;
+      }
+
+      form{
+        grid-template-columns:1fr;
+      }
+
+    }
+  </style>
+</head>
+<body>
+  <main class="page" aria-label="Sushrut Thorat">
+    <div class="frame">
+      <section class="hero" aria-labelledby="site-title">
+        <div class="hero-copy">
+          <h1 id="site-title">Sushrut Thorat</h1>
+        </div>
+
+        <div class="hero-mark" aria-hidden="true">
+          <div class="glyph"><span></span></div>
+        </div>
+      </section>
+
+      <section class="flow" aria-labelledby="education-title">
+        <div class="section-label" id="education-title">Education</div>
+        <div class="section-body">
+          <ul class="education-list">
+            <li>
+              <span class="degree">PhD, Cognitive Neuroscience</span>
+              <span class="school">Radboud University</span>
+            </li>
+            <li>
+              <span class="degree">MSc, Cognitive Neuroscience</span>
+              <span class="school">University of Trento</span>
+            </li>
+            <li>
+              <span class="degree">BTech, Engineering Physics</span>
+              <span class="school">IIT Bombay</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="flow" aria-labelledby="focus-title">
+        <div class="section-label" id="focus-title">Areas of Focus</div>
+        <div class="section-body focus-wrap">
+          <p class="focus-summary" id="research-focus-summary">Active vision, brain-aligned predictive agents, developmental visual curricula, continual learning, visual search, and the structure of human object and scene representations.</p>
+          <p class="focus-meta" id="research-focus-meta">Updated from publication titles when available.</p>
+        </div>
+      </section>
+
+      <section class="flow" aria-labelledby="contact-title">
+        <div class="section-label" id="contact-title">Contact</div>
+        <div class="section-body contact-grid">
+          <p class="contact-copy">For collaborations, questions, or CV requests.</p>
+          <form id="contact-form">
+            <label>
+              Name
+              <input name="name" autocomplete="name">
+            </label>
+            <label>
+              Email
+              <input name="email" type="email" autocomplete="email">
+            </label>
+            <label class="wide">
+              Message
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <label class="check wide">
+              <input name="cv" type="checkbox">
+              <span>Request CV</span>
+            </label>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    (async () => {
+      const summary = document.getElementById("research-focus-summary");
+      const meta = document.getElementById("research-focus-meta");
+      try {
+        const response = await fetch("/research-focus.json", { cache: "no-store" });
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data.summary) summary.textContent = data.summary;
+        if (data.updated_at) meta.textContent = `Updated ${data.updated_at} from publication titles.`;
+      } catch (_) {
+        meta.textContent = "Updated from publication titles when available.";
+      }
+    })();
+
+    document.getElementById("contact-form").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const form = new FormData(event.currentTarget);
+      const wantsCv = form.get("cv") ? "Yes" : "No";
+      const body = [
+        `Name: ${form.get("name") || ""}`,
+        `Email: ${form.get("email") || ""}`,
+        `CV requested: ${wantsCv}`,
+        "",
+        form.get("message") || ""
+      ].join("\n");
+
+      const subject = wantsCv ? "Contact + CV request" : "Contact from website";
+      window.location.href = `mailto:sushrut.thorat94@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    });
+  </script>
+</body>
+</html>

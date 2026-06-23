@@ -23,3 +23,10 @@ dev.sh
 
 # Logs
 *.log
+
+# Python cache
+__pycache__/
+.pytest_cache/
+
+# Local archive / scratch
+misc/
