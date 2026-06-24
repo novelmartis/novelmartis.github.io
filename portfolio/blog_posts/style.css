@@ -1,0 +1,181 @@
+:root{
+  --paper:#f7f0e7;
+  --ink:#181412;
+  --muted:#60564f;
+  --soft:#8e7f73;
+  --hair:rgba(24,20,18,.14);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  font:17px/1.72 "Avenir Next","Segoe UI",system-ui,sans-serif;
+  background:
+    radial-gradient(circle at 10% 12%, rgba(15,103,96,.12), transparent 26%),
+    radial-gradient(circle at 82% 18%, rgba(180,82,61,.1), transparent 24%),
+    linear-gradient(180deg, #fcf8f3 0%, var(--paper) 52%, #f3ebdf 100%);
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px)),
+    linear-gradient(180deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px));
+  background-size:32px 32px;
+  mask-image:linear-gradient(180deg, rgba(0,0,0,.28), transparent 78%);
+}
+
+a{color:inherit}
+
+.page{
+  width:min(900px, calc(100% - 40px));
+  margin:0 auto;
+  padding:34px 0 72px;
+}
+
+.frame{
+  position:relative;
+  padding-top:32px;
+}
+
+.frame::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:1px;
+  background:linear-gradient(90deg, transparent, var(--hair) 18%, var(--hair) 82%, transparent);
+}
+
+.eyebrow{
+  margin:0 0 20px;
+  font-size:12px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--soft);
+}
+
+.eyebrow a{
+  text-decoration:none;
+}
+
+h1{
+  margin:0;
+  max-width:14ch;
+  font:clamp(44px, 8vw, 92px)/.95 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+}
+
+.meta{
+  margin-top:18px;
+  font-size:12px;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--soft);
+}
+
+.deck{
+  margin:18px 0 0;
+  max-width:42rem;
+  font-size:clamp(20px, 2vw, 25px);
+  line-height:1.48;
+  color:rgba(24,20,18,.84);
+}
+
+.actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin:22px 0 0;
+}
+
+.button{
+  display:inline-flex;
+  align-items:center;
+  min-height:36px;
+  padding:8px 12px;
+  border:1px solid rgba(24,20,18,.12);
+  border-radius:999px;
+  background:rgba(255,255,255,.3);
+  text-decoration:none;
+  font-size:12px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.hero-image{
+  margin:34px 0 10px;
+}
+
+.hero-image img{
+  width:100%;
+  display:block;
+  border-radius:8px;
+  border:1px solid rgba(24,20,18,.08);
+  background:rgba(255,255,255,.28);
+}
+
+.hero-image figcaption{
+  margin-top:10px;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.article{
+  margin-top:34px;
+}
+
+.article h2{
+  margin:34px 0 12px;
+  font:clamp(28px, 3vw, 38px)/1.08 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+}
+
+.article p,
+.article li{
+  max-width:42rem;
+  color:rgba(24,20,18,.85);
+}
+
+.article ul,
+.article ol{
+  padding-left:1.4rem;
+}
+
+pre{
+  overflow:auto;
+  margin:18px 0 0;
+  padding:18px;
+  border:1px solid rgba(24,20,18,.08);
+  border-radius:8px;
+  background:rgba(255,255,255,.32);
+  font:14px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+
+code{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+
+@media (max-width: 720px){
+  .page{
+    width:auto;
+    margin:0 16px;
+  }
+
+  body{
+    font-size:16px;
+  }
+
+  h1{
+    font-size:48px;
+  }
+
+  .deck{
+    font-size:18px;
+  }
+}

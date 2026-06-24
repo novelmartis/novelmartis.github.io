@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Sushrut Thorat / Portfolio</title>
+  <style>
+    :root{
+      --paper:#f7f0e7;
+      --ink:#181412;
+      --muted:#60564f;
+      --soft:#8e7f73;
+      --accent:#0f6760;
+      --accent-2:#b4523d;
+      --hair:rgba(24,20,18,.16);
+    }
+
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      overflow-x:hidden;
+      color:var(--ink);
+      font:16px/1.6 "Avenir Next","Segoe UI",system-ui,sans-serif;
+      background:
+        radial-gradient(circle at 10% 12%, rgba(15,103,96,.12), transparent 26%),
+        radial-gradient(circle at 82% 18%, rgba(180,82,61,.1), transparent 24%),
+        linear-gradient(180deg, #fcf8f3 0%, var(--paper) 52%, #f3ebdf 100%);
+    }
+
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      background:
+        linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px)),
+        linear-gradient(180deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px));
+      background-size:32px 32px;
+      mask-image:linear-gradient(180deg, rgba(0,0,0,.28), transparent 78%);
+    }
+
+    a{color:inherit}
+
+    .page{
+      width:min(1180px, calc(100% - 40px));
+      margin:0 auto;
+      padding:32px 0 56px;
+    }
+
+    .frame{
+      position:relative;
+      padding:clamp(28px, 5vw, 64px) 0;
+    }
+
+    .frame::before,
+    .frame::after{
+      content:"";
+      position:absolute;
+      left:0;
+      right:0;
+      height:1px;
+      background:linear-gradient(90deg, transparent, var(--hair) 18%, var(--hair) 82%, transparent);
+    }
+
+    .frame::before{top:0}
+    .frame::after{bottom:0}
+
+    .hero{
+      display:block;
+    }
+
+    h1{
+      margin:0;
+      font:clamp(58px, 10vw, 124px)/.9 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+      max-width:8ch;
+    }
+
+    .intro{
+      margin:18px 0 0;
+      max-width:34rem;
+      font-size:clamp(20px, 2vw, 26px);
+      line-height:1.45;
+      color:rgba(24,20,18,.82);
+    }
+
+    .tabs{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:48px;
+      padding-bottom:16px;
+      border-bottom:1px solid rgba(24,20,18,.1);
+    }
+
+    .tab{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border:1px solid rgba(24,20,18,.14);
+      background:rgba(255,255,255,.28);
+      padding:12px 16px;
+      min-height:46px;
+      border-radius:999px;
+      font-size:12px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:var(--soft);
+      cursor:pointer;
+      text-decoration:none;
+      line-height:1;
+      appearance:none;
+      transition:background .18s ease, color .18s ease, border-color .18s ease;
+    }
+
+    .tab[aria-selected="true"]{
+      background:rgba(255,255,255,.58);
+      color:var(--ink);
+      border-color:rgba(24,20,18,.24);
+    }
+
+    .tab-panel{
+      display:none;
+      margin-top:28px;
+      min-width:0;
+    }
+
+    .stack,
+    .entry,
+    .entry-head,
+    .entry-body,
+    .entry-copy{
+      min-width:0;
+    }
+
+    .tab-panel.is-active{
+      display:block;
+    }
+
+    .lede{
+      margin:0 0 28px;
+      max-width:45rem;
+      font-size:20px;
+      line-height:1.6;
+      color:rgba(24,20,18,.82);
+    }
+
+    .panel-tools{
+      position:sticky;
+      top:16px;
+      z-index:3;
+      display:flex;
+      justify-content:flex-end;
+      gap:10px;
+      margin:0 0 24px;
+      pointer-events:none;
+    }
+
+    .tool-button{
+      pointer-events:auto;
+      border:1px solid rgba(24,20,18,.12);
+      background:rgba(247,240,231,.82);
+      backdrop-filter:blur(10px);
+      padding:10px 13px;
+      border-radius:999px;
+      font-size:11px;
+      letter-spacing:.16em;
+      text-transform:uppercase;
+      color:var(--soft);
+      cursor:pointer;
+      box-shadow:0 8px 18px rgba(24,20,18,.05);
+      transition:border-color .16s ease, color .16s ease, transform .16s ease;
+    }
+
+    .tool-button:hover{
+      border-color:rgba(24,20,18,.22);
+      color:var(--ink);
+      transform:translateY(-1px);
+    }
+
+    .tool-button:focus,
+    .tool-button:active{
+      background:rgba(247,240,231,.82);
+    }
+
+    .tool-button:focus-visible{
+      outline:1px solid rgba(15,103,96,.34);
+      outline-offset:2px;
+    }
+
+    .group{
+      margin-top:18px;
+      border-top:1px solid rgba(24,20,18,.08);
+      padding-top:18px;
+    }
+
+    .group:first-of-type{
+      margin-top:0;
+      padding-top:0;
+      border-top:0;
+    }
+
+    .group-toggle{
+      list-style:none;
+      cursor:pointer;
+    }
+
+    .group-toggle::-webkit-details-marker{
+      display:none;
+    }
+
+    .group-toggle::marker{
+      content:"";
+    }
+
+    .group-summary{
+      display:grid;
+      grid-template-columns:minmax(180px, .34fr) minmax(0, 1fr) auto;
+      gap:20px 36px;
+      align-items:start;
+    }
+
+    .group-chevron{
+      padding-top:2px;
+      font-size:14px;
+      color:var(--soft);
+      transition:transform .18s ease;
+    }
+
+    details[open] .group-chevron{
+      transform:rotate(90deg);
+    }
+
+    .group-body{
+      padding-top:18px;
+    }
+
+    .group-body-inner{
+      margin-top:18px;
+      display:grid;
+      grid-template-columns:minmax(180px, .34fr) minmax(0, 1fr);
+      gap:20px 36px;
+    }
+
+    .plain-group{
+      margin-top:26px;
+      border-top:1px solid rgba(24,20,18,.08);
+      padding-top:22px;
+    }
+
+    .plain-group:first-of-type{
+      margin-top:0;
+      padding-top:0;
+      border-top:0;
+    }
+
+    .plain-group-head{
+      margin-bottom:18px;
+    }
+
+    .group-title{
+      font-size:12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--soft);
+      padding-top:4px;
+    }
+
+    .group-meta{
+      display:block;
+      margin-top:6px;
+      letter-spacing:.06em;
+      text-transform:none;
+      font-size:13px;
+    }
+
+    .stack{
+      display:grid;
+      gap:20px;
+    }
+
+    .entry{
+      padding-bottom:18px;
+      border-bottom:1px solid rgba(24,20,18,.1);
+    }
+
+    .entry:last-child{
+      border-bottom:0;
+      padding-bottom:0;
+    }
+
+    .entry-head{
+      display:flex;
+      justify-content:space-between;
+      gap:20px;
+      align-items:baseline;
+    }
+
+    .entry-body{
+      display:grid;
+      grid-template-columns:160px minmax(0, 1fr);
+      gap:18px;
+      align-items:start;
+      margin-top:10px;
+    }
+
+    .entry-thumb-wrap{
+      width:100%;
+      aspect-ratio:1 / 1;
+      border-radius:6px;
+      background:rgba(255,255,255,.16);
+      border:1px solid rgba(24,20,18,.08);
+      box-shadow:0 10px 24px rgba(24,20,18,.05);
+      display:grid;
+      place-items:center;
+      padding:8px;
+    }
+
+    .entry-thumb{
+      width:100%;
+      height:100%;
+      object-fit:contain;
+      object-position:center;
+    }
+
+    .entry-copy{
+      min-width:0;
+    }
+
+    .entry-title{
+      margin:0;
+      font:clamp(28px, 2.5vw, 38px)/1.08 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+      overflow-wrap:anywhere;
+    }
+
+    .entry-year{
+      flex:0 0 auto;
+      font-size:12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      color:var(--soft);
+    }
+
+    .entry-kicker{
+      margin:10px 0 0;
+      font-size:12px;
+      letter-spacing:.14em;
+      text-transform:uppercase;
+      color:var(--soft);
+    }
+
+    .entry-meta,
+    .entry-text{
+      margin:10px 0 0;
+      color:rgba(24,20,18,.82);
+      overflow-wrap:anywhere;
+    }
+
+    .entry-meta{
+      margin-top:-4px;
+    }
+
+    .entry-links{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:14px;
+    }
+
+    .entry-links a{
+      display:inline-flex;
+      align-items:center;
+      min-height:34px;
+      padding:8px 12px;
+      border:1px solid rgba(24,20,18,.12);
+      border-radius:999px;
+      background:rgba(255,255,255,.28);
+      text-decoration:none;
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+    }
+
+    .tab-panel.is-textual .group-body-inner{
+      grid-template-columns:minmax(0, 1fr);
+    }
+
+    .tab-panel.is-textual .entry-body{
+      grid-template-columns:minmax(0, 1fr);
+      margin-top:8px;
+    }
+
+    .tab-panel.is-textual .entry-title{
+      font-size:clamp(24px, 2vw, 31px);
+      line-height:1.14;
+    }
+
+    .tab-panel.is-textual .entry-kicker{
+      margin-top:8px;
+    }
+
+    .tab-panel.is-textual .entry-meta{
+      margin-top:8px;
+    }
+
+    .tab-panel.is-textual .entry-text{
+      max-width:42rem;
+    }
+
+    .tab-panel.is-writing .plain-group-head{
+      margin-bottom:16px;
+    }
+
+    .status{
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    @media (max-width: 760px){
+      .page{
+        width:auto;
+        margin:0 14px;
+      }
+      h1{
+        font-size:64px;
+        line-height:.92;
+      }
+      .intro{
+        font-size:16px;
+        line-height:1.5;
+      }
+      .tabs{
+        display:grid;
+        grid-template-columns:repeat(2, minmax(0, 1fr));
+        gap:8px;
+      }
+      .tab{
+        width:100%;
+        padding:12px 10px;
+        text-align:center;
+      }
+      .panel-tools{justify-content:flex-start}
+      .lede{
+        font-size:16px;
+        line-height:1.55;
+      }
+      .group-summary,
+      .group-body-inner{grid-template-columns:1fr; gap:10px}
+      .group-body{padding-top:14px}
+      .entry-head{
+        display:grid;
+        grid-template-columns:1fr;
+        gap:8px;
+      }
+      .entry-year{
+        justify-self:start;
+      }
+      .entry-body{grid-template-columns:1fr}
+      .entry-thumb-wrap{max-width:180px}
+      .entry-title{
+        font-size:20px;
+        line-height:1.12;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page" aria-label="Portfolio">
+    <div class="frame">
+      <section class="hero">
+        <div>
+          <h1>Portfolio</h1>
+          <p class="intro">Projects, teaching, writing, and CV.</p>
+        </div>
+      </section>
+
+      <nav class="tabs" aria-label="Portfolio sections">
+        <button class="tab" type="button" data-tab="projects" aria-selected="true">Projects</button>
+        <button class="tab" type="button" data-tab="teaching" aria-selected="false">Teaching</button>
+        <button class="tab" type="button" data-tab="writing" aria-selected="false">Writing</button>
+        <a class="tab" href="https://drive.google.com/file/d/1Muh7-EchWlSYTAOth9r8nRNTz17Xb8Ti/view?usp=sharing" target="_blank" rel="noreferrer">CV</a>
+      </nav>
+
+      <section class="tab-panel is-active" id="panel-projects" aria-labelledby="tab-projects"></section>
+      <section class="tab-panel" id="panel-teaching" aria-labelledby="tab-teaching"></section>
+      <section class="tab-panel" id="panel-writing" aria-labelledby="tab-writing"></section>
+    </div>
+  </main>
+
+  <script>
+    const sources = {
+      projects: "./content/projects.md",
+      teaching: "./content/teaching.md",
+      writing: "./content/writing.md"
+    };
+
+    function escapeHtml(text) {
+      return text
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function inlineMarkdown(text) {
+      return escapeHtml(text)
+        .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+        .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
+        .replace(/\*([^*]+)\*/g, "<em>$1</em>");
+    }
+
+    function parsePortfolioMarkdown(markdown) {
+      const lines = markdown.replace(/\r/g, "").split("\n");
+      const result = { intro: "", groups: [] };
+      let currentGroup = null;
+      let currentEntry = null;
+      let introParts = [];
+
+      function finishEntry() {
+        if (!currentEntry || !currentGroup) return;
+        currentEntry.text = currentEntry.text.join("\n\n").trim();
+        currentGroup.entries.push(currentEntry);
+        currentEntry = null;
+      }
+
+      function finishGroup() {
+        finishEntry();
+        if (!currentGroup) return;
+        result.groups.push(currentGroup);
+        currentGroup = null;
+      }
+
+      for (const raw of lines) {
+        const line = raw.trim();
+        if (!line) continue;
+
+        if (line.startsWith("# ")) {
+          continue;
+        }
+
+        if (line.startsWith("> ")) {
+          introParts.push(line.slice(2).trim());
+          continue;
+        }
+
+        if (line.startsWith("## ")) {
+          finishGroup();
+          currentGroup = {
+            title: line.slice(3).trim(),
+            meta: "",
+            entries: []
+          };
+          continue;
+        }
+
+        if (line.startsWith("_") && line.endsWith("_") && currentGroup && !currentEntry && !currentGroup.meta) {
+          currentGroup.meta = line.slice(1, -1).trim();
+          continue;
+        }
+
+        if (line.startsWith("### ")) {
+          finishEntry();
+          currentEntry = {
+            title: line.slice(4).trim(),
+            year: "",
+            kicker: "",
+            meta: "",
+            image: "",
+            imageAlt: "",
+            text: [],
+            links: []
+          };
+          continue;
+        }
+
+        if (line.startsWith("- year:") && currentEntry) {
+          currentEntry.year = line.slice(7).trim();
+          continue;
+        }
+
+        if (line.startsWith("- kicker:") && currentEntry) {
+          currentEntry.kicker = line.slice(9).trim();
+          continue;
+        }
+
+        if (line.startsWith("- meta:") && currentEntry) {
+          currentEntry.meta = line.slice(7).trim();
+          continue;
+        }
+
+        if (line.startsWith("- image:") && currentEntry) {
+          currentEntry.image = line.slice(8).trim();
+          continue;
+        }
+
+        if (line.startsWith("- imageAlt:") && currentEntry) {
+          currentEntry.imageAlt = line.slice(11).trim();
+          continue;
+        }
+
+        if (line.startsWith("- links:") && currentEntry) {
+          const linksText = line.slice(8).trim();
+          currentEntry.links = Array.from(linksText.matchAll(/\[([^\]]+)\]\(([^)]+)\)/g)).map((match) => ({
+            label: match[1],
+            href: match[2]
+          }));
+          continue;
+        }
+
+        if (currentEntry) {
+          currentEntry.text.push(line);
+        }
+      }
+
+      finishGroup();
+      result.intro = introParts.join(" ");
+      return result;
+    }
+
+    function renderEntry(entry, layout = "projects") {
+      const links = entry.links.length
+        ? `<div class="entry-links">${entry.links.map((link) => `<a href="${link.href}">${escapeHtml(link.label)}</a>`).join("")}</div>`
+        : "";
+      const thumb = layout === "projects" && entry.image
+        ? `<div class="entry-thumb-wrap"><img class="entry-thumb" src="${entry.image}" alt="${escapeHtml(entry.imageAlt || entry.title)}"></div>`
+        : "";
+
+      return `
+        <article class="entry">
+          <div class="entry-head">
+            <h3 class="entry-title">${escapeHtml(entry.title)}</h3>
+            ${entry.year ? `<span class="entry-year">${escapeHtml(entry.year)}</span>` : ""}
+          </div>
+          ${entry.kicker ? `<p class="entry-kicker">${escapeHtml(entry.kicker)}</p>` : ""}
+          <div class="entry-body">
+            ${thumb}
+            <div class="entry-copy">
+              ${entry.meta ? `<p class="entry-meta">${inlineMarkdown(entry.meta)}</p>` : ""}
+              ${entry.text ? `<p class="entry-text">${inlineMarkdown(entry.text)}</p>` : ""}
+              ${links}
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderGroup(group, index, layout = "projects") {
+      const summaryId = `group-${Math.random().toString(36).slice(2, 9)}`;
+      const bodyInner = layout === "projects"
+        ? `
+            <div class="group-body-inner">
+              <div></div>
+              <div class="stack">
+                ${group.entries.map((entry) => renderEntry(entry, layout)).join("")}
+              </div>
+            </div>
+          `
+        : `
+            <div class="group-body-inner">
+              <div class="stack">
+                ${group.entries.map((entry) => renderEntry(entry, layout)).join("")}
+              </div>
+            </div>
+          `;
+      return `
+        <details class="group" ${index === 0 ? "open" : ""}>
+          <summary class="group-toggle">
+            <div class="group-summary">
+              <div class="group-title" id="${summaryId}">
+                ${escapeHtml(group.title)}
+                ${group.meta ? `<span class="group-meta">${escapeHtml(group.meta)}</span>` : ""}
+              </div>
+              <div></div>
+              <span class="group-chevron" aria-hidden="true">&#8250;</span>
+            </div>
+          </summary>
+          <div class="group-body" aria-labelledby="${summaryId}">
+            ${bodyInner}
+          </div>
+        </details>
+      `;
+    }
+
+    function renderPlainGroup(group, layout = "textual") {
+      return `
+        <section class="plain-group">
+          <div class="plain-group-head">
+            <div class="group-title">
+              ${escapeHtml(group.title)}
+              ${group.meta ? `<span class="group-meta">${escapeHtml(group.meta)}</span>` : ""}
+            </div>
+          </div>
+          <div class="stack">
+            ${group.entries.map((entry) => renderEntry(entry, layout)).join("")}
+          </div>
+        </section>
+      `;
+    }
+
+    function renderPanel(parsed, panel, key) {
+      panel.classList.remove("is-textual", "is-writing");
+      const tools = parsed.groups.length > 1 ? `
+        <div class="panel-tools">
+          <button class="tool-button" type="button" data-expand="${key}">Expand all</button>
+          <button class="tool-button" type="button" data-collapse="${key}">Collapse all</button>
+        </div>
+      ` : "";
+
+      const layout = key === "projects" ? "projects" : "textual";
+      panel.classList.toggle("is-textual", layout === "textual");
+      panel.classList.toggle("is-writing", key === "writing");
+
+      if (key === "writing") {
+        panel.innerHTML = `
+          ${parsed.intro ? `<p class="lede">${inlineMarkdown(parsed.intro)}</p>` : ""}
+          ${parsed.groups.map((group) => renderPlainGroup(group, layout)).join("")}
+        `;
+        return;
+      }
+
+      panel.innerHTML = `
+        ${parsed.intro ? `<p class="lede">${inlineMarkdown(parsed.intro)}</p>` : ""}
+        ${tools}
+        ${parsed.groups.map((group, index) => renderGroup(group, index, layout)).join("")}
+      `;
+      bindPanelTools(panel);
+    }
+
+    function bindPanelTools(panel) {
+      panel.querySelector("[data-expand]")?.addEventListener("click", () => {
+        panel.querySelectorAll("details.group").forEach((group) => {
+          group.open = true;
+        });
+      });
+      panel.querySelector("[data-collapse]")?.addEventListener("click", () => {
+        panel.querySelectorAll("details.group").forEach((group) => {
+          group.open = false;
+        });
+      });
+    }
+
+    async function loadPanel(key) {
+      const panel = document.getElementById(`panel-${key}`);
+      panel.innerHTML = `<p class="status">Loading...</p>`;
+      try {
+        const response = await fetch(sources[key], { cache: "no-store" });
+        if (!response.ok) throw new Error("load_failed");
+        const markdown = await response.text();
+        renderPanel(parsePortfolioMarkdown(markdown), panel, key);
+      } catch (_) {
+        panel.innerHTML = `<p class="status">Could not load this section.</p>`;
+      }
+    }
+
+    const loaded = new Set();
+    const tabs = Array.from(document.querySelectorAll(".tab[data-tab]"));
+
+    function selectTab(key) {
+      tabs.forEach((tab) => {
+        const active = tab.dataset.tab === key;
+        tab.setAttribute("aria-selected", active ? "true" : "false");
+      });
+
+      document.querySelectorAll(".tab-panel").forEach((panel) => {
+        panel.classList.toggle("is-active", panel.id === `panel-${key}`);
+      });
+
+      if (!loaded.has(key)) {
+        loaded.add(key);
+        loadPanel(key);
+      }
+    }
+
+    tabs.forEach((tab) => {
+      tab.id = `tab-${tab.dataset.tab}`;
+      tab.addEventListener("click", () => {
+        history.replaceState(null, "", `#${tab.dataset.tab}`);
+        selectTab(tab.dataset.tab);
+      });
+    });
+
+    const initial = location.hash.replace("#", "") || "projects";
+    selectTab(sources[initial] ? initial : "projects");
+  </script>
+</body>
+</html>

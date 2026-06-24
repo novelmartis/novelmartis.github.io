@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Ph.D. thesis summary</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page" aria-label="Blog post">
+    <div class="frame">
+      <p class="eyebrow"><a href="../#writing">Portfolio / Writing</a></p>
+      <h1>Ph.D. thesis summary</h1>
+      <p class="meta">Research Note / 2022</p>
+      <p class="deck">A plain-language tour of the thesis: the core questions, what was built, what worked, and what was learned.</p>
+      <div class="actions">
+        <a class="button" href="https://doi.org/10.6084/m9.figshare.21214391.v1">Thesis PDF</a>
+        <a class="button" href="https://youtu.be/taH6NjedBgg">Defense Video</a>
+      </div>
+
+      <figure class="hero-image">
+        <img src="./assets/dalle_thesis.png" alt="Visual search in structured environments illustration">
+        <figcaption>Visual search in structured environments.</figcaption>
+      </figure>
+
+      <article class="article">
+        <p>The thesis, <em>Smart Search: Investigations into human visual search in structured environments</em>, studies how people search scenes and what kind of neural and computational machinery supports that behavior. The central idea is that visual search is not just moving the eyes until the target appears. It depends on structured routines: knowing where something is likely to be, comparing what is present to what the target looks like, and using regularities in the world to reject unlikely places or objects faster.</p>
+
+        <h2>Feature-Based Attention</h2>
+        <p>One part of the thesis asks what kinds of features can guide attention in parallel across the visual field. Color and simple shape can sometimes do this, but richer combinations do not always behave the same way. A key question was whether body shapes function as a privileged feature in this sense.</p>
+        <p>Using fMRI, the work tested whether searching for bodies modulates responses to body-selective stimuli even at locations that are irrelevant to the task. The result was a clear signature of feature-based attention for bodies, with weaker evidence for other object categories like cars or lamps. That suggests bodies occupy a somewhat special place in the visual system’s search routines.</p>
+
+        <h2>Where Task Modulation Should Enter</h2>
+        <p>Another part of the thesis asks when target-driven modulation needs to enter early visual processing, rather than only later stages. If later stages already contain the task-relevant information, then early modulation may be unnecessary. But if the system has limited capacity, earlier modulation could help route the right information forward.</p>
+        <p>Computational modeling with neural networks supported that view. Early-layer modulation was most helpful when capacity was constrained relative to task complexity. That makes the benefit of early modulation look less like a universal rule and more like an adaptive response to bottlenecks.</p>
+
+        <h2>Structured Scenes and Distractor Regularities</h2>
+        <p>The final major line of work looks at scene structure itself. In everyday environments, objects co-occur in predictable ways. Those regularities may make search easier, either because co-occurring items are grouped or because identifying one distractor quickly helps reject its partner.</p>
+        <p>Behavioral experiments showed that people became faster and more accurate when searching scenes with structured distractor co-occurrences. Follow-up EEG work suggested that this benefit may arise from earlier attentional orientation rather than only later decision stages, although that neural effect remained tentative and calls for further work.</p>
+
+        <h2>Big Picture</h2>
+        <p>Across these chapters, the broader theme is that search depends on multiple interacting routines: feature-based amplification, target-driven routing, and sensitivity to environmental structure. The thesis treats those routines as engineering problems and neuroscience problems at the same time, using behavior, brain data, and computational models to triangulate how visual search becomes efficient.</p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

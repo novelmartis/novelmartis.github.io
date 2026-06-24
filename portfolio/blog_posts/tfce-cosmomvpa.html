@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Threshold-free cluster enhancement (TFCE) in CoSMoMVPA</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page" aria-label="Blog post">
+    <div class="frame">
+      <p class="eyebrow"><a href="../#writing">Portfolio / Writing</a></p>
+      <h1>Threshold-free cluster enhancement (TFCE) in CoSMoMVPA</h1>
+      <p class="meta">Technical Note / 2020</p>
+      <p class="deck">A practical note on what TFCE is, why it is useful, and how CoSMoMVPA actually implements it.</p>
+
+      <figure class="hero-image">
+        <img src="./assets/tfce-compute.png" alt="TFCE procedure illustration">
+        <figcaption>Visualization of the TFCE procedure.</figcaption>
+      </figure>
+
+      <article class="article">
+        <p><em>Assumes some prior familiarity with TFCE and CoSMoMVPA.</em></p>
+        <p>Threshold-free cluster enhancement is a way to perform voxel-level inference while taking local support into account. Instead of deciding first on a hard cluster-forming threshold and then asking whether clusters survive correction, TFCE accumulates evidence continuously from both signal height and spatial extent.</p>
+
+        <h2>The Principle</h2>
+        <p>The underlying idea is simple: a voxel should count as more convincing when it sits inside a larger and stronger “hill” of neighboring voxels. TFCE therefore rewards both intensity and extent. In practice, this means a voxel’s score depends not just on its own value, but also on how much local support surrounds it.</p>
+
+        <h2>How CoSMoMVPA Computes It</h2>
+        <p>CoSMoMVPA computes TFCE iteratively over a set of height markers between baseline and the maximum observed value. At each marker, it finds suprathreshold voxels, identifies contiguous clusters, and increments each voxel in a cluster by an amount that depends on the cluster size and the current height.</p>
+        <p>That process is repeated over markers, effectively integrating support over the entire range rather than relying on a single chosen threshold. The same logic is also applied to negative deviations after flipping values around the baseline.</p>
+
+        <h2>Null Distribution and Inference</h2>
+        <p>For inference, CoSMoMVPA builds a null distribution using sign-flips across participants after subtracting the baseline. For each iteration it recomputes TFCE values, separately for positive and negative effects, producing null distributions for comparison against the observed map.</p>
+        <p>The final output is converted into voxel-wise z-scores. Those z-scores can then be thresholded in the usual way, for example at <code>z &ge; 1.96</code> and <code>z &le; -1.96</code> for a two-sided 5% criterion.</p>
+
+        <h2>Minimal Example</h2>
+<pre><code>% Let ds.samples contain voxel values across aligned brains.
+
+cluster_nbrhood = cosmo_cluster_neighborhood(ds);
+
+opt = struct();
+opt.niter = 10000;
+opt.h0_mean = 0;
+opt.null = [];
+
+tfce_zscores = cosmo_montecarlo_cluster_stat(ds, cluster_nbrhood, opt);
+
+p = 0.05;
+z_th = norminv(1-p/2);
+
+pos_voxs = tfce_zscores.samples &gt;= z_th;
+neg_voxs = tfce_zscores.samples &lt;= -z_th;
+</code></pre>
+
+        <h2>References</h2>
+        <div class="actions">
+          <a class="button" href="https://doi.org/10.3389/fninf.2016.00027">CoSMoMVPA Paper</a>
+          <a class="button" href="https://doi.org/10.1016/j.neuroimage.2008.03.061">TFCE Paper</a>
+          <a class="button" href="http://www.cosmomvpa.org/matlab/demo_surface_tfce.html">Demo</a>
+        </div>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

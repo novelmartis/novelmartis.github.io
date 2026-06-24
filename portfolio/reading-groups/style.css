@@ -1,0 +1,140 @@
+:root{
+  --paper:#f7f0e7;
+  --ink:#181412;
+  --muted:#60564f;
+  --soft:#8e7f73;
+  --hair:rgba(24,20,18,.14);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  min-height:100vh;
+  color:var(--ink);
+  font:16px/1.65 "Avenir Next","Segoe UI",system-ui,sans-serif;
+  background:
+    radial-gradient(circle at 10% 12%, rgba(15,103,96,.12), transparent 26%),
+    radial-gradient(circle at 82% 18%, rgba(180,82,61,.1), transparent 24%),
+    linear-gradient(180deg, #fcf8f3 0%, var(--paper) 52%, #f3ebdf 100%);
+}
+
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background:
+    linear-gradient(90deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px)),
+    linear-gradient(180deg, transparent 0, transparent calc(100% - 1px), rgba(24,20,18,.03) calc(100% - 1px));
+  background-size:32px 32px;
+  mask-image:linear-gradient(180deg, rgba(0,0,0,.28), transparent 78%);
+}
+
+a{color:inherit}
+
+.page{
+  width:min(960px, calc(100% - 40px));
+  margin:0 auto;
+  padding:34px 0 56px;
+}
+
+.frame{
+  position:relative;
+  padding:32px 0 0;
+}
+
+.frame::before{
+  content:"";
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  height:1px;
+  background:linear-gradient(90deg, transparent, var(--hair) 18%, var(--hair) 82%, transparent);
+}
+
+.eyebrow{
+  margin:0 0 20px;
+  font-size:12px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--soft);
+}
+
+.eyebrow a{
+  text-decoration:none;
+}
+
+h1{
+  margin:0;
+  max-width:12ch;
+  font:clamp(42px, 7vw, 86px)/.94 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+}
+
+.intro{
+  margin:18px 0 0;
+  max-width:42rem;
+  font-size:clamp(19px, 2vw, 24px);
+  line-height:1.5;
+  color:rgba(24,20,18,.84);
+}
+
+.papers{
+  margin-top:42px;
+  border-top:1px solid rgba(24,20,18,.08);
+}
+
+.paper{
+  padding:24px 0 22px;
+  border-bottom:1px solid rgba(24,20,18,.08);
+}
+
+.paper-title{
+  margin:0;
+  font:clamp(24px, 2.3vw, 34px)/1.12 "Iowan Old Style","Palatino Linotype",Georgia,serif;
+}
+
+.paper-title a{
+  text-decoration:none;
+}
+
+.paper-desc{
+  margin:12px 0 0;
+  max-width:42rem;
+  color:rgba(24,20,18,.82);
+}
+
+.paper-link{
+  display:inline-flex;
+  align-items:center;
+  min-height:34px;
+  margin-top:14px;
+  padding:8px 12px;
+  border:1px solid rgba(24,20,18,.12);
+  border-radius:999px;
+  background:rgba(255,255,255,.28);
+  text-decoration:none;
+  font-size:12px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+@media (max-width: 720px){
+  .page{
+    width:auto;
+    margin:0 16px;
+  }
+
+  h1{
+    font-size:46px;
+  }
+
+  .intro{
+    font-size:17px;
+  }
+
+  .paper-title{
+    font-size:25px;
+  }
+}
