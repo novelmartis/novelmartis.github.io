@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11",
+  "updated_at": "2026-07-12",
   "summary": "Current work clusters around visual perception, neural dynamics, neural networks, and visual search.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
@@ -14,7 +14,7 @@
       "provider": "openalex",
       "status": "selected",
       "detail": "Matched configured OpenAlex author id and ORCID.",
-      "usable_works_count": 32,
+      "usable_works_count": 33,
       "reported_works_count": 44,
       "confidence_score": 0.99,
       "confidence_label": "high",
@@ -26,7 +26,7 @@
     "display_name": "Sushrut Thorat",
     "orcid": "https://orcid.org/0000-0003-2276-5621",
     "works_count": 44,
-    "usable_works_count": 32
+    "usable_works_count": 33
   },
   "topics": [
     "Visual perception and processing mechanisms",
@@ -62,6 +62,7 @@
     }
   ],
   "sample_titles": [
+    "Replication Package for \"Towards Nexus-Score: Metadata Gaps Limit Scholarly AI Attribution\": Code, Data, and Run Records",
     "On the misuse of prediction in NeuroAI: A case study of Centaur",
     "Glimpse Prediction Networks \u2014 Data And Code",
     "Adopting a human developmental visual diet yields robust and shape-based AI vision",
@@ -72,8 +73,7 @@
     "Adopting a human developmental visual diet yields robust, shape-based AI vision",
     "Models of attractor dynamics in the brain",
     "Sparks of cognitive flexibility: self-guided context inference for flexible stimulus-response mapping by attentional routing",
-    "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers",
-    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity"
+    "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers"
   ],
   "pipeline": {
     "version": 1,
