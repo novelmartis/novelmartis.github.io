@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-12",
+  "updated_at": "2026-07-13",
   "summary": "Current work clusters around visual perception, neural dynamics, neural networks, and visual search.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
@@ -15,7 +15,7 @@
       "status": "selected",
       "detail": "Matched configured OpenAlex author id and ORCID.",
       "usable_works_count": 33,
-      "reported_works_count": 44,
+      "reported_works_count": 46,
       "confidence_score": 0.99,
       "confidence_label": "high",
       "source": "https://api.openalex.org/authors/A5034511642"
@@ -25,7 +25,7 @@
     "id": "https://openalex.org/A5034511642",
     "display_name": "Sushrut Thorat",
     "orcid": "https://orcid.org/0000-0003-2276-5621",
-    "works_count": 44,
+    "works_count": 46,
     "usable_works_count": 33
   },
   "topics": [
