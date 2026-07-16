@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-10",
-  "summary": "Current work clusters around visual perception, neural dynamics, neural networks, and visual search.",
+  "updated_at": "2026-07-16",
+  "summary": "Current work clusters around visual perception, neural dynamics, visual search, and visual cortex.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
   "profile_source": "openalex",
@@ -14,8 +14,8 @@
       "provider": "openalex",
       "status": "selected",
       "detail": "Matched configured OpenAlex author id and ORCID.",
-      "usable_works_count": 32,
-      "reported_works_count": 44,
+      "usable_works_count": 27,
+      "reported_works_count": 46,
       "confidence_score": 0.99,
       "confidence_label": "high",
       "source": "https://api.openalex.org/authors/A5034511642"
@@ -25,8 +25,8 @@
     "id": "https://openalex.org/A5034511642",
     "display_name": "Sushrut Thorat",
     "orcid": "https://orcid.org/0000-0003-2276-5621",
-    "works_count": 44,
-    "usable_works_count": 32
+    "works_count": 46,
+    "usable_works_count": 27
   },
   "topics": [
     "Visual perception and processing mechanisms",
@@ -49,16 +49,16 @@
       "score": 99
     },
     {
-      "text": "neural networks",
-      "label": "neural networks",
-      "source": "title",
-      "score": 22.238
-    },
-    {
       "text": "visual search",
       "label": "visual search",
-      "source": "title",
-      "score": 22.211
+      "source": "keyword+title",
+      "score": 41.707
+    },
+    {
+      "text": "visual cortex",
+      "label": "visual cortex",
+      "source": "keyword+title",
+      "score": 38.108
     }
   ],
   "sample_titles": [
@@ -69,14 +69,14 @@
     "Disentangling perceptual from non-perceptual expectation biases in short-term memory",
     "Predicting upcoming visual features during eye movements yields scene representations aligned with human visual cortex",
     "Centaur: A model without a theory",
-    "Adopting a human developmental visual diet yields robust, shape-based AI vision",
     "Models of attractor dynamics in the brain",
     "Sparks of cognitive flexibility: self-guided context inference for flexible stimulus-response mapping by attentional routing",
     "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers",
-    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity"
+    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity",
+    "Computational characterization of the role of an attention schema in controlling visuospatial attention"
   ],
   "pipeline": {
-    "version": 1,
+    "version": 2,
     "source_priority": [
       "openalex",
       "orcid",

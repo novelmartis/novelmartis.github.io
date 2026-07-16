@@ -103,17 +103,47 @@ def normalize_title(title: str) -> str:
     return re.sub(r"\s+", " ", title).strip()
 
 
+def title_terms(title: str) -> set[str]:
+    """Return comparison terms for conservative near-duplicate detection."""
+    return set(content_words(tokenize(normalize_title(title))))
+
+
+def is_auxiliary_record(title: str) -> bool:
+    normalized = normalize_title(title)
+    return normalized.startswith((
+        "author response ",
+        "replication package ",
+        "replication materials ",
+    ))
+
+
 def dedupe_works(works: list[dict]) -> list[dict]:
+    """Drop non-research artefacts and retain one representative per work.
+
+    Bibliographic feeds routinely carry preprint/published variants alongside
+    code, data, and author-response records. Exact title matching alone lets
+    those variants inflate a theme's apparent recurrence.
+    """
     seen: set[str] = set()
+    representatives: list[dict] = []
     deduped: list[dict] = []
-    for item in works:
+    for item in sorted(works, key=lambda item: item.get("publication_year") or 0, reverse=True):
         title = (item.get("display_name") or "").strip()
-        if not title:
+        if not title or is_auxiliary_record(title):
             continue
         normalized = normalize_title(title)
         if not normalized or normalized in seen:
             continue
+
+        terms = title_terms(title)
+        if any(
+            terms
+            and len(terms & prior["terms"]) / min(len(terms), len(prior["terms"])) >= 0.86
+            for prior in representatives
+        ):
+            continue
         seen.add(normalized)
+        representatives.append({"terms": terms})
         deduped.append(item)
     return deduped
 
@@ -362,6 +392,14 @@ def candidate_units_for_work(work: dict) -> dict[str, set[str]]:
         if name:
             units.setdefault(name, set()).add("topic")
 
+    # Keywords are work-level metadata, so use them only as corroboration for
+    # title language. The selection stage still rejects unsupported keywords.
+    for keyword in work.get("keywords", [])[:12]:
+        name = normalize_topic_name(keyword.get("display_name", ""))
+        words = content_words(tokenize(name))
+        if len(words) >= 2 and not all(word in GENERIC_WORDS for word in words):
+            units.setdefault(name, set()).add("keyword")
+
     return units
 
 
@@ -551,6 +589,7 @@ def build_theme_clusters(author: dict, works: list[dict], limit: int = 4) -> lis
             + year_span * 1.1
             + centrality * 0.45
             + source_count * 1.5
+            + (2.0 if "keyword" in stats["sources"] else 0.0)
             + support * 3.0
             + specificity
         )
@@ -696,7 +735,7 @@ def build_payload(today: str) -> dict:
         "candidate_themes": theme_records,
         "sample_titles": titles[:12],
         "pipeline": {
-            "version": 1,
+            "version": 2,
             "source_priority": list(SOURCE_PRIORITY),
         },
     }
@@ -743,7 +782,7 @@ def main() -> int:
             "pipeline": payload.get(
                 "pipeline",
                 {
-                    "version": 1,
+                    "version": 2,
                     "source_priority": list(SOURCE_PRIORITY),
                 },
             ),
