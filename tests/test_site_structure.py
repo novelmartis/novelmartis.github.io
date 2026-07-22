@@ -17,9 +17,12 @@ class SiteStructureTests(unittest.TestCase):
         )
         self.assertIn('<textarea name="message" rows="4" required>', page)
 
-    def test_jee_page_is_linked_from_teaching(self):
+    def test_jee_page_is_linked_from_writing(self):
         teaching = (ROOT / "portfolio/content/teaching.md").read_text(encoding="utf-8")
-        self.assertIn("[Page](./jee_prep/)", teaching)
+        writing = (ROOT / "portfolio/content/writing.md").read_text(encoding="utf-8")
+        self.assertNotIn("Books for JEE preparation", teaching)
+        self.assertIn("## Selected presentations and posts", writing)
+        self.assertIn("[Page](./jee_prep/)", writing)
         self.assertTrue((ROOT / "portfolio/jee_prep/index.html").is_file())
 
     def test_jee_page_is_hidden_with_the_portfolio(self):

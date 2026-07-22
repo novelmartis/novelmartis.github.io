@@ -244,22 +244,6 @@
       gap:20px 36px;
     }
 
-    .plain-group{
-      margin-top:26px;
-      border-top:1px solid rgba(24,20,18,.08);
-      padding-top:22px;
-    }
-
-    .plain-group:first-of-type{
-      margin-top:0;
-      padding-top:0;
-      border-top:0;
-    }
-
-    .plain-group-head{
-      margin-bottom:18px;
-    }
-
     .group-title{
       font-size:12px;
       letter-spacing:.18em;
@@ -407,10 +391,6 @@
 
     .tab-panel.is-textual .entry-text{
       max-width:42rem;
-    }
-
-    .tab-panel.is-writing .plain-group-head{
-      margin-bottom:16px;
     }
 
     .status{
@@ -684,24 +664,8 @@
       `;
     }
 
-    function renderPlainGroup(group, layout = "textual") {
-      return `
-        <section class="plain-group">
-          <div class="plain-group-head">
-            <div class="group-title">
-              ${escapeHtml(group.title)}
-              ${group.meta ? `<span class="group-meta">${escapeHtml(group.meta)}</span>` : ""}
-            </div>
-          </div>
-          <div class="stack">
-            ${group.entries.map((entry) => renderEntry(entry, layout)).join("")}
-          </div>
-        </section>
-      `;
-    }
-
     function renderPanel(parsed, panel, key) {
-      panel.classList.remove("is-textual", "is-writing");
+      panel.classList.remove("is-textual");
       const tools = parsed.groups.length > 1 ? `
         <div class="panel-tools">
           <button class="tool-button" type="button" data-expand="${key}">Expand all</button>
@@ -711,15 +675,6 @@
 
       const layout = key === "projects" ? "projects" : "textual";
       panel.classList.toggle("is-textual", layout === "textual");
-      panel.classList.toggle("is-writing", key === "writing");
-
-      if (key === "writing") {
-        panel.innerHTML = `
-          ${parsed.intro ? `<p class="lede">${inlineMarkdown(parsed.intro)}</p>` : ""}
-          ${parsed.groups.map((group) => renderPlainGroup(group, layout)).join("")}
-        `;
-        return;
-      }
 
       panel.innerHTML = `
         ${parsed.intro ? `<p class="lede">${inlineMarkdown(parsed.intro)}</p>` : ""}
