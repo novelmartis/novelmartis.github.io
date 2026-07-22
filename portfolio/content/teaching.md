@@ -73,6 +73,7 @@ A public-facing talk/video on neuroscience as a career path and intellectual spa
 ### Books for JEE preparation
 - year: 2022
 - kicker: Page
+- links: [Page](./jee_prep/)
 Curated notes on books and materials for JEE preparation.
 
 ### Representations: useful, useless, or harmful?
