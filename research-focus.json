@@ -1,53 +1,79 @@
 {
-  "updated_at": "2026-08-25",
-  "summary": "Active vision, brain-aligned predictive agents, developmental visual curricula, continual learning, visual search, and the structure of human object and scene representations.",
-  "source": "https://pub.orcid.org/v3.0/0000-0003-2276-5621/works",
+  "updated_at": "2026-08-26",
+  "summary": "Current work clusters around visual perception, neural dynamics, visual search, and visual cortex.",
+  "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
-  "profile_source": "orcid",
+  "profile_source": "openalex",
   "profile_confidence": {
-    "score": 0.97,
+    "score": 0.99,
     "label": "high",
-    "reason": "Matched configured ORCID record exactly."
+    "reason": "Matched configured OpenAlex author id and ORCID."
   },
   "source_attempts": [
     {
       "provider": "openalex",
-      "status": "failed",
-      "detail": "HTTP Error 504: Gateway Timeout"
-    },
-    {
-      "provider": "orcid",
       "status": "selected",
-      "detail": "Matched configured ORCID record exactly.",
-      "usable_works_count": 28,
-      "reported_works_count": 28,
-      "confidence_score": 0.97,
+      "detail": "Matched configured OpenAlex author id and ORCID.",
+      "usable_works_count": 27,
+      "reported_works_count": 44,
+      "confidence_score": 0.99,
       "confidence_label": "high",
-      "source": "https://pub.orcid.org/v3.0/0000-0003-2276-5621/works"
+      "source": "https://api.openalex.org/authors/A5034511642"
     }
   ],
   "author": {
-    "id": "https://orcid.org/0000-0003-2276-5621",
+    "id": "https://openalex.org/A5034511642",
     "display_name": "Sushrut Thorat",
     "orcid": "https://orcid.org/0000-0003-2276-5621",
-    "works_count": 28,
-    "usable_works_count": 28
+    "works_count": 44,
+    "usable_works_count": 27
   },
-  "topics": [],
-  "candidate_themes": [],
+  "topics": [
+    "Visual perception and processing mechanisms",
+    "Neural dynamics and brain function",
+    "Face Recognition and Perception",
+    "Neural and Behavioral Psychology Studies",
+    "Action Observation and Synchronization"
+  ],
+  "candidate_themes": [
+    {
+      "text": "visual perception and processing mechanisms",
+      "label": "visual perception",
+      "source": "author_topic",
+      "score": 100
+    },
+    {
+      "text": "neural dynamics and brain function",
+      "label": "neural dynamics",
+      "source": "author_topic",
+      "score": 99
+    },
+    {
+      "text": "visual search",
+      "label": "visual search",
+      "source": "keyword+title",
+      "score": 41.707
+    },
+    {
+      "text": "visual cortex",
+      "label": "visual cortex",
+      "source": "keyword+title",
+      "score": 38.108
+    }
+  ],
   "sample_titles": [
     "On the misuse of prediction in NeuroAI: A case study of Centaur",
+    "Glimpse Prediction Networks \u2014 Data And Code",
     "Adopting a human developmental visual diet yields robust and shape-based AI vision",
-    "Disentangling perceptual from non-perceptual expectation biases in short-term memory",
     "On the misuse of LLMs as models of mind: A case study of Centaur",
-    "Centaur: A model without a theory",
-    "Brain-language fusion enables interactive neural readout and in-silico experimentation",
-    "Models of attractor dynamics in the brain",
+    "Disentangling perceptual from non-perceptual expectation biases in short-term memory",
     "Predicting upcoming visual features during eye movements yields scene representations aligned with human visual cortex",
+    "Centaur: A model without a theory",
+    "Models of attractor dynamics in the brain",
     "Sparks of cognitive flexibility: self-guided context inference for flexible stimulus-response mapping by attentional routing",
     "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers",
-    "Computational characterization of the role of an attention schema in controlling visuospatial attention",
-    "KEEP MOVING: IDENTIFYING TASK-RELEVANT SUBSPACES TO MAXIMISE PLASTICITY FOR NEWLY LEARNED TASKS"
+    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity",
+    "Computational characterization of the role of an attention schema in controlling visuospatial attention"
   ],
   "pipeline": {
     "version": 2,
