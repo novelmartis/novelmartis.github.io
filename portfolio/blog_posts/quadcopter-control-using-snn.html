@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Quadcopter control using Spiking Neural Networks</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page" aria-label="Blog post">
+    <div class="frame">
+      <p class="eyebrow"><a href="../#writing">Portfolio / Writing</a></p>
+      <h1>Quadcopter control using Spiking Neural Networks</h1>
+      <p class="meta">Research Note / <time datetime="2016-06-05">5 June 2016</time></p>
+      <p class="deck">Rumination over my Bachelor's thesis project, which was left incomplete partly by a roadblock.</p>
+      <div class="actions">
+        <a class="button" href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">Thesis (PDF)</a>
+        <a class="button" href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">Paper</a>
+      </div>
+
+      <article class="article">
+        <p><em>This one dates back to 2015. This was the topic of my bachelor’s thesis, which was admittedly left incomplete. Find the report <a href="https://dx.doi.org/10.6084/m9.figshare.1582657.v1">here</a>.</em></p>
+
+        <p><a href="https://en.wikipedia.org/wiki/Spiking_neural_network">Spiking Neural Networks</a> hit that sweet spot between biological neural networks and artificial neural networks (although now <a href="https://karpathy.github.io/2015/05/21/rnn-effectiveness/">RNNs</a> and <a href="https://arxiv.org/abs/1605.07678">CNNs</a> are struggling to take over). To better understand how they function, we thought about using them to solve a well-known complex control problem - balancing and flying a quadcopter.</p>
+
+        <p>The first step was to understand quadcopter flight dynamics. The quadcopter is inherently an unstable system - the smallest uncorrected angular deviation in pitch can send the quadcopter flying out of control. PIDs (compensatory mechanisms that worked by controlling the four rotors) were simple and efficient solutions to this problem. In the first leg of the project, we designed a control algorithm directly taking the dynamical equations of the system into account. Our algorithm outperformed <a href="https://en.wikipedia.org/wiki/PID_controller">PID</a>s, and could recover the quadcopter from a multitude of states (including crazy upside-down states).</p>
+
+        <p>Having understood quadcopter dynamics, we wanted to move ahead to bring in the SNNs. The roadblock was severe. How were we supposed to use SNNs to fly a quadcopter? There were multiple options -</p>
+
+        <ol>
+  <li>Learning algorithms such as <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.60.6325&amp;rep=rep1&amp;type=pdf">ReSuMe</a>,</li>
+  <li>Evolutionary methods such as <a href="https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.28.5457&amp;rep=rep1&amp;type=pdf">NEAT</a>,</li>
+  <li>Hand-assembling a network,</li>
+  <li>Understanding a natural control system such as the cerebellum and trying to re-purpose the mechanisms.</li>
+</ol>
+
+        <p>(4) is a hard problem, but would definitely be interesting to address someday. We weren’t aware if somebody had used (1), but I wasn’t really impressed by the method. Also, the training would require data from the control system we developed, and we were not sure if the the algorithm would generalise and ‘go beyond’ - which would be the point of using a learning algorithm. (But maybe the ‘i-dont-like-it&#x27; factor weighed heavier) (2) was used in a <a href="https://classes.engr.oregonstate.edu/mime/fall2010/me537/Papers/NN_EA_application_shepherd.pdf">paper</a> successfully, but not with SNNs (NEAT with SNNs is a computationally-heavy routine).</p>
+
+        <p>So, were we supposed to hand-assemble the network? That sounded sour. But then my advisor hinted at building plug-and-play spiking network modules which could be assembled to emulate any control algorithm. We were focussed on the basic arithmetic operations - addition, subtraction, multiplication and division - which mostly are sufficient for implementing simple control systems. Also, the control algorithm we designed in the first leg of the project used only polynomial operations. So, we set out on this path, and we came up with a method which lets one implement any polynomial transform on real-time spike trains, and <a href="https://dx.doi.org/10.1109/IJCNN.2015.7280822">published a paper</a> about it. (I will discuss the details in another post)</p>
+
+        <p>It so turned out that the time lags involved in the more complex operations such as multiplication of variables raised to some power, were huge. It became extremely hard to combine the modules we designed to emulate the control algorithm we had built. By that time, my time at IIT Bombay was up, and the project was left unfinished. As tempting as the approach sounded, I now think that it wasn’t the best way to proceed.</p>
+
+        <p>It would be interesting to get around the time lag problem, but I’d put my bets on another approach. In any case, it was an awesome experience trying to bend SNNs to our will - seems we lost.</p>
+      </article>
+    </div>
+  </main>
+</body>
+</html>

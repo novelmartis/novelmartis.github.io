@@ -24,6 +24,13 @@ The essay asks what a successful upload would even mean, how much of identity ha
 - links: [Read](./blog_posts/tfce-cosmomvpa.html)
 This post unpacks the logic behind TFCE, the null distribution construction, and the practical steps needed to get interpretable voxel-level inference from the procedure.
 
+### Quadcopter control using Spiking Neural Networks
+- year: 2016
+- kicker: Research note
+- meta: Published 5 June 2016. Reflections on my B.Tech thesis project from 2015.
+- links: [Read](./blog_posts/quadcopter-control-using-snn.html) [Thesis PDF](https://dx.doi.org/10.6084/m9.figshare.1582657.v1) [Paper](https://dx.doi.org/10.1109/IJCNN.2015.7280822)
+A look back at quadcopter flight control, building spiking neural network modules for arithmetic, and the time-lag problem that left the project unfinished.
+
 ## Selected presentations and posts
 _talks and public material_
 
