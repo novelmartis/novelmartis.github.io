@@ -36,6 +36,28 @@ class SiteStructureTests(unittest.TestCase):
         robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
         self.assertIn("Disallow: /portfolio/", robots)
 
+    def test_only_homepage_is_exposed_to_crawlers(self):
+        homepage = (ROOT / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<meta name="robots" content="index, follow">', homepage)
+        self.assertNotIn('href="/portfolio', homepage)
+
+        robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
+        self.assertIn("User-agent: *\nDisallow: /portfolio/", robots)
+
+        portfolio_root = ROOT / "portfolio"
+        for page_path in portfolio_root.rglob("*.html"):
+            with self.subTest(page=page_path.relative_to(ROOT)):
+                page = page_path.read_text(encoding="utf-8")
+                self.assertIn(
+                    '<meta name="robots" content="noindex, nofollow">',
+                    page,
+                )
+
+        self.assertFalse((ROOT / "assets/cv.pdf").exists())
+        self.assertTrue((portfolio_root / "assets/cv.pdf").is_file())
+        portfolio = (portfolio_root / "index.html").read_text(encoding="utf-8")
+        self.assertIn('href="./assets/cv.pdf"', portfolio)
+
     def test_sitemap_covers_public_pages_and_is_advertised(self):
         robots = (ROOT / "robots.txt").read_text(encoding="utf-8")
         self.assertIn(f"Sitemap: {SITE_ORIGIN}/sitemap.xml", robots)

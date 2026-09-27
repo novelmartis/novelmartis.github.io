@@ -452,26 +452,23 @@
       <section class="hero">
         <div>
           <h1>Portfolio</h1>
-          <p class="intro">Projects, teaching, writing, and CV.</p>
+          <p class="intro">Teaching, writing, and CV.</p>
         </div>
       </section>
 
       <nav class="tabs" aria-label="Portfolio sections">
-        <button class="tab" type="button" data-tab="projects" aria-selected="true">Projects</button>
-        <button class="tab" type="button" data-tab="teaching" aria-selected="false">Teaching</button>
+        <button class="tab" type="button" data-tab="teaching" aria-selected="true">Teaching</button>
         <button class="tab" type="button" data-tab="writing" aria-selected="false">Writing</button>
-        <a class="tab" href="/assets/cv.pdf" target="_blank" rel="noreferrer">CV</a>
+        <a class="tab" href="./assets/cv.pdf" target="_blank" rel="noreferrer">CV</a>
       </nav>
 
-      <section class="tab-panel is-active" id="panel-projects" aria-labelledby="tab-projects"></section>
-      <section class="tab-panel" id="panel-teaching" aria-labelledby="tab-teaching"></section>
+      <section class="tab-panel is-active" id="panel-teaching" aria-labelledby="tab-teaching"></section>
       <section class="tab-panel" id="panel-writing" aria-labelledby="tab-writing"></section>
     </div>
   </main>
 
   <script>
     const sources = {
-      projects: "./content/projects.md",
       teaching: "./content/teaching.md",
       writing: "./content/writing.md"
     };
@@ -737,8 +734,8 @@
       });
     });
 
-    const initial = location.hash.replace("#", "") || "projects";
-    selectTab(sources[initial] ? initial : "projects");
+    const initial = location.hash.replace("#", "") || "teaching";
+    selectTab(sources[initial] ? initial : "teaching");
   </script>
 </body>
 </html>

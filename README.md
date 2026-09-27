@@ -9,7 +9,7 @@ Minimal landing page plus an automated research-focus updater.
 - `update_research_focus.py`: multi-source updater
 - `.github/workflows/research-focus.yml`: scheduled daily refresh
 - `.github/workflows/validate-site.yml`: compile, test, and dry-run validation
-- `misc/`: local-only archive space for older site material (ignored by git)
+- `misc/`: local-only archive space for older site and project material (ignored by git)
 
 ## Data pipeline
 
