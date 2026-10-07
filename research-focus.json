@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-06",
-  "summary": "Current work clusters around visual perception, neural dynamics, visual search, and recurrent neural networks.",
+  "updated_at": "2026-10-07",
+  "summary": "Current work clusters around visual perception, neural networks, visual search, and visual cortex.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
   "profile_source": "openalex",
@@ -30,10 +30,10 @@
   },
   "topics": [
     "Visual perception and processing mechanisms",
-    "Neural dynamics and brain function",
+    "Visual Attention and Saliency Detection",
     "Face Recognition and Perception",
-    "Neural and Behavioral Psychology Studies",
-    "Action Observation and Synchronization"
+    "Neural Networks and Applications",
+    "Advanced Neural Network Applications"
   ],
   "candidate_themes": [
     {
@@ -43,8 +43,8 @@
       "score": 100
     },
     {
-      "text": "neural dynamics and brain function",
-      "label": "neural dynamics",
+      "text": "neural networks and applications",
+      "label": "neural networks",
       "source": "author_topic",
       "score": 99
     },
@@ -55,10 +55,10 @@
       "score": 31.166
     },
     {
-      "text": "recurrent neural networks",
-      "label": "recurrent neural networks",
+      "text": "visual cortex",
+      "label": "visual cortex",
       "source": "keyword+title",
-      "score": 30.438
+      "score": 24.609
     }
   ],
   "sample_titles": [
