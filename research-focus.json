@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23",
+  "updated_at": "2026-11-24",
   "summary": "Current work clusters around visual perception, neural networks, visual search, and visual cortex.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
@@ -66,14 +66,14 @@
     "On the misuse of prediction in NeuroAI: A case study of Centaur",
     "Glimpse Prediction Networks \u2014 Data And Code",
     "Adopting a human developmental visual diet yields robust and shape-based AI vision",
+    "Models of attractor dynamics in the brain",
     "On the misuse of LLMs as models of mind: A case study of Centaur",
     "Disentangling perceptual from non-perceptual expectation biases in short-term memory",
     "Centaur: A model without a theory",
-    "Models of attractor dynamics in the brain",
     "Sparks of cognitive flexibility: self-guided context inference for flexible stimulus-response mapping by attentional routing",
+    "Keep Moving: identifying task-relevant subspaces to maximise plasticity for newly learned tasks",
     "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers",
-    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity",
-    "Searching near and far: The attentional template incorporates viewing distance."
+    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity"
   ],
   "pipeline": {
     "version": 2,
