@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24",
+  "updated_at": "2026-11-25",
   "summary": "Current work clusters around visual perception, neural networks, visual search, and visual cortex.",
   "source": "https://api.openalex.org/authors/A5034511642",
   "source_available": true,
@@ -14,7 +14,7 @@
       "provider": "openalex",
       "status": "selected",
       "detail": "Matched configured OpenAlex author id and ORCID.",
-      "usable_works_count": 25,
+      "usable_works_count": 23,
       "reported_works_count": 35,
       "confidence_score": 0.99,
       "confidence_label": "high",
@@ -26,7 +26,7 @@
     "display_name": "Sushrut Thorat",
     "orcid": "https://orcid.org/0000-0003-2276-5621",
     "works_count": 35,
-    "usable_works_count": 25
+    "usable_works_count": 23
   },
   "topics": [
     "Visual perception and processing mechanisms",
@@ -63,17 +63,17 @@
   ],
   "sample_titles": [
     "Predicting upcoming visual features during eye movements yields scene representations aligned with human visual cortex",
-    "On the misuse of prediction in NeuroAI: A case study of Centaur",
     "Glimpse Prediction Networks \u2014 Data And Code",
     "Adopting a human developmental visual diet yields robust and shape-based AI vision",
     "Models of attractor dynamics in the brain",
-    "On the misuse of LLMs as models of mind: A case study of Centaur",
     "Disentangling perceptual from non-perceptual expectation biases in short-term memory",
     "Centaur: A model without a theory",
     "Sparks of cognitive flexibility: self-guided context inference for flexible stimulus-response mapping by attentional routing",
     "Keep Moving: identifying task-relevant subspaces to maximise plasticity for newly learned tasks",
     "Trainees\u2019 perspectives and recommendations for catalyzing the next generation of NeuroAI researchers",
-    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity"
+    "Predicting cued and oddball visual search performance from fMRI, MEG, and DNN neural representational similarity",
+    "Searching near and far: The attentional template incorporates viewing distance.",
+    "Characterising representation dynamics in recurrent neural networks for object recognition"
   ],
   "pipeline": {
     "version": 2,
